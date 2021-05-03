@@ -387,14 +387,19 @@
 24	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 24	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 25	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+25	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 25	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 26	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+26	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 26	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 27	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+27	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 27	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 28	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+28	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 28	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 29	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+29	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 29	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 3	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 3	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
@@ -402,10 +407,15 @@
 3	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 3	build/app/intermediates/merged_res_blame_folder/debug/out/single/debug.json	/^    {$/;"	o
 3	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+30	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 30	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+31	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 31	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+32	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 32	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+33	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 33	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+34	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 34	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 35	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 36	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -1430,7 +1440,7 @@ from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-z
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^                    "from": {$/;"	o	object:logs.0.map.0
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^                    "from": {$/;"	o	object:logs.0.map.1
 g_iface	linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	/^  GTypeInterface g_iface;$/;"	m	struct:_FlPluginRegistryInterface	typeref:typename:GTypeInterface
-generated	.dart_tool/package_config.json	/^  "generated": "2021-05-02T11:38:40.554340Z",$/;"	s
+generated	.dart_tool/package_config.json	/^  "generated": "2021-05-03T08:41:09.853780Z",$/;"	s
 generator	.dart_tool/package_config.json	/^  "generator": "pub",$/;"	s
 generatorVersion	.dart_tool/package_config.json	/^  "generatorVersion": "2.12.3"$/;"	s
 get_registrar_for_plugin	linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	/^  FlPluginRegistrar* (*get_registrar_for_plugin)(FlPluginRegistry* registry,$/;"	m	struct:_FlPluginRegistryInterface	typeref:typename:FlPluginRegistrar * (*)(FlPluginRegistry * registry,const gchar * name)
@@ -1479,12 +1489,12 @@ kind	build/app/intermediates/merged_manifests/debug/output-metadata.json	/^    "
 kind	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
 kind	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
 kind	build/app/outputs/apk/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.0
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.1
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "1.17"$/;"	s	object:packages.8
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.0"$/;"	s	object:packages.0
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.10
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.11
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.12
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.13
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.14
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.15
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.16
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.17
@@ -1493,17 +1503,27 @@ languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.2
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.20
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.21
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.22
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.23
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.24
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.25
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.26
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.27
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.28
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.29
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.3
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.30
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.31
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.32
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.34
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.4
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.5
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.6
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.7
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.8
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.9
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.7"$/;"	s	object:packages.14
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.3"$/;"	s	object:packages.1
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.3"$/;"	s	object:packages.9
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.7"$/;"	s	object:packages.11
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.7"$/;"	s	object:packages.22
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.7"$/;"	s	object:packages.33
 list_prepend	linux/flutter/CMakeLists.txt	/^function(list_prepend LIST_NAME PREFIX)$/;"	f
 logs	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^    "logs": [$/;"	a
 logs	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json	/^    "logs": [$/;"	a
@@ -1788,31 +1808,41 @@ my_application_dispose	linux/my_application.cc	/^static void my_application_disp
 my_application_init	linux/my_application.cc	/^static void my_application_init(MyApplication* self) {}$/;"	f	typeref:typename:void	file:
 my_application_local_command_line	linux/my_application.cc	/^static gboolean my_application_local_command_line(GApplication* application, gchar ***arguments,/;"	f	typeref:typename:gboolean	file:
 my_application_new	linux/my_application.cc	/^MyApplication* my_application_new() {$/;"	f	typeref:typename:MyApplication *
-name	.dart_tool/package_config.json	/^      "name": "async",$/;"	s	object:packages.0
-name	.dart_tool/package_config.json	/^      "name": "boolean_selector",$/;"	s	object:packages.1
-name	.dart_tool/package_config.json	/^      "name": "characters",$/;"	s	object:packages.2
-name	.dart_tool/package_config.json	/^      "name": "charcode",$/;"	s	object:packages.3
-name	.dart_tool/package_config.json	/^      "name": "clock",$/;"	s	object:packages.4
-name	.dart_tool/package_config.json	/^      "name": "collection",$/;"	s	object:packages.5
-name	.dart_tool/package_config.json	/^      "name": "cupertino_icons",$/;"	s	object:packages.6
-name	.dart_tool/package_config.json	/^      "name": "fake_async",$/;"	s	object:packages.7
-name	.dart_tool/package_config.json	/^      "name": "flutter",$/;"	s	object:packages.8
-name	.dart_tool/package_config.json	/^      "name": "flutter_test",$/;"	s	object:packages.9
-name	.dart_tool/package_config.json	/^      "name": "inventur_liste",$/;"	s	object:packages.24
-name	.dart_tool/package_config.json	/^      "name": "matcher",$/;"	s	object:packages.10
-name	.dart_tool/package_config.json	/^      "name": "meta",$/;"	s	object:packages.11
-name	.dart_tool/package_config.json	/^      "name": "nested",$/;"	s	object:packages.12
-name	.dart_tool/package_config.json	/^      "name": "path",$/;"	s	object:packages.13
-name	.dart_tool/package_config.json	/^      "name": "provider",$/;"	s	object:packages.14
-name	.dart_tool/package_config.json	/^      "name": "sky_engine",$/;"	s	object:packages.15
-name	.dart_tool/package_config.json	/^      "name": "source_span",$/;"	s	object:packages.16
-name	.dart_tool/package_config.json	/^      "name": "stack_trace",$/;"	s	object:packages.17
-name	.dart_tool/package_config.json	/^      "name": "stream_channel",$/;"	s	object:packages.18
-name	.dart_tool/package_config.json	/^      "name": "string_scanner",$/;"	s	object:packages.19
-name	.dart_tool/package_config.json	/^      "name": "term_glyph",$/;"	s	object:packages.20
-name	.dart_tool/package_config.json	/^      "name": "test_api",$/;"	s	object:packages.21
-name	.dart_tool/package_config.json	/^      "name": "typed_data",$/;"	s	object:packages.22
-name	.dart_tool/package_config.json	/^      "name": "vector_math",$/;"	s	object:packages.23
+name	.dart_tool/package_config.json	/^      "name": "archive",$/;"	s	object:packages.0
+name	.dart_tool/package_config.json	/^      "name": "args",$/;"	s	object:packages.1
+name	.dart_tool/package_config.json	/^      "name": "async",$/;"	s	object:packages.2
+name	.dart_tool/package_config.json	/^      "name": "boolean_selector",$/;"	s	object:packages.3
+name	.dart_tool/package_config.json	/^      "name": "characters",$/;"	s	object:packages.4
+name	.dart_tool/package_config.json	/^      "name": "charcode",$/;"	s	object:packages.5
+name	.dart_tool/package_config.json	/^      "name": "clock",$/;"	s	object:packages.6
+name	.dart_tool/package_config.json	/^      "name": "collection",$/;"	s	object:packages.7
+name	.dart_tool/package_config.json	/^      "name": "convert",$/;"	s	object:packages.8
+name	.dart_tool/package_config.json	/^      "name": "crypto",$/;"	s	object:packages.9
+name	.dart_tool/package_config.json	/^      "name": "cupertino_icons",$/;"	s	object:packages.10
+name	.dart_tool/package_config.json	/^      "name": "excel",$/;"	s	object:packages.11
+name	.dart_tool/package_config.json	/^      "name": "fake_async",$/;"	s	object:packages.12
+name	.dart_tool/package_config.json	/^      "name": "file_picker",$/;"	s	object:packages.13
+name	.dart_tool/package_config.json	/^      "name": "flutter",$/;"	s	object:packages.14
+name	.dart_tool/package_config.json	/^      "name": "flutter_plugin_android_lifecycle",$/;"	s	object:packages.15
+name	.dart_tool/package_config.json	/^      "name": "flutter_test",$/;"	s	object:packages.16
+name	.dart_tool/package_config.json	/^      "name": "flutter_web_plugins",$/;"	s	object:packages.17
+name	.dart_tool/package_config.json	/^      "name": "inventur_liste",$/;"	s	object:packages.34
+name	.dart_tool/package_config.json	/^      "name": "js",$/;"	s	object:packages.18
+name	.dart_tool/package_config.json	/^      "name": "matcher",$/;"	s	object:packages.19
+name	.dart_tool/package_config.json	/^      "name": "meta",$/;"	s	object:packages.20
+name	.dart_tool/package_config.json	/^      "name": "path",$/;"	s	object:packages.21
+name	.dart_tool/package_config.json	/^      "name": "petitparser",$/;"	s	object:packages.22
+name	.dart_tool/package_config.json	/^      "name": "plugin_platform_interface",$/;"	s	object:packages.23
+name	.dart_tool/package_config.json	/^      "name": "sky_engine",$/;"	s	object:packages.24
+name	.dart_tool/package_config.json	/^      "name": "source_span",$/;"	s	object:packages.25
+name	.dart_tool/package_config.json	/^      "name": "stack_trace",$/;"	s	object:packages.26
+name	.dart_tool/package_config.json	/^      "name": "stream_channel",$/;"	s	object:packages.27
+name	.dart_tool/package_config.json	/^      "name": "string_scanner",$/;"	s	object:packages.28
+name	.dart_tool/package_config.json	/^      "name": "term_glyph",$/;"	s	object:packages.29
+name	.dart_tool/package_config.json	/^      "name": "test_api",$/;"	s	object:packages.30
+name	.dart_tool/package_config.json	/^      "name": "typed_data",$/;"	s	object:packages.31
+name	.dart_tool/package_config.json	/^      "name": "vector_math",$/;"	s	object:packages.32
+name	.dart_tool/package_config.json	/^      "name": "xml",$/;"	s	object:packages.33
 name	web/manifest.json	/^    "name": "inventur_liste",$/;"	s
 omega	android/gradlew.bat	/^:omega$/;"	l
 org.gradle.jvmargs	android/gradle.properties	/^org.gradle.jvmargs=-Xmx1536M$/;"	k
@@ -2017,7 +2047,17 @@ packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	o
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.22
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.23
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.24
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.25
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.26
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.27
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.28
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.29
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.3
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.30
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.31
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.32
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.33
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.34
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.4
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.5
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.6
@@ -2038,31 +2078,41 @@ qnxnto	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	
 registerWith	android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java	/^  public static void registerWith(@NonNull FlutterEngine flutterEngine) {$/;"	m	class:GeneratedPluginRegistrant
 registerWithRegistry:	ios/Runner/GeneratedPluginRegistrant.h	/^+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;$/;"	c	interface:GeneratedPluginRegistrant
 registerWithRegistry:	ios/Runner/GeneratedPluginRegistrant.m	/^+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {$/;"	c	implementation:GeneratedPluginRegistrant
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "..\/",$/;"	s	object:packages.24
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/async-2.5.0",$/;"	s	object:packages.0
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/boolean_select/;"	s	object:packages.1
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/characters-1.1/;"	s	object:packages.2
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/charcode-1.2.0/;"	s	object:packages.3
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/clock-1.1.0",$/;"	s	object:packages.4
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/collection-1.1/;"	s	object:packages.5
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/cupertino_icon/;"	s	object:packages.6
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/fake_async-1.2/;"	s	object:packages.7
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/matcher-0.12.1/;"	s	object:packages.10
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/meta-1.3.0",$/;"	s	object:packages.11
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/nested-1.0.0",$/;"	s	object:packages.12
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/path-1.8.0",$/;"	s	object:packages.13
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/provider-4.3.3/;"	s	object:packages.14
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/source_span-1./;"	s	object:packages.16
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stack_trace-1./;"	s	object:packages.17
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stream_channel/;"	s	object:packages.18
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/string_scanner/;"	s	object:packages.19
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/term_glyph-1.2/;"	s	object:packages.20
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/test_api-0.2.1/;"	s	object:packages.21
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/typed_data-1.3/;"	s	object:packages.22
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/vector_math-2./;"	s	object:packages.23
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/bin\/cache\/pkg\/sky_engine",$/;"	s	object:packages.15
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter",$/;"	s	object:packages.8
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_test",$/;"	s	object:packages.9
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "..\/",$/;"	s	object:packages.34
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/archive-2.0.13/;"	s	object:packages.0
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/args-1.6.0",$/;"	s	object:packages.1
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/async-2.5.0",$/;"	s	object:packages.2
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/boolean_select/;"	s	object:packages.3
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/characters-1.1/;"	s	object:packages.4
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/charcode-1.2.0/;"	s	object:packages.5
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/clock-1.1.0",$/;"	s	object:packages.6
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/collection-1.1/;"	s	object:packages.7
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/convert-2.1.1"/;"	s	object:packages.8
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/crypto-2.1.5",$/;"	s	object:packages.9
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/cupertino_icon/;"	s	object:packages.10
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/excel-1.1.5",$/;"	s	object:packages.11
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/fake_async-1.2/;"	s	object:packages.12
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/file_picker-3./;"	s	object:packages.13
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/flutter_plugin/;"	s	object:packages.15
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/js-0.6.3",$/;"	s	object:packages.18
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/matcher-0.12.1/;"	s	object:packages.19
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/meta-1.3.0",$/;"	s	object:packages.20
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/path-1.8.0",$/;"	s	object:packages.21
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/petitparser-3./;"	s	object:packages.22
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/plugin_platfor/;"	s	object:packages.23
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/source_span-1./;"	s	object:packages.25
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stack_trace-1./;"	s	object:packages.26
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stream_channel/;"	s	object:packages.27
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/string_scanner/;"	s	object:packages.28
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/term_glyph-1.2/;"	s	object:packages.29
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/test_api-0.2.1/;"	s	object:packages.30
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/typed_data-1.3/;"	s	object:packages.31
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/vector_math-2./;"	s	object:packages.32
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/xml-4.5.1",$/;"	s	object:packages.33
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/bin\/cache\/pkg\/sky_engine",$/;"	s	object:packages.24
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter",$/;"	s	object:packages.14
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_test",$/;"	s	object:packages.16
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_web_plugins",$/;"	s	object:packages.17
 runner	linux/CMakeLists.txt	/^project(runner LANGUAGES CXX)$/;"	p
 scale	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "scale" : "1x"$/;"	s	object:images.11
 scale	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "scale" : "1x"$/;"	s	object:images.13

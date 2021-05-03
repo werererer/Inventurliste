@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'product.dart';
+import 'package:file_picker/file_picker.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,6 +28,45 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Inventurliste'),
         ),
+        drawer: Drawer(
+            child: ListView(
+          padding: EdgeInsets.zero,
+          children: <Widget>[
+            DrawerHeader(
+                child: Text('Header'),
+                decoration: BoxDecoration(
+                  color: Colors.blue,
+                )),
+            ListTile(
+              title: Text('Import Stuff'),
+              onTap: () {
+                Future<FilePickerResult?> results = FilePicker.platform.pickFiles(
+                    type: FileType.custom,
+                    allowedExtensions: ['xlsx'],
+                );
+                results.then((FilePickerResult? result) {
+                  if (result == null)
+                    return;
+
+                  PlatformFile file = result.files.first;
+                  print(file.name);
+                  print(file.bytes);
+                  print(file.size);
+                  print(file.extension);
+                  print(file.path);
+
+                  print('done');
+                }).catchError((error) {
+                  print('error');
+                });
+              },
+            ),
+            ListTile(
+              title: Text('Export Stuff'),
+              onTap: () {},
+            ),
+          ],
+        )),
         body: MyStatefulWidget(),
       ),
       routes: <String, WidgetBuilder>{
@@ -76,18 +116,17 @@ class MyClassState extends State<MyStatefulWidget> {
           },
           defaultVerticalAlignment: TableCellVerticalAlignment.middle,
           children: <TableRow>[
-          TableRow(children: [
-          TableCell(
-              child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: <Widget>[
-                    Text("HEAD"),
-                    Text("Two"),
-                    Text("Three"),
-                  ],
-              )
-          )
-          ]),
+            TableRow(children: [
+              TableCell(
+                  child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: <Widget>[
+                  Text("HEAD"),
+                  Text("Two"),
+                  Text("Three"),
+                ],
+              ))
+            ]),
             for (Product product in products)
               TableRow(children: [
                 TableCell(
