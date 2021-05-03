@@ -2086,7 +2086,7 @@ scale	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "scale
 scale	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^      "scale" : "1x"$/;"	s	object:images.0
 scale	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^      "scale" : "2x"$/;"	s	object:images.1
 scale	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^      "scale" : "3x"$/;"	s	object:images.2
-sdk.dir	android/local.properties	/^sdk.dir=\/opt\/android-sdk$/;"	k
+sdk.dir	android/local.properties	/^sdk.dir=\/home\/jakob\/\/.config\/Android\/Sdk$/;"	k
 short_name	web/manifest.json	/^    "short_name": "inventur_liste",$/;"	s
 size	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "size" : "1024x1024",$/;"	s	object:images.18
 size	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "size" : "20x20",$/;"	s	object:images.0

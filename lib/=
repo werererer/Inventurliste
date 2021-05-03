@@ -45,10 +45,10 @@ class MyApp extends StatelessWidget {
 
 /// This is the stateless widget that the main application instantiates
 class MyClassState extends State<MyStatefulWidget> {
-  final Map<String, TextEditingController> textControllers = {
-    'name': TextEditingController(),
-    'unit': TextEditingController(),
-    'count': TextEditingController()
+  final textControllers = {
+    "name": TextEditingController(),
+    "unit": TextEditingController(),
+    "count": TextEditingController()
   };
 
   List<Product> products = [
@@ -76,24 +76,13 @@ class MyClassState extends State<MyStatefulWidget> {
           },
           defaultVerticalAlignment: TableCellVerticalAlignment.middle,
           children: <TableRow>[
-          TableRow(children: [
-          TableCell(
-              child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: <Widget>[
-                    Text("HEAD"),
-                    Text("Two"),
-                    Text("Three"),
-                  ],
-              )
-          )
-          ]),
-            for (Product product in products)
+            for (var product in products)
               TableRow(children: [
                 TableCell(
                     child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: product.getWidget()))
+                  mainAxisAlignment: MainAxisAlignment.spaceAround,
+                  children: <Widget>[Text(product.name)],
+                ))
               ])
           ],
         ),
@@ -117,19 +106,19 @@ class MyClassState extends State<MyStatefulWidget> {
           children: <Widget>[
             new TextField(
                 autofocus: true,
-                controller: textControllers['name'],
+                controller: textControllers["name"],
                 onSubmitted: (value) {
                   addProduct(Product(value, 'f', 'f'));
                   Navigator.of(context).pop();
                 }),
             new TextField(
-                controller: textControllers['unit'],
+                controller: textControllers["unit"],
                 onSubmitted: (value) {
                   addProduct(Product(value, 'f', 'f'));
                   Navigator.of(context).pop();
                 }),
             new TextField(
-                controller: textControllers['count'],
+                controller: countController,
                 onSubmitted: (value) {
                   addProduct(Product(value, 'f', 'f'));
                   Navigator.of(context).pop();
@@ -148,12 +137,10 @@ class MyClassState extends State<MyStatefulWidget> {
         TextButton(
             child: Text('Hinzufügen'),
             onPressed: () {
-              addProduct(Product(
-                  textControllers['name']!.text,
-                  textControllers['unit']!.text,
-                  textControllers['count']!.text));
+              addProduct(Product(nameController.text, unitController.text,
+                  countController.text));
               Navigator.of(context).pop();
-              textControllers.forEach((key, controller) => controller.clear());
+              nameController.clear();
             }),
         TextButton(
             child: Text('Abbrechen'),
