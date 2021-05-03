@@ -17,6 +17,7 @@
 /home/jakob/Documents/flutter/inventur_liste/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png	build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties	/^\/home\/jakob\/Documents\/flutter\/inventur_liste\/android\/app\/src\/main\/res\/mipmap-xxhdpi\//;"	k
 /home/jakob/Documents/flutter/inventur_liste/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png	build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties	/^\/home\/jakob\/Documents\/flutter\/inventur_liste\/android\/app\/src\/main\/res\/mipmap-xxxhdpi\//;"	k
 0	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+0	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 0	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 0	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 0	build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	s	array:packages/cupertino_icons/assets/CupertinoIcons.ttf
@@ -300,10 +301,14 @@
 0	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^    {$/;"	o	array:elements
 0	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^    {$/;"	o	array:elements
 0	build/app/outputs/apk/debug/output-metadata.json	/^    {$/;"	o	array:elements
+0	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^    {$/;"	o	array:elements
+0	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^    {$/;"	o	array:elements
 0	build/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	s	array:packages/cupertino_icons/assets/CupertinoIcons.ttf
 0	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
 0	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o	array:0.fonts
 0	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o	array:1.fonts
+0	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^    {$/;"	o	array:elements
+0	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^    {$/;"	o	array:elements
 0	build/linux/debug/bundle/data/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	s	array:packages/cupertino_icons/assets/CupertinoIcons.ttf
 0	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
 0	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o	array:0.fonts
@@ -312,6 +317,7 @@
 0	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^    {$/;"	o	array:images
 0	web/manifest.json	/^        {$/;"	o	array:icons
 1	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+1	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 1	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 1	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 1	build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
@@ -365,6 +371,7 @@
 19	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 19	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 2	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+2	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 2	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 2	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 2	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -402,6 +409,7 @@
 29	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 29	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 3	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+3	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 3	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 3	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 3	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -417,12 +425,14 @@
 33	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 34	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 34	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+35	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 35	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 36	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 37	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 38	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 39	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 4	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+4	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 4	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 4	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 4	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -440,6 +450,7 @@
 49	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 4NT_args	android/gradlew.bat	/^:4NT_args$/;"	l
 5	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+5	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 5	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 5	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 5	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -456,6 +467,7 @@
 58	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 59	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 6	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+6	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 6	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 6	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 6	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -472,6 +484,7 @@
 68	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 69	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 7	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+7	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 7	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 7	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 7	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -515,7 +528,11 @@ ARCHITECTURE_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompil
 BINARY_NAME	linux/CMakeLists.txt	/^set(BINARY_NAME "inventur_liste")$/;"	v
 BUILD_BUNDLE_DIR	linux/CMakeLists.txt	/^set(BUILD_BUNDLE_DIR "${PROJECT_BINARY_DIR}\/bundle")$/;"	v
 BUILD_TYPE	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^  public static final String BUILD_TYPE = "debug";$/;"	f	class:BuildConfig
+BUILD_TYPE	build/file_picker/generated/source/buildConfig/debug/com/mr/flutter/plugin/filepicker/BuildConfig.java	/^  public static final String BUILD_TYPE = "debug";$/;"	f	class:BuildConfig
+BUILD_TYPE	build/flutter_plugin_android_lifecycle/generated/source/buildConfig/debug/io/flutter/plugins/flutter_plugin_android_lifecycle/BuildConfig.java	/^  public static final String BUILD_TYPE = "debug";$/;"	f	class:BuildConfig
 BuildConfig	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+BuildConfig	build/file_picker/generated/source/buildConfig/debug/com/mr/flutter/plugin/filepicker/BuildConfig.java	/^public final class BuildConfig {$/;"	c
+BuildConfig	build/flutter_plugin_android_lifecycle/generated/source/buildConfig/debug/io/flutter/plugins/flutter_plugin_android_lifecycle/BuildConfig.java	/^public final class BuildConfig {$/;"	c
 CFBundleDevelopmentRegion	ios/Flutter/AppFrameworkInfo.plist	/^  <key>CFBundleDevelopmentRegion<\/key>$/;"	k
 CFBundleDevelopmentRegion	ios/Runner/Info.plist	/^	<key>CFBundleDevelopmentRegion<\/key>$/;"	k
 CFBundleExecutable	ios/Flutter/AppFrameworkInfo.plist	/^  <key>CFBundleExecutable<\/key>$/;"	k
@@ -636,6 +653,8 @@ CXX_STD	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
 CXX_STD	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
 CYGWIN	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
 DEBUG	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^  public static final boolean DEBUG = Boolean.parseBoolean("true");$/;"	f	class:BuildConfig
+DEBUG	build/file_picker/generated/source/buildConfig/debug/com/mr/flutter/plugin/filepicker/BuildConfig.java	/^  public static final boolean DEBUG = Boolean.parseBoolean("true");$/;"	f	class:BuildConfig
+DEBUG	build/flutter_plugin_android_lifecycle/generated/source/buildConfig/debug/io/flutter/plugins/flutter_plugin_android_lifecycle/BuildConfig.java	/^  public static final boolean DEBUG = Boolean.parseBoolean("true");$/;"	f	class:BuildConfig
 DEC	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
 DEFAULT_JVM_OPTS	android/gradlew.bat	/^set DEFAULT_JVM_OPTS=$/;"	v
 DIRNAME	android/gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
@@ -719,6 +738,8 @@ INSTALL_BUNDLE_LIB_DIR	linux/CMakeLists.txt	/^set(INSTALL_BUNDLE_LIB_DIR "${CMAK
 JAVA_EXE	android/gradlew.bat	/^set JAVA_EXE=%JAVA_HOME%\/bin\/java.exe$/;"	v
 JAVA_EXE	android/gradlew.bat	/^set JAVA_EXE=java.exe$/;"	v
 JAVA_HOME	android/gradlew.bat	/^set JAVA_HOME=%JAVA_HOME:"=%$/;"	v
+LIBRARY_PACKAGE_NAME	build/file_picker/generated/source/buildConfig/debug/com/mr/flutter/plugin/filepicker/BuildConfig.java	/^  public static final String LIBRARY_PACKAGE_NAME = "com.mr.flutter.plugin.filepicker";$/;"	f	class:BuildConfig
+LIBRARY_PACKAGE_NAME	build/flutter_plugin_android_lifecycle/generated/source/buildConfig/debug/io/flutter/plugins/flutter_plugin_android_lifecycle/BuildConfig.java	/^  public static final String LIBRARY_PACKAGE_NAME = "io.flutter.plugins.flutter_plugin_android_l/;"	f	class:BuildConfig
 LSRequiresIPhoneOS	ios/Runner/Info.plist	/^	<key>LSRequiresIPhoneOS<\/key>$/;"	k
 Launch Screen Assets	ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md	/^# Launch Screen Assets$/;"	c
 MINGW	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(MINGW 1)$/;"	v
@@ -743,6 +764,7 @@ SIMULATE_VERSION_PATCH	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCX
 SIMULATE_VERSION_PATCH	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
 STRINGIFY	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
 STRINGIFY_HELPER	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
+TAG	android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java	/^  private static final String TAG = "GeneratedPluginRegistrant";$/;"	f	class:GeneratedPluginRegistrant	file:
 UILaunchStoryboardName	ios/Runner/Info.plist	/^	<key>UILaunchStoryboardName<\/key>$/;"	k
 UIMainStoryboardFile	ios/Runner/Info.plist	/^	<key>UIMainStoryboardFile<\/key>$/;"	k
 UISupportedInterfaceOrientations	ios/Runner/Info.plist	/^	<key>UISupportedInterfaceOrientations<\/key>$/;"	k
@@ -763,6 +785,10 @@ __anon1b18f8b50103	linux/flutter/ephemeral/flutter_linux/fl_method_response.h	/^
 __anon2a5d39d30103	linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	/^typedef enum {$/;"	g
 __anon3f2e75e80103	linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	/^typedef enum {$/;"	g
 __anonbae722810103	linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	/^typedef enum {$/;"	g
+aarFormatVersion	build/file_picker/intermediates/aar_metadata/debug/aar-metadata.properties	/^aarFormatVersion=1.0$/;"	k
+aarFormatVersion	build/flutter_plugin_android_lifecycle/intermediates/aar_metadata/debug/aar-metadata.properties	/^aarFormatVersion=1.0$/;"	k
+aarMetadataVersion	build/file_picker/intermediates/aar_metadata/debug/aar-metadata.properties	/^aarMetadataVersion=1.0$/;"	k
+aarMetadataVersion	build/flutter_plugin_android_lifecycle/intermediates/aar_metadata/debug/aar-metadata.properties	/^aarMetadataVersion=1.0$/;"	k
 android	android/app/src/debug/AndroidManifest.xml	/^    package="com.example.inventur_liste">$/;"	n	uri:http://schemas.android.com/apk/res/android
 android	android/app/src/main/AndroidManifest.xml	/^    package="com.example.inventur_liste">$/;"	n	uri:http://schemas.android.com/apk/res/android
 android	android/app/src/main/res/drawable-v21/launch_background.xml	/^<layer-list xmlns:android="http:\/\/schemas.android.com\/apk\/res\/android">$/;"	n	uri:http://schemas.android.com/apk/res/android
@@ -771,6 +797,10 @@ android	android/app/src/profile/AndroidManifest.xml	/^    package="com.example.i
 android	build/app/intermediates/merged_manifest/debug/out/AndroidManifest.xml	/^    android:versionName="1.0.0" >$/;"	n	uri:http://schemas.android.com/apk/res/android
 android	build/app/intermediates/merged_manifests/debug/AndroidManifest.xml	/^    android:versionName="1.0.0" >$/;"	n	uri:http://schemas.android.com/apk/res/android
 android	build/app/intermediates/packaged_manifests/debug/AndroidManifest.xml	/^    android:versionName="1.0.0" >$/;"	n	uri:http://schemas.android.com/apk/res/android
+android	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml	/^    package="com.mr.flutter.plugin.filepicker" >$/;"	n	uri:http://schemas.android.com/apk/res/android
+android	build/file_picker/intermediates/library_manifest/debug/AndroidManifest.xml	/^    package="com.mr.flutter.plugin.filepicker" >$/;"	n	uri:http://schemas.android.com/apk/res/android
+android	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml	/^    package="io.flutter.plugins.flutter_plugin_android_lifecycle" >$/;"	n	uri:http://schemas.android.com/apk/res/android
+android	build/flutter_plugin_android_lifecycle/intermediates/library_manifest/debug/AndroidManifest.xml	/^    package="io.flutter.plugins.flutter_plugin_android_lifecycle" >$/;"	n	uri:http://schemas.android.com/apk/res/android
 android.enableJetifier	android/gradle.properties	/^android.enableJetifier=true$/;"	k
 android.useAndroidX	android/gradle.properties	/^android.useAndroidX=true$/;"	k
 app_name	build/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
@@ -780,11 +810,19 @@ applicationId	build/app/intermediates/merged_manifests/debug/output-metadata.jso
 applicationId	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^  "applicationId": "com.example.inventur_liste",$/;"	s
 applicationId	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^  "applicationId": "com.example.inventur_liste",$/;"	s
 applicationId	build/app/outputs/apk/debug/output-metadata.json	/^  "applicationId": "com.example.inventur_liste",$/;"	s
+applicationId	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "applicationId": "com.mr.flutter.plugin.filepicker",$/;"	s
+applicationId	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^  "applicationId": "com.mr.flutter.plugin.filepicker",$/;"	s
+applicationId	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "applicationId": "io.flutter.plugins.flutter_plugin_android_lifecycle",$/;"	s
+applicationId	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^  "applicationId": "io.flutter.plugins.flutter_plugin_android_lifecycle",$/;"	s
 artifactType	build/app/intermediates/compatible_screen_manifest/debug/output-metadata.json	/^  "artifactType": {$/;"	o
 artifactType	build/app/intermediates/merged_manifests/debug/output-metadata.json	/^  "artifactType": {$/;"	o
 artifactType	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^  "artifactType": {$/;"	o
 artifactType	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^  "artifactType": {$/;"	o
 artifactType	build/app/outputs/apk/debug/output-metadata.json	/^  "artifactType": {$/;"	o
+artifactType	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "artifactType": {$/;"	o
+artifactType	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^  "artifactType": {$/;"	o
+artifactType	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "artifactType": {$/;"	o
+artifactType	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^  "artifactType": {$/;"	o
 asset	build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:0.fonts.0
 asset	build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:1.fonts.0
 asset	build/app/intermediates/merged_assets/debug/out/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:0.fonts.0
@@ -800,6 +838,7 @@ build_number	build/flutter_assets/version.json	/^{"app_name":"inventur_liste","v
 build_number	build/linux/debug/bundle/data/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
 com.example.inventur_liste	android/app/src/main/kotlin/com/example/inventur_liste/MainActivity.kt	/^package com.example.inventur_liste$/;"	p
 com.example.inventur_liste	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^package com.example.inventur_liste;$/;"	p
+com.mr.flutter.plugin.filepicker	build/file_picker/generated/source/buildConfig/debug/com/mr/flutter/plugin/filepicker/BuildConfig.java	/^package com.mr.flutter.plugin.filepicker;$/;"	p
 configVersion	.dart_tool/package_config.json	/^  "configVersion": 2,$/;"	n
 dart_entrypoint_arguments	linux/my_application.cc	/^  char** dart_entrypoint_arguments;$/;"	m	struct:_MyApplication	typeref:typename:char **	file:
 decode_message	linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	/^  FlValue* (*decode_message)(FlMessageCodec* codec,$/;"	m	struct:_FlMessageCodecClass	typeref:typename:FlValue * (*)(FlMessageCodec * codec,GBytes * message,GError ** error)
@@ -816,6 +855,10 @@ elements	build/app/intermediates/merged_manifests/debug/output-metadata.json	/^ 
 elements	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^  "elements": [$/;"	a
 elements	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^  "elements": [$/;"	a
 elements	build/app/outputs/apk/debug/output-metadata.json	/^  "elements": [$/;"	a
+elements	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "elements": [$/;"	a
+elements	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^  "elements": [$/;"	a
+elements	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "elements": [$/;"	a
+elements	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^  "elements": [$/;"	a
 encode_error_envelope	linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	/^  GBytes* (*encode_error_envelope)(FlMethodCodec* codec,$/;"	m	struct:_FlMethodCodecClass	typeref:typename:GBytes * (*)(FlMethodCodec * codec,const gchar * code,const gchar * message,FlValue * details,GError ** error)
 encode_message	linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	/^  GBytes* (*encode_message)(FlMessageCodec* codec,$/;"	m	struct:_FlMessageCodecClass	typeref:typename:GBytes * (*)(FlMessageCodec * codec,FlValue * message,GError ** error)
 encode_method_call	linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	/^  GBytes* (*encode_method_call)(FlMethodCodec* codec,$/;"	m	struct:_FlMethodCodecClass	typeref:typename:GBytes * (*)(FlMethodCodec * codec,const gchar * name,FlValue * args,GError ** error)
@@ -1243,6 +1286,10 @@ filters	build/app/intermediates/merged_manifests/debug/output-metadata.json	/^  
 filters	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^      "filters": [],$/;"	a	object:elements.0
 filters	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^      "filters": [],$/;"	a	object:elements.0
 filters	build/app/outputs/apk/debug/output-metadata.json	/^      "filters": [],$/;"	a	object:elements.0
+filters	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^      "filters": [],$/;"	a	object:elements.0
+filters	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^      "filters": [],$/;"	a	object:elements.0
+filters	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^      "filters": [],$/;"	a	object:elements.0
+filters	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^      "filters": [],$/;"	a	object:elements.0
 findJavaFromJavaHome	android/gradlew.bat	/^:findJavaFromJavaHome$/;"	l
 fl_register_plugins	linux/flutter/generated_plugin_registrant.cc	/^void fl_register_plugins(FlPluginRegistry* registry) {$/;"	f	typeref:typename:void
 flutter	linux/flutter/CMakeLists.txt	/^add_library(flutter INTERFACE)$/;"	t
@@ -1440,9 +1487,9 @@ from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-z
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^                    "from": {$/;"	o	object:logs.0.map.0
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^                    "from": {$/;"	o	object:logs.0.map.1
 g_iface	linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	/^  GTypeInterface g_iface;$/;"	m	struct:_FlPluginRegistryInterface	typeref:typename:GTypeInterface
-generated	.dart_tool/package_config.json	/^  "generated": "2021-05-03T08:41:09.853780Z",$/;"	s
+generated	.dart_tool/package_config.json	/^  "generated": "2021-05-03T13:18:34.696861Z",$/;"	s
 generator	.dart_tool/package_config.json	/^  "generator": "pub",$/;"	s
-generatorVersion	.dart_tool/package_config.json	/^  "generatorVersion": "2.12.3"$/;"	s
+generatorVersion	.dart_tool/package_config.json	/^  "generatorVersion": "2.14.0-48.0.dev"$/;"	s
 get_registrar_for_plugin	linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	/^  FlPluginRegistrar* (*get_registrar_for_plugin)(FlPluginRegistry* registry,$/;"	m	struct:_FlPluginRegistryInterface	typeref:typename:FlPluginRegistrar * (*)(FlPluginRegistry * registry,const gchar * name)
 gradle.version	android/.gradle/buildOutputCleanup/cache.properties	/^gradle.version=6.7$/;"	k
 icons	web/manifest.json	/^    "icons": [$/;"	a
@@ -1484,14 +1531,20 @@ info_version_internal	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXX
 init	android/gradlew.bat	/^:init$/;"	l
 inventur_liste	README.md	/^# inventur_liste$/;"	c
 io.flutter.plugins	android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java	/^package io.flutter.plugins;$/;"	p
+io.flutter.plugins.flutter_plugin_android_lifecycle	build/flutter_plugin_android_lifecycle/generated/source/buildConfig/debug/io/flutter/plugins/flutter_plugin_android_lifecycle/BuildConfig.java	/^package io.flutter.plugins.flutter_plugin_android_lifecycle;$/;"	p
 kind	build/app/intermediates/compatible_screen_manifest/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
 kind	build/app/intermediates/merged_manifests/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
 kind	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
 kind	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
 kind	build/app/outputs/apk/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "1.17"$/;"	s	object:packages.8
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.0"$/;"	s	object:packages.0
+kind	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
+kind	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
+kind	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
+kind	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.0
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.1
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.10
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.11
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.12
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.13
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.14
@@ -1503,6 +1556,7 @@ languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.2
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.20
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.21
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.22
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.23
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.24
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.25
@@ -1514,16 +1568,15 @@ languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.30
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.31
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.32
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.33
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.34
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.35
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.4
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.5
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.6
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.7
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.3"$/;"	s	object:packages.1
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.3"$/;"	s	object:packages.9
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.7"$/;"	s	object:packages.11
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.7"$/;"	s	object:packages.22
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.7"$/;"	s	object:packages.33
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.8
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.9
 list_prepend	linux/flutter/CMakeLists.txt	/^function(list_prepend LIST_NAME PREFIX)$/;"	f
 logs	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^    "logs": [$/;"	a
 logs	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-af.json	/^    "logs": [$/;"	a
@@ -1809,40 +1862,41 @@ my_application_init	linux/my_application.cc	/^static void my_application_init(My
 my_application_local_command_line	linux/my_application.cc	/^static gboolean my_application_local_command_line(GApplication* application, gchar ***arguments,/;"	f	typeref:typename:gboolean	file:
 my_application_new	linux/my_application.cc	/^MyApplication* my_application_new() {$/;"	f	typeref:typename:MyApplication *
 name	.dart_tool/package_config.json	/^      "name": "archive",$/;"	s	object:packages.0
-name	.dart_tool/package_config.json	/^      "name": "args",$/;"	s	object:packages.1
-name	.dart_tool/package_config.json	/^      "name": "async",$/;"	s	object:packages.2
-name	.dart_tool/package_config.json	/^      "name": "boolean_selector",$/;"	s	object:packages.3
-name	.dart_tool/package_config.json	/^      "name": "characters",$/;"	s	object:packages.4
-name	.dart_tool/package_config.json	/^      "name": "charcode",$/;"	s	object:packages.5
-name	.dart_tool/package_config.json	/^      "name": "clock",$/;"	s	object:packages.6
-name	.dart_tool/package_config.json	/^      "name": "collection",$/;"	s	object:packages.7
-name	.dart_tool/package_config.json	/^      "name": "convert",$/;"	s	object:packages.8
-name	.dart_tool/package_config.json	/^      "name": "crypto",$/;"	s	object:packages.9
-name	.dart_tool/package_config.json	/^      "name": "cupertino_icons",$/;"	s	object:packages.10
-name	.dart_tool/package_config.json	/^      "name": "excel",$/;"	s	object:packages.11
-name	.dart_tool/package_config.json	/^      "name": "fake_async",$/;"	s	object:packages.12
-name	.dart_tool/package_config.json	/^      "name": "file_picker",$/;"	s	object:packages.13
-name	.dart_tool/package_config.json	/^      "name": "flutter",$/;"	s	object:packages.14
-name	.dart_tool/package_config.json	/^      "name": "flutter_plugin_android_lifecycle",$/;"	s	object:packages.15
-name	.dart_tool/package_config.json	/^      "name": "flutter_test",$/;"	s	object:packages.16
-name	.dart_tool/package_config.json	/^      "name": "flutter_web_plugins",$/;"	s	object:packages.17
-name	.dart_tool/package_config.json	/^      "name": "inventur_liste",$/;"	s	object:packages.34
-name	.dart_tool/package_config.json	/^      "name": "js",$/;"	s	object:packages.18
-name	.dart_tool/package_config.json	/^      "name": "matcher",$/;"	s	object:packages.19
-name	.dart_tool/package_config.json	/^      "name": "meta",$/;"	s	object:packages.20
+name	.dart_tool/package_config.json	/^      "name": "async",$/;"	s	object:packages.1
+name	.dart_tool/package_config.json	/^      "name": "boolean_selector",$/;"	s	object:packages.2
+name	.dart_tool/package_config.json	/^      "name": "characters",$/;"	s	object:packages.3
+name	.dart_tool/package_config.json	/^      "name": "charcode",$/;"	s	object:packages.4
+name	.dart_tool/package_config.json	/^      "name": "clock",$/;"	s	object:packages.5
+name	.dart_tool/package_config.json	/^      "name": "collection",$/;"	s	object:packages.6
+name	.dart_tool/package_config.json	/^      "name": "crypto",$/;"	s	object:packages.7
+name	.dart_tool/package_config.json	/^      "name": "cupertino_icons",$/;"	s	object:packages.8
+name	.dart_tool/package_config.json	/^      "name": "equatable",$/;"	s	object:packages.9
+name	.dart_tool/package_config.json	/^      "name": "excel",$/;"	s	object:packages.10
+name	.dart_tool/package_config.json	/^      "name": "fake_async",$/;"	s	object:packages.11
+name	.dart_tool/package_config.json	/^      "name": "file_picker",$/;"	s	object:packages.12
+name	.dart_tool/package_config.json	/^      "name": "flutter",$/;"	s	object:packages.13
+name	.dart_tool/package_config.json	/^      "name": "flutter_plugin_android_lifecycle",$/;"	s	object:packages.14
+name	.dart_tool/package_config.json	/^      "name": "flutter_test",$/;"	s	object:packages.15
+name	.dart_tool/package_config.json	/^      "name": "flutter_web_plugins",$/;"	s	object:packages.16
+name	.dart_tool/package_config.json	/^      "name": "inventur_liste",$/;"	s	object:packages.35
+name	.dart_tool/package_config.json	/^      "name": "js",$/;"	s	object:packages.17
+name	.dart_tool/package_config.json	/^      "name": "matcher",$/;"	s	object:packages.18
+name	.dart_tool/package_config.json	/^      "name": "meta",$/;"	s	object:packages.19
+name	.dart_tool/package_config.json	/^      "name": "nested",$/;"	s	object:packages.20
 name	.dart_tool/package_config.json	/^      "name": "path",$/;"	s	object:packages.21
 name	.dart_tool/package_config.json	/^      "name": "petitparser",$/;"	s	object:packages.22
 name	.dart_tool/package_config.json	/^      "name": "plugin_platform_interface",$/;"	s	object:packages.23
-name	.dart_tool/package_config.json	/^      "name": "sky_engine",$/;"	s	object:packages.24
-name	.dart_tool/package_config.json	/^      "name": "source_span",$/;"	s	object:packages.25
-name	.dart_tool/package_config.json	/^      "name": "stack_trace",$/;"	s	object:packages.26
-name	.dart_tool/package_config.json	/^      "name": "stream_channel",$/;"	s	object:packages.27
-name	.dart_tool/package_config.json	/^      "name": "string_scanner",$/;"	s	object:packages.28
-name	.dart_tool/package_config.json	/^      "name": "term_glyph",$/;"	s	object:packages.29
-name	.dart_tool/package_config.json	/^      "name": "test_api",$/;"	s	object:packages.30
-name	.dart_tool/package_config.json	/^      "name": "typed_data",$/;"	s	object:packages.31
-name	.dart_tool/package_config.json	/^      "name": "vector_math",$/;"	s	object:packages.32
-name	.dart_tool/package_config.json	/^      "name": "xml",$/;"	s	object:packages.33
+name	.dart_tool/package_config.json	/^      "name": "provider",$/;"	s	object:packages.24
+name	.dart_tool/package_config.json	/^      "name": "sky_engine",$/;"	s	object:packages.25
+name	.dart_tool/package_config.json	/^      "name": "source_span",$/;"	s	object:packages.26
+name	.dart_tool/package_config.json	/^      "name": "stack_trace",$/;"	s	object:packages.27
+name	.dart_tool/package_config.json	/^      "name": "stream_channel",$/;"	s	object:packages.28
+name	.dart_tool/package_config.json	/^      "name": "string_scanner",$/;"	s	object:packages.29
+name	.dart_tool/package_config.json	/^      "name": "term_glyph",$/;"	s	object:packages.30
+name	.dart_tool/package_config.json	/^      "name": "test_api",$/;"	s	object:packages.31
+name	.dart_tool/package_config.json	/^      "name": "typed_data",$/;"	s	object:packages.32
+name	.dart_tool/package_config.json	/^      "name": "vector_math",$/;"	s	object:packages.33
+name	.dart_tool/package_config.json	/^      "name": "xml",$/;"	s	object:packages.34
 name	web/manifest.json	/^    "name": "inventur_liste",$/;"	s
 omega	android/gradlew.bat	/^:omega$/;"	l
 org.gradle.jvmargs	android/gradle.properties	/^org.gradle.jvmargs=-Xmx1536M$/;"	k
@@ -2029,6 +2083,10 @@ outputFile	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/va
 outputFile	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^      "outputFile": "AndroidManifest.xml"$/;"	s	object:elements.0
 outputFile	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^      "outputFile": "resources-debug.ap_"$/;"	s	object:elements.0
 outputFile	build/app/outputs/apk/debug/output-metadata.json	/^      "outputFile": "app-debug.apk"$/;"	s	object:elements.0
+outputFile	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^      "outputFile": "AndroidManifest.xml"$/;"	s	object:elements.0
+outputFile	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^      "outputFile": "..\/..\/library_manifest\/debug\/AndroidManifest.xml"$/;"	s	object:elements.0
+outputFile	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^      "outputFile": "AndroidManifest.xml"$/;"	s	object:elements.0
+outputFile	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^      "outputFile": "..\/..\/library_manifest\/debug\/AndroidManifest.xml"$/;"	s	object:elements.0
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.0
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.1
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.10
@@ -2058,6 +2116,7 @@ packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	o
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.32
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.33
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.34
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.35
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.4
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.5
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.6
@@ -2078,41 +2137,42 @@ qnxnto	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	
 registerWith	android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java	/^  public static void registerWith(@NonNull FlutterEngine flutterEngine) {$/;"	m	class:GeneratedPluginRegistrant
 registerWithRegistry:	ios/Runner/GeneratedPluginRegistrant.h	/^+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;$/;"	c	interface:GeneratedPluginRegistrant
 registerWithRegistry:	ios/Runner/GeneratedPluginRegistrant.m	/^+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {$/;"	c	implementation:GeneratedPluginRegistrant
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "..\/",$/;"	s	object:packages.34
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/archive-2.0.13/;"	s	object:packages.0
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/args-1.6.0",$/;"	s	object:packages.1
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/async-2.5.0",$/;"	s	object:packages.2
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/boolean_select/;"	s	object:packages.3
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/characters-1.1/;"	s	object:packages.4
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/charcode-1.2.0/;"	s	object:packages.5
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/clock-1.1.0",$/;"	s	object:packages.6
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/collection-1.1/;"	s	object:packages.7
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/convert-2.1.1"/;"	s	object:packages.8
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/crypto-2.1.5",$/;"	s	object:packages.9
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/cupertino_icon/;"	s	object:packages.10
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/excel-1.1.5",$/;"	s	object:packages.11
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/fake_async-1.2/;"	s	object:packages.12
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/file_picker-3./;"	s	object:packages.13
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/flutter_plugin/;"	s	object:packages.15
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/js-0.6.3",$/;"	s	object:packages.18
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/matcher-0.12.1/;"	s	object:packages.19
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/meta-1.3.0",$/;"	s	object:packages.20
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "..\/",$/;"	s	object:packages.35
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/archive-3.1.2"/;"	s	object:packages.0
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/async-2.6.0",$/;"	s	object:packages.1
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/boolean_select/;"	s	object:packages.2
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/characters-1.1/;"	s	object:packages.3
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/charcode-1.2.0/;"	s	object:packages.4
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/clock-1.1.0",$/;"	s	object:packages.5
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/collection-1.1/;"	s	object:packages.6
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/crypto-3.0.1",$/;"	s	object:packages.7
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/cupertino_icon/;"	s	object:packages.8
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/equatable-2.0./;"	s	object:packages.9
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/excel-2.0.0-nu/;"	s	object:packages.10
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/fake_async-1.2/;"	s	object:packages.11
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/file_picker-3./;"	s	object:packages.12
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/flutter_plugin/;"	s	object:packages.14
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/js-0.6.3",$/;"	s	object:packages.17
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/matcher-0.12.1/;"	s	object:packages.18
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/meta-1.3.0",$/;"	s	object:packages.19
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/nested-1.0.0",$/;"	s	object:packages.20
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/path-1.8.0",$/;"	s	object:packages.21
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/petitparser-3./;"	s	object:packages.22
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/petitparser-4./;"	s	object:packages.22
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/plugin_platfor/;"	s	object:packages.23
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/source_span-1./;"	s	object:packages.25
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stack_trace-1./;"	s	object:packages.26
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stream_channel/;"	s	object:packages.27
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/string_scanner/;"	s	object:packages.28
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/term_glyph-1.2/;"	s	object:packages.29
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/test_api-0.2.1/;"	s	object:packages.30
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/typed_data-1.3/;"	s	object:packages.31
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/vector_math-2./;"	s	object:packages.32
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/xml-4.5.1",$/;"	s	object:packages.33
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/bin\/cache\/pkg\/sky_engine",$/;"	s	object:packages.24
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter",$/;"	s	object:packages.14
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_test",$/;"	s	object:packages.16
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_web_plugins",$/;"	s	object:packages.17
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/provider-5.0.0/;"	s	object:packages.24
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/source_span-1./;"	s	object:packages.26
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stack_trace-1./;"	s	object:packages.27
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stream_channel/;"	s	object:packages.28
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/string_scanner/;"	s	object:packages.29
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/term_glyph-1.2/;"	s	object:packages.30
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/test_api-0.3.0/;"	s	object:packages.31
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/typed_data-1.3/;"	s	object:packages.32
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/vector_math-2./;"	s	object:packages.33
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/xml-5.1.0",$/;"	s	object:packages.34
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/bin\/cache\/pkg\/sky_engine",$/;"	s	object:packages.25
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter",$/;"	s	object:packages.13
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_test",$/;"	s	object:packages.15
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_web_plugins",$/;"	s	object:packages.16
 runner	linux/CMakeLists.txt	/^project(runner LANGUAGES CXX)$/;"	p
 scale	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "scale" : "1x"$/;"	s	object:images.11
 scale	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "scale" : "1x"$/;"	s	object:images.13
@@ -2924,6 +2984,14 @@ type	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^    
 type	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^    "type": "PROCESSED_RES",$/;"	s	object:artifactType
 type	build/app/outputs/apk/debug/output-metadata.json	/^      "type": "SINGLE",$/;"	s	object:elements.0
 type	build/app/outputs/apk/debug/output-metadata.json	/^    "type": "APK",$/;"	s	object:artifactType
+type	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^      "type": "SINGLE",$/;"	s	object:elements.0
+type	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",$/;"	s	object:artifactType
+type	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^      "type": "SINGLE",$/;"	s	object:elements.0
+type	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^    "type": "PACKAGED_MANIFESTS",$/;"	s	object:artifactType
+type	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^      "type": "SINGLE",$/;"	s	object:elements.0
+type	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^    "type": "AAPT_FRIENDLY_MERGED_MANIFESTS",$/;"	s	object:artifactType
+type	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^      "type": "SINGLE",$/;"	s	object:elements.0
+type	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^    "type": "PACKAGED_MANIFESTS",$/;"	s	object:artifactType
 type	web/manifest.json	/^            "type": "image\/png"$/;"	s	object:icons.0
 type	web/manifest.json	/^            "type": "image\/png"$/;"	s	object:icons.1
 variantName	build/app/intermediates/compatible_screen_manifest/debug/output-metadata.json	/^  "variantName": "debug",$/;"	s
@@ -2931,12 +2999,20 @@ variantName	build/app/intermediates/merged_manifests/debug/output-metadata.json	
 variantName	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^  "variantName": "debug",$/;"	s
 variantName	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^  "variantName": "processDebugResources",$/;"	s
 variantName	build/app/outputs/apk/debug/output-metadata.json	/^  "variantName": "processDebugResources",$/;"	s
+variantName	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "variantName": "debug",$/;"	s
+variantName	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^  "variantName": "debug",$/;"	s
+variantName	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "variantName": "debug",$/;"	s
+variantName	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^  "variantName": "debug",$/;"	s
 version	build/app/intermediates/compatible_screen_manifest/debug/output-metadata.json	/^  "version": 2,$/;"	n
 version	build/app/intermediates/merged_manifests/debug/output-metadata.json	/^  "version": 2,$/;"	n
 version	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^  "version": 2,$/;"	n
 version	build/app/intermediates/processed_res/debug/out/output-metadata.json	/^  "version": 2,$/;"	n
 version	build/app/outputs/apk/debug/output-metadata.json	/^  "version": 2,$/;"	n
+version	build/file_picker/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "version": 2,$/;"	n
+version	build/file_picker/intermediates/packaged_manifests/debug/output-metadata.json	/^  "version": 2,$/;"	n
 version	build/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
+version	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "version": 2,$/;"	n
+version	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^  "version": 2,$/;"	n
 version	build/linux/debug/bundle/data/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
 version	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    "version" : 1,$/;"	n	object:info
 version	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^    "version" : 1,$/;"	n	object:info

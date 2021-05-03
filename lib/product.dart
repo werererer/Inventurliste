@@ -5,7 +5,7 @@ class Product {
   String unit;
   String count;
 
-  Product(String name, String unit, String count)
+  Product([String name = "", String unit = "", String count = ""])
       : name = name,
         unit = unit,
         count = count;
