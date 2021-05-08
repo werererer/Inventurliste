@@ -13,6 +13,7 @@ void main() {
 
 class MyApp extends StatelessWidget {
   final searchController = TextEditingController();
+  final List listString = ["h", "g"];
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -96,20 +97,27 @@ class MyApp extends StatelessWidget {
         )),
         body: Consumer<ItemModel>(builder: (context, products, child) {
           return Scaffold(
-              body: Container(
-                child: Column(children: <Widget>[
-                TextField(
+              body: Column(children: <Widget>[
+                Padding(
+                  padding: EdgeInsets.all(8.0),
+                  child: TextField(
                     controller: searchController,
                     decoration: InputDecoration(
                         hintText: "Suche",
                         prefixIcon: Icon(Icons.search),
                         border: OutlineInputBorder(
-                            borderRadius: BorderRadius.all(Radius.circular(25.0)),
-                        )
-                    ),
+                          borderRadius: BorderRadius.all(Radius.circular(25.0)),
+                        )),
+                    onChanged: (value) {
+                      Provider.of<ItemModel>(context, listen: false)
+                          .filterSearchResults(value);
+                    },
+                  ),
                 ),
-                _buildContentTable(context)]),
-              ),
+                Expanded(
+                  child: _buildContentTable(context),
+                )
+              ]),
               floatingActionButton: FloatingActionButton(
                 onPressed: () {
                   showDialog(
@@ -136,38 +144,15 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  Table _buildContentTable(BuildContext context) {
-    return Table(
-      border: TableBorder.all(),
-      columnWidths: const <int, TableColumnWidth>{
-        0: IntrinsicColumnWidth(),
-        1: FlexColumnWidth(),
-        2: FixedColumnWidth(20),
-        3: FixedColumnWidth(20),
-      },
-      defaultVerticalAlignment: TableCellVerticalAlignment.middle,
-      children: <TableRow>[
-        TableRow(children: [
-          TableCell(
-              child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
-            children: <Widget>[
-              Text("HEAD"),
-              Text("Two"),
-              Text("Three"),
-            ],
-          ))
-        ]),
-        for (Product product
-            in Provider.of<ItemModel>(context, listen: false).getAll())
-          TableRow(children: [
-            TableCell(
-                child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: product.getWidget()))
-          ])
-      ],
-    );
+  Widget _buildContentTable(BuildContext context) {
+    List<Product> list =
+        Provider.of<ItemModel>(context, listen: false).getAll();
+    return ListView.builder(
+        itemCount: list.length,
+        itemBuilder: (context, i) {
+          Product item = list[i];
+          return Text("${item.name} ${item.count}${item.unit}");
+        });
   }
 
   final Map<String, TextEditingController> textControllers = {
@@ -224,50 +209,48 @@ class ItemModel extends ChangeNotifier {
     Product('fd', 'd', 'g')
   ];
 
+  List<Product> visibleProducts = [
+    Product('3', '5', '5'),
+    Product('f', 'd', 'f'),
+    Product('fd', 'd', 'g')
+  ];
+
   List<Product> getAll() {
-    return products;
+    return visibleProducts;
+  }
+
+  int getCount() {
+    return getAll().length;
   }
 
   void add(Product product) {
-    print('add');
     products.add(product);
-    print('notify');
+    visibleProducts.add(product);
+    notifyListeners();
+  }
+
+  void filterSearchResults(String query) {
+    print('$query');
+    if (query.isNotEmpty) {
+      print('${products.length}');
+      visibleProducts = visibleProducts
+          .where((product) => query.contains(product.name))
+          .toList();
+    } else {
+      visibleProducts = new List.from(products);
+    }
     notifyListeners();
   }
 
   void setAll(List<Product> products) {
     this.products = products;
+    this.visibleProducts = products;
     notifyListeners();
   }
 
   void removeAll() {
     products.clear();
+    visibleProducts.clear();
     notifyListeners();
-  }
-}
-
-class Search extends SearchDelegate {
-  @override
-  List<Widget>? buildActions(BuildContext context) {
-    // TODO: implement buildActions
-    throw UnimplementedError();
-  }
-
-  @override
-  Widget? buildLeading(BuildContext context) {
-    // TODO: implement buildLeading
-    throw UnimplementedError();
-  }
-
-  @override
-  Widget buildResults(BuildContext context) {
-    // TODO: implement buildResults
-    throw UnimplementedError();
-  }
-
-  @override
-  Widget buildSuggestions(BuildContext context) {
-    // TODO: implement buildSuggestions
-    throw UnimplementedError();
   }
 }
