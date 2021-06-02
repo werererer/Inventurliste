@@ -81,11 +81,17 @@ class FilterSearchResultsEvent extends BlocEvent {
 
   @override
   ProductLists changeState(ProductLists productLists) {
-    if (query.isEmpty) return productLists;
+    if (query.isEmpty) {
+      productLists.state = productLists.products;
+      return productLists;
+    }
 
-    productLists.state = productLists.state
-        .where((product) => query.contains(product.getProperty('name')))
-        .toList();
+    productLists.state = productLists.products.where((product) {
+      String _query = query.toLowerCase();
+      String productName = product.getProperty('name').toLowerCase();
+      return productName.contains(_query);
+    }).toList();
+    print('length: ${productLists.state.length}');
 
     return productLists;
   }
