@@ -16,8 +16,12 @@
 /home/jakob/Documents/flutter/inventur_liste/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png	build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties	/^\/home\/jakob\/Documents\/flutter\/inventur_liste\/android\/app\/src\/main\/res\/mipmap-xhdpi\/i/;"	k
 /home/jakob/Documents/flutter/inventur_liste/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png	build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties	/^\/home\/jakob\/Documents\/flutter\/inventur_liste\/android\/app\/src\/main\/res\/mipmap-xxhdpi\//;"	k
 /home/jakob/Documents/flutter/inventur_liste/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png	build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties	/^\/home\/jakob\/Documents\/flutter\/inventur_liste\/android\/app\/src\/main\/res\/mipmap-xxxhdpi\//;"	k
+0	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 0	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+0	.dart_tool/flutter_build/6b0d1fc9eeca99b4125c60330896ed13/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 0	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+0	.dart_tool/flutter_build/b4d9f8e02d190aa5f1a8676806753fe3/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+0	.dart_tool/flutter_build/b80026db3e9e9a10732101b2203f9c9c/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 0	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 0	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 0	build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	s	array:packages/cupertino_icons/assets/CupertinoIcons.ttf
@@ -313,11 +317,19 @@
 0	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
 0	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o	array:0.fonts
 0	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o	array:1.fonts
+0	build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	s	array:packages/cupertino_icons/assets/CupertinoIcons.ttf
+0	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
+0	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o	array:0.fonts
+0	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o	array:1.fonts
 0	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
 0	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^    {$/;"	o	array:images
 0	web/manifest.json	/^        {$/;"	o	array:icons
+1	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 1	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+1	.dart_tool/flutter_build/6b0d1fc9eeca99b4125c60330896ed13/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 1	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+1	.dart_tool/flutter_build/b4d9f8e02d190aa5f1a8676806753fe3/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+1	.dart_tool/flutter_build/b80026db3e9e9a10732101b2203f9c9c/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 1	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 1	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 1	build/app/intermediates/flutter/debug/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
@@ -328,88 +340,117 @@
 1	build/app/intermediates/merged_res_blame_folder/debug/out/single/debug.json	/^    {$/;"	o
 1	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
 1	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
+1	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	o
 1	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
 1	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^    {$/;"	o	array:images
 1	web/manifest.json	/^        {$/;"	o	array:icons
+10	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 10	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 10	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 10	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 10	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+11	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 11	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 11	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 11	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 11	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+12	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 12	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 12	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 12	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 12	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+13	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 13	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 13	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 13	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 13	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+14	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 14	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 14	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 14	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 14	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+15	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 15	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 15	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 15	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 15	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+16	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 16	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 16	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 16	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 16	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+17	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 17	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 17	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 17	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 17	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+18	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 18	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 18	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 18	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 18	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
+19	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 19	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 19	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 19	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+2	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 2	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+2	.dart_tool/flutter_build/6b0d1fc9eeca99b4125c60330896ed13/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 2	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+2	.dart_tool/flutter_build/b4d9f8e02d190aa5f1a8676806753fe3/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+2	.dart_tool/flutter_build/b80026db3e9e9a10732101b2203f9c9c/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 2	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 2	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 2	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 2	build/app/intermediates/merged_res_blame_folder/debug/out/single/debug.json	/^    {$/;"	o
 2	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    {$/;"	o	array:images
 2	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^    {$/;"	o	array:images
+20	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 20	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 20	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 20	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+21	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 21	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 21	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 21	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+22	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 22	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 22	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 22	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+23	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 23	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 23	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 23	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+24	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 24	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 24	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 24	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+25	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 25	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 25	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 25	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+26	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 26	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 26	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 26	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+27	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 27	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 27	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 27	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+28	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 28	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 28	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 28	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+29	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 29	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 29	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 29	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+3	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 3	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+3	.dart_tool/flutter_build/6b0d1fc9eeca99b4125c60330896ed13/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 3	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+3	.dart_tool/flutter_build/b4d9f8e02d190aa5f1a8676806753fe3/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+3	.dart_tool/flutter_build/b80026db3e9e9a10732101b2203f9c9c/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 3	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 3	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 3	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -427,12 +468,20 @@
 34	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 35	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 35	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+36	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 36	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+37	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 37	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+38	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 38	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+39	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 39	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+4	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 4	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+4	.dart_tool/flutter_build/6b0d1fc9eeca99b4125c60330896ed13/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 4	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+4	.dart_tool/flutter_build/b4d9f8e02d190aa5f1a8676806753fe3/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+4	.dart_tool/flutter_build/b80026db3e9e9a10732101b2203f9c9c/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 4	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 4	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 4	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -449,8 +498,12 @@
 48	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 49	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 4NT_args	android/gradlew.bat	/^:4NT_args$/;"	l
+5	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 5	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+5	.dart_tool/flutter_build/6b0d1fc9eeca99b4125c60330896ed13/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 5	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+5	.dart_tool/flutter_build/b4d9f8e02d190aa5f1a8676806753fe3/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+5	.dart_tool/flutter_build/b80026db3e9e9a10732101b2203f9c9c/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 5	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 5	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 5	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -466,8 +519,12 @@
 57	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 58	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 59	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+6	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 6	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+6	.dart_tool/flutter_build/6b0d1fc9eeca99b4125c60330896ed13/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 6	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+6	.dart_tool/flutter_build/b4d9f8e02d190aa5f1a8676806753fe3/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+6	.dart_tool/flutter_build/b80026db3e9e9a10732101b2203f9c9c/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 6	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 6	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 6	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -483,8 +540,12 @@
 67	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 68	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 69	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+7	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 7	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
+7	.dart_tool/flutter_build/6b0d1fc9eeca99b4125c60330896ed13/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 7	.dart_tool/flutter_build/75c1d8d709ad01201af0f87be1e0c032/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+7	.dart_tool/flutter_build/b4d9f8e02d190aa5f1a8676806753fe3/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
+7	.dart_tool/flutter_build/b80026db3e9e9a10732101b2203f9c9c/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 7	.dart_tool/flutter_build/c1993c9fc24615b6a588d6579d0e66aa/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/app\/intermediates\/flutter\/debug\//;"	s
 7	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 7	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -499,6 +560,7 @@
 77	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 78	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 79	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+8	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 8	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 8	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 8	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -512,6 +574,7 @@
 86	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 87	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
 88	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
+9	.dart_tool/flutter_build/1d6b53260f6717082d85d00955c1ebef/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 9	.dart_tool/flutter_build/60a07ff410a2008c59dcf86712e158c5/outputs.json	/^["\/home\/jakob\/Documents\/flutter\/inventur_liste\/linux\/flutter\/ephemeral\/libflutter_linux/;"	s
 9	.dart_tool/package_config.json	/^    {$/;"	o	array:packages
 9	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^        {$/;"	o	array:logs
@@ -525,6 +588,9 @@ APP_HOME	android/gradlew.bat	/^set APP_HOME=%DIRNAME%$/;"	v
 ARCHITECTURE_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
 ARCHITECTURE_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
 ARCHITECTURE_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
+ARCHITECTURE_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
+ARCHITECTURE_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID$/;"	d	file:
 BINARY_NAME	linux/CMakeLists.txt	/^set(BINARY_NAME "inventur_liste")$/;"	v
 BUILD_BUNDLE_DIR	linux/CMakeLists.txt	/^set(BUILD_BUNDLE_DIR "${PROJECT_BINARY_DIR}\/bundle")$/;"	v
 BUILD_TYPE	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^  public static final String BUILD_TYPE = "debug";$/;"	f	class:BuildConfig
@@ -553,109 +619,204 @@ CFBundleVersion	ios/Flutter/AppFrameworkInfo.plist	/^  <key>CFBundleVersion<\/ke
 CFBundleVersion	ios/Runner/Info.plist	/^	<key>CFBundleVersion<\/key>$/;"	k
 CLASSPATH	android/gradlew.bat	/^set CLASSPATH=%APP_HOME%\\gradle\\wrapper\\gradle-wrapper.jar$/;"	v
 CMAKE_AR	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
+CMAKE_AR	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_AR "\/usr\/bin\/ar")$/;"	v
 CMAKE_BUILD_TYPE	linux/CMakeLists.txt	/^  set(CMAKE_BUILD_TYPE "Debug" CACHE$/;"	v
 CMAKE_CL_SHOWINCLUDES_PREFIX	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")$/;"	v
+CMAKE_CL_SHOWINCLUDES_PREFIX	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_CL_SHOWINCLUDES_PREFIX "${CMAKE_CXX_CL_SHOWINCLUDES_PREFIX}")$/;"	v
 CMAKE_COMPILER_IS_CYGWIN	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_CYGWIN )$/;"	v
+CMAKE_COMPILER_IS_CYGWIN	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_CYGWIN )$/;"	v
 CMAKE_COMPILER_IS_GNUCXX	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCXX )$/;"	v
+CMAKE_COMPILER_IS_GNUCXX	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_GNUCXX )$/;"	v
 CMAKE_COMPILER_IS_MINGW	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_MINGW )$/;"	v
+CMAKE_COMPILER_IS_MINGW	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_COMPILER_IS_MINGW )$/;"	v
 CMAKE_CROSSCOMPILING	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
 CMAKE_CROSSCOMPILING	build/linux/debug/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
 CMAKE_CROSSCOMPILING	build/linux/debug/flutter/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/linux/x64/debug/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
+CMAKE_CROSSCOMPILING	build/linux/x64/debug/flutter/cmake_install.cmake	/^  set(CMAKE_CROSSCOMPILING "FALSE")$/;"	v
 CMAKE_CXX11_COMPILE_FEATURES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_att/;"	v
+CMAKE_CXX11_COMPILE_FEATURES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX11_COMPILE_FEATURES "cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_att/;"	v
 CMAKE_CXX14_COMPILE_FEATURES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_de/;"	v
+CMAKE_CXX14_COMPILE_FEATURES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX14_COMPILE_FEATURES "cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_de/;"	v
 CMAKE_CXX17_COMPILE_FEATURES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")$/;"	v
+CMAKE_CXX17_COMPILE_FEATURES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")$/;"	v
 CMAKE_CXX20_COMPILE_FEATURES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")$/;"	v
+CMAKE_CXX20_COMPILE_FEATURES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX20_COMPILE_FEATURES "cxx_std_20")$/;"	v
 CMAKE_CXX23_COMPILE_FEATURES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX23_COMPILE_FEATURES "")$/;"	v
+CMAKE_CXX23_COMPILE_FEATURES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX23_COMPILE_FEATURES "")$/;"	v
 CMAKE_CXX98_COMPILE_FEATURES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")$/;"	v
+CMAKE_CXX98_COMPILE_FEATURES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX98_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters")$/;"	v
 CMAKE_CXX_ABI_COMPILED	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_ABI_COMPILED TRUE)$/;"	v
+CMAKE_CXX_ABI_COMPILED	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_ABI_COMPILED TRUE)$/;"	v
 CMAKE_CXX_BYTE_ORDER	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")$/;"	v
+CMAKE_CXX_BYTE_ORDER	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_BYTE_ORDER "LITTLE_ENDIAN")$/;"	v
 CMAKE_CXX_CL_SHOWINCLUDES_PREFIX	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")$/;"	v
+CMAKE_CXX_CL_SHOWINCLUDES_PREFIX	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_CL_SHOWINCLUDES_PREFIX "")$/;"	v
 CMAKE_CXX_COMPILER	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER "\/usr\/bin\/clang++")$/;"	v
+CMAKE_CXX_COMPILER	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER "\/usr\/bin\/clang++")$/;"	v
 CMAKE_CXX_COMPILER_ABI	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ABI "ELF")$/;"	v
+CMAKE_CXX_COMPILER_ABI	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ABI "ELF")$/;"	v
 CMAKE_CXX_COMPILER_AR	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_AR "\/usr\/bin\/llvm-ar")$/;"	v
+CMAKE_CXX_COMPILER_AR	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_AR "\/usr\/bin\/llvm-ar")$/;"	v
 CMAKE_CXX_COMPILER_ARG1	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ARG1 "")$/;"	v
+CMAKE_CXX_COMPILER_ARG1	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ARG1 "")$/;"	v
 CMAKE_CXX_COMPILER_ENV_VAR	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")$/;"	v
+CMAKE_CXX_COMPILER_ENV_VAR	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ENV_VAR "CXX")$/;"	v
 CMAKE_CXX_COMPILER_FRONTEND_VARIANT	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")$/;"	v
+CMAKE_CXX_COMPILER_FRONTEND_VARIANT	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_FRONTEND_VARIANT "GNU")$/;"	v
 CMAKE_CXX_COMPILER_ID	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID "Clang")$/;"	v
+CMAKE_CXX_COMPILER_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID "Clang")$/;"	v
 CMAKE_CXX_COMPILER_ID_RUN	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID_RUN 1)$/;"	v
+CMAKE_CXX_COMPILER_ID_RUN	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_ID_RUN 1)$/;"	v
 CMAKE_CXX_COMPILER_LOADED	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_LOADED 1)$/;"	v
+CMAKE_CXX_COMPILER_LOADED	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_LOADED 1)$/;"	v
 CMAKE_CXX_COMPILER_RANLIB	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_RANLIB "\/usr\/bin\/llvm-ranlib")$/;"	v
+CMAKE_CXX_COMPILER_RANLIB	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_RANLIB "\/usr\/bin\/llvm-ranlib")$/;"	v
 CMAKE_CXX_COMPILER_VERSION	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION "11.1.0")$/;"	v
+CMAKE_CXX_COMPILER_VERSION	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION "11.1.0")$/;"	v
 CMAKE_CXX_COMPILER_VERSION_INTERNAL	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")$/;"	v
+CMAKE_CXX_COMPILER_VERSION_INTERNAL	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")$/;"	v
 CMAKE_CXX_COMPILER_WORKS	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WORKS TRUE)$/;"	v
+CMAKE_CXX_COMPILER_WORKS	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WORKS TRUE)$/;"	v
 CMAKE_CXX_COMPILER_WRAPPER	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WRAPPER "")$/;"	v
+CMAKE_CXX_COMPILER_WRAPPER	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILER_WRAPPER "")$/;"	v
 CMAKE_CXX_COMPILE_FEATURES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias/;"	v
+CMAKE_CXX_COMPILE_FEATURES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_COMPILE_FEATURES "cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias/;"	v
 CMAKE_CXX_IGNORE_EXTENSIONS	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
+CMAKE_CXX_IGNORE_EXTENSIONS	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IGNORE_EXTENSIONS inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC)$/;"	v
 CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/include\/c++\/10.2.0;\/usr\/include\/c++\/10./;"	v
+CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "\/usr\/include\/c++\/10.2.0;\/usr\/include\/c++\/10./;"	v
 CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib64\/gcc\/x86_64-pc-linux-gnu\/10.2.0;\/usr\/l/;"	v
+CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "\/usr\/lib64\/gcc\/x86_64-pc-linux-gnu\/10.2.0;\/usr\/l/;"	v
 CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
+CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")$/;"	v
 CMAKE_CXX_IMPLICIT_LINK_LIBRARIES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")$/;"	v
+CMAKE_CXX_IMPLICIT_LINK_LIBRARIES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc_s;gcc;c;gcc_s;gcc")$/;"	v
 CMAKE_CXX_LIBRARY_ARCHITECTURE	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_CXX_LIBRARY_ARCHITECTURE	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")$/;"	v
 CMAKE_CXX_LINKER_PREFERENCE	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE 30)$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE 30)$/;"	v
 CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)$/;"	v
+CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)$/;"	v
 CMAKE_CXX_PLATFORM_ID	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_PLATFORM_ID "Linux")$/;"	v
+CMAKE_CXX_PLATFORM_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_PLATFORM_ID "Linux")$/;"	v
 CMAKE_CXX_SIMULATE_ID	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_ID "")$/;"	v
+CMAKE_CXX_SIMULATE_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_ID "")$/;"	v
 CMAKE_CXX_SIMULATE_VERSION	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_VERSION "")$/;"	v
+CMAKE_CXX_SIMULATE_VERSION	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIMULATE_VERSION "")$/;"	v
 CMAKE_CXX_SIZEOF_DATA_PTR	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIZEOF_DATA_PTR "8")$/;"	v
+CMAKE_CXX_SIZEOF_DATA_PTR	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SIZEOF_DATA_PTR "8")$/;"	v
 CMAKE_CXX_SOURCE_FILE_EXTENSIONS	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP)$/;"	v
+CMAKE_CXX_SOURCE_FILE_EXTENSIONS	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_SOURCE_FILE_EXTENSIONS C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP)$/;"	v
 CMAKE_CXX_STANDARD_COMPUTED_DEFAULT	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")$/;"	v
+CMAKE_CXX_STANDARD_COMPUTED_DEFAULT	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")$/;"	v
 CMAKE_HOST_SYSTEM	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-5.11.16-zen1-1-zen")$/;"	v
+CMAKE_HOST_SYSTEM	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM "Linux-5.11.16-zen1-1-zen")$/;"	v
 CMAKE_HOST_SYSTEM_NAME	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_HOST_SYSTEM_NAME	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_NAME "Linux")$/;"	v
 CMAKE_HOST_SYSTEM_PROCESSOR	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_HOST_SYSTEM_PROCESSOR	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")$/;"	v
 CMAKE_HOST_SYSTEM_VERSION	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "5.11.16-zen1-1-zen")$/;"	v
+CMAKE_HOST_SYSTEM_VERSION	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_HOST_SYSTEM_VERSION "5.11.16-zen1-1-zen")$/;"	v
 CMAKE_INSTALL_COMPONENT	build/linux/debug/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
 CMAKE_INSTALL_COMPONENT	build/linux/debug/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
 CMAKE_INSTALL_COMPONENT	build/linux/debug/flutter/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
 CMAKE_INSTALL_COMPONENT	build/linux/debug/flutter/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_COMPONENT	build/linux/x64/debug/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/linux/x64/debug/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
+CMAKE_INSTALL_COMPONENT	build/linux/x64/debug/flutter/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT "${COMPONENT}")$/;"	v
+CMAKE_INSTALL_COMPONENT	build/linux/x64/debug/flutter/cmake_install.cmake	/^    set(CMAKE_INSTALL_COMPONENT)$/;"	v
 CMAKE_INSTALL_CONFIG_NAME	build/linux/debug/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Debug")$/;"	v
 CMAKE_INSTALL_CONFIG_NAME	build/linux/debug/flutter/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Debug")$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/linux/x64/debug/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Debug")$/;"	v
+CMAKE_INSTALL_CONFIG_NAME	build/linux/x64/debug/flutter/cmake_install.cmake	/^    set(CMAKE_INSTALL_CONFIG_NAME "Debug")$/;"	v
 CMAKE_INSTALL_MANIFEST	build/linux/debug/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v
 CMAKE_INSTALL_MANIFEST	build/linux/debug/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/linux/x64/debug/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")$/;"	v
+CMAKE_INSTALL_MANIFEST	build/linux/x64/debug/cmake_install.cmake	/^  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")$/;"	v
 CMAKE_INSTALL_PREFIX	build/linux/debug/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/linux\/deb/;"	v
 CMAKE_INSTALL_PREFIX	build/linux/debug/flutter/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/linux\/deb/;"	v
+CMAKE_INSTALL_PREFIX	build/linux/x64/debug/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/linux\/x64/;"	v
+CMAKE_INSTALL_PREFIX	build/linux/x64/debug/flutter/cmake_install.cmake	/^  set(CMAKE_INSTALL_PREFIX "\/home\/jakob\/Documents\/flutter\/inventur_liste\/build\/linux\/x64/;"	v
 CMAKE_INSTALL_PREFIX	linux/CMakeLists.txt	/^  set(CMAKE_INSTALL_PREFIX "${BUILD_BUNDLE_DIR}" CACHE PATH "..." FORCE)$/;"	v
 CMAKE_INSTALL_RPATH	linux/CMakeLists.txt	/^set(CMAKE_INSTALL_RPATH "$ORIGIN\/lib")$/;"	v
 CMAKE_INSTALL_SO_NO_EXE	build/linux/debug/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "0")$/;"	v
 CMAKE_INSTALL_SO_NO_EXE	build/linux/debug/flutter/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "0")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/linux/x64/debug/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "0")$/;"	v
+CMAKE_INSTALL_SO_NO_EXE	build/linux/x64/debug/flutter/cmake_install.cmake	/^  set(CMAKE_INSTALL_SO_NO_EXE "0")$/;"	v
 CMAKE_INTERNAL_PLATFORM_ABI	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")$/;"	v
+CMAKE_INTERNAL_PLATFORM_ABI	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_INTERNAL_PLATFORM_ABI "${CMAKE_CXX_COMPILER_ABI}")$/;"	v
 CMAKE_LIBRARY_ARCHITECTURE	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "")$/;"	v
+CMAKE_LIBRARY_ARCHITECTURE	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_LIBRARY_ARCHITECTURE "")$/;"	v
 CMAKE_LINKER	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_LINKER "\/usr\/bin\/ld")$/;"	v
+CMAKE_LINKER	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_LINKER "\/usr\/bin\/ld")$/;"	v
 CMAKE_MT	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
+CMAKE_MT	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_MT "")$/;"	v
 CMAKE_OBJDUMP	build/linux/debug/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v
 CMAKE_OBJDUMP	build/linux/debug/flutter/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v
+CMAKE_OBJDUMP	build/linux/x64/debug/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v
+CMAKE_OBJDUMP	build/linux/x64/debug/flutter/cmake_install.cmake	/^  set(CMAKE_OBJDUMP "\/usr\/bin\/objdump")$/;"	v
 CMAKE_RANLIB	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
+CMAKE_RANLIB	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^set(CMAKE_RANLIB "\/usr\/bin\/ranlib")$/;"	v
 CMAKE_SIZEOF_VOID_P	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v
+CMAKE_SIZEOF_VOID_P	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CMAKE_SIZEOF_VOID_P "${CMAKE_CXX_SIZEOF_DATA_PTR}")$/;"	v
 CMAKE_SYSTEM	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-5.11.16-zen1-1-zen")$/;"	v
+CMAKE_SYSTEM	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM "Linux-5.11.16-zen1-1-zen")$/;"	v
 CMAKE_SYSTEM_LOADED	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
+CMAKE_SYSTEM_LOADED	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_LOADED 1)$/;"	v
 CMAKE_SYSTEM_NAME	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v
+CMAKE_SYSTEM_NAME	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_NAME "Linux")$/;"	v
 CMAKE_SYSTEM_PROCESSOR	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
+CMAKE_SYSTEM_PROCESSOR	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_PROCESSOR "x86_64")$/;"	v
 CMAKE_SYSTEM_VERSION	build/linux/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "5.11.16-zen1-1-zen")$/;"	v
+CMAKE_SYSTEM_VERSION	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeSystem.cmake	/^set(CMAKE_SYSTEM_VERSION "5.11.16-zen1-1-zen")$/;"	v
 CMD_LINE_ARGS	android/gradlew.bat	/^set CMD_LINE_ARGS=$/;"	v
 CMD_LINE_ARGS	android/gradlew.bat	/^set CMD_LINE_ARGS=%*$/;"	v
 CMD_LINE_ARGS	android/gradlew.bat	/^set CMD_LINE_ARGS=%\$$/;"	v
 COMPILER_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
+COMPILER_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
 COMPILER_VERSION_INTERNAL	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
 COMPILER_VERSION_INTERNAL	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_INTERNAL /;"	d	file:
+COMPILER_VERSION_INTERNAL	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_INTERNAL /;"	d	file:
 COMPILER_VERSION_MAJOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
 COMPILER_VERSION_MAJOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
 COMPILER_VERSION_MAJOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
+COMPILER_VERSION_MAJOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
 COMPILER_VERSION_MINOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
 COMPILER_VERSION_MINOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
 COMPILER_VERSION_MINOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
+COMPILER_VERSION_MINOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
 COMPILER_VERSION_PATCH	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
 COMPILER_VERSION_PATCH	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
 COMPILER_VERSION_PATCH	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
 COMPILER_VERSION_PATCH	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  # define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
+COMPILER_VERSION_PATCH	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
 COMPILER_VERSION_TWEAK	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
 COMPILER_VERSION_TWEAK	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
+COMPILER_VERSION_TWEAK	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_TWEAK /;"	d	file:
 CXX_STD	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
 CXX_STD	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
 CXX_STD	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
+CXX_STD	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#      define CXX_STD /;"	d	file:
+CXX_STD	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#    define CXX_STD /;"	d	file:
+CXX_STD	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define CXX_STD /;"	d	file:
 CYGWIN	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
+CYGWIN	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(CYGWIN 1)$/;"	v
 DEBUG	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^  public static final boolean DEBUG = Boolean.parseBoolean("true");$/;"	f	class:BuildConfig
 DEBUG	build/file_picker/generated/source/buildConfig/debug/com/mr/flutter/plugin/filepicker/BuildConfig.java	/^  public static final boolean DEBUG = Boolean.parseBoolean("true");$/;"	f	class:BuildConfig
 DEBUG	build/flutter_plugin_android_lifecycle/generated/source/buildConfig/debug/io/flutter/plugins/flutter_plugin_android_lifecycle/BuildConfig.java	/^  public static final boolean DEBUG = Boolean.parseBoolean("true");$/;"	f	class:BuildConfig
 DEC	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
+DEC	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
 DEFAULT_JVM_OPTS	android/gradlew.bat	/^set DEFAULT_JVM_OPTS=$/;"	v
 DIRNAME	android/gradlew.bat	/^if "%DIRNAME%" == "" set DIRNAME=.$/;"	v
 DIRNAME	android/gradlew.bat	/^set DIRNAME=%~dp0$/;"	v
@@ -731,6 +892,7 @@ GeneratedPluginRegistrant	ios/Runner/GeneratedPluginRegistrant.m	/^@implementati
 GeneratedPluginRegistrant_h	ios/Runner/GeneratedPluginRegistrant.h	/^#define GeneratedPluginRegistrant_h$/;"	M
 Getting Started	README.md	/^## Getting Started$/;"	s	chapter:inventur_liste
 HEX	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
+HEX	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
 IDEDidComputeMac32BitWarning	ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist	/^	<key>IDEDidComputeMac32BitWarning<\/key>$/;"	k
 IDEDidComputeMac32BitWarning	ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist	/^	<key>IDEDidComputeMac32BitWarning<\/key>$/;"	k
 INSTALL_BUNDLE_DATA_DIR	linux/CMakeLists.txt	/^set(INSTALL_BUNDLE_DATA_DIR "${CMAKE_INSTALL_PREFIX}\/data")$/;"	v
@@ -743,6 +905,7 @@ LIBRARY_PACKAGE_NAME	build/flutter_plugin_android_lifecycle/generated/source/bui
 LSRequiresIPhoneOS	ios/Runner/Info.plist	/^	<key>LSRequiresIPhoneOS<\/key>$/;"	k
 Launch Screen Assets	ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md	/^# Launch Screen Assets$/;"	c
 MINGW	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(MINGW 1)$/;"	v
+MINGW	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(MINGW 1)$/;"	v
 MainActivity	android/app/src/main/kotlin/com/example/inventur_liste/MainActivity.kt	/^class MainActivity: FlutterActivity() {$/;"	c
 MinimumOSVersion	ios/Flutter/AppFrameworkInfo.plist	/^  <key>MinimumOSVersion<\/key>$/;"	k
 NEW_LIST	linux/flutter/CMakeLists.txt	/^    set(NEW_LIST "")$/;"	v	function:list_prepend
@@ -750,27 +913,41 @@ PLATFORM_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId
 PLATFORM_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
 PLATFORM_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
 PLATFORM_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define PLATFORM_ID$/;"	d	file:
+PLATFORM_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
+PLATFORM_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID$/;"	d	file:
 PLUGIN_BUNDLED_LIBRARIES	linux/flutter/generated_plugins.cmake	/^set(PLUGIN_BUNDLED_LIBRARIES)$/;"	v
 PROJECT_BUILD_DIR	linux/flutter/CMakeLists.txt	/^set(PROJECT_BUILD_DIR "${PROJECT_DIR}\/build\/" PARENT_SCOPE)$/;"	v
 Project	.idea/workspace.xml	/^      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DO/;"	i
 ProjectPane	.idea/workspace.xml	/^      <pane id="ProjectPane">$/;"	i
 SIMULATE_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
 SIMULATE_ID	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
+SIMULATE_ID	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_ID /;"	d	file:
 SIMULATE_VERSION_MAJOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
 SIMULATE_VERSION_MAJOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
+SIMULATE_VERSION_MAJOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MAJOR /;"	d	file:
 SIMULATE_VERSION_MINOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
 SIMULATE_VERSION_MINOR	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
+SIMULATE_VERSION_MINOR	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_MINOR /;"	d	file:
 SIMULATE_VERSION_PATCH	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
 SIMULATE_VERSION_PATCH	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_PATCH /;"	d	file:
+SIMULATE_VERSION_PATCH	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define SIMULATE_VERSION_PATCH /;"	d	file:
 STRINGIFY	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
+STRINGIFY	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY(/;"	d	file:
 STRINGIFY_HELPER	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
-TAG	android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java	/^  private static final String TAG = "GeneratedPluginRegistrant";$/;"	f	class:GeneratedPluginRegistrant	file:
+STRINGIFY_HELPER	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define STRINGIFY_HELPER(/;"	d	file:
 UILaunchStoryboardName	ios/Runner/Info.plist	/^	<key>UILaunchStoryboardName<\/key>$/;"	k
 UIMainStoryboardFile	ios/Runner/Info.plist	/^	<key>UIMainStoryboardFile<\/key>$/;"	k
 UISupportedInterfaceOrientations	ios/Runner/Info.plist	/^	<key>UISupportedInterfaceOrientations<\/key>$/;"	k
 UISupportedInterfaceOrientations~ipad	ios/Runner/Info.plist	/^	<key>UISupportedInterfaceOrientations~ipad<\/key>$/;"	k
 UIViewControllerBasedStatusBarAppearance	ios/Runner/Info.plist	/^	<key>UIViewControllerBasedStatusBarAppearance<\/key>$/;"	k
 UNIX	build/linux/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(UNIX 1)$/;"	v
+UNIX	build/linux/x64/debug/CMakeFiles/3.20.2/CMakeCXXCompiler.cmake	/^  set(UNIX 1)$/;"	v
 VERSION_CODE	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^  public static final int VERSION_CODE = 1;$/;"	f	class:BuildConfig
 VERSION_NAME	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^  public static final String VERSION_NAME = "1.0.0";$/;"	f	class:BuildConfig
 _FlMessageCodecClass	linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	/^struct _FlMessageCodecClass {$/;"	s
@@ -805,6 +982,7 @@ android.enableJetifier	android/gradle.properties	/^android.enableJetifier=true$/
 android.useAndroidX	android/gradle.properties	/^android.useAndroidX=true$/;"	k
 app_name	build/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
 app_name	build/linux/debug/bundle/data/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
+app_name	build/linux/x64/debug/bundle/data/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
 applicationId	build/app/intermediates/compatible_screen_manifest/debug/output-metadata.json	/^  "applicationId": "com.example.inventur_liste",$/;"	s
 applicationId	build/app/intermediates/merged_manifests/debug/output-metadata.json	/^  "applicationId": "com.example.inventur_liste",$/;"	s
 applicationId	build/app/intermediates/packaged_manifests/debug/output-metadata.json	/^  "applicationId": "com.example.inventur_liste",$/;"	s
@@ -831,11 +1009,14 @@ asset	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts
 asset	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:1.fonts.0
 asset	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:0.fonts.0
 asset	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:1.fonts.0
+asset	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:0.fonts.0
+asset	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:1.fonts.0
 author	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    "author" : "xcode"$/;"	s	object:info
 author	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^    "author" : "xcode"$/;"	s	object:info
 background_color	web/manifest.json	/^    "background_color": "#0175C2",$/;"	s
 build_number	build/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
 build_number	build/linux/debug/bundle/data/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
+build_number	build/linux/x64/debug/bundle/data/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
 com.example.inventur_liste	android/app/src/main/kotlin/com/example/inventur_liste/MainActivity.kt	/^package com.example.inventur_liste$/;"	p
 com.example.inventur_liste	build/app/generated/source/buildConfig/debug/com/example/inventur_liste/BuildConfig.java	/^package com.example.inventur_liste;$/;"	p
 com.mr.flutter.plugin.filepicker	build/file_picker/generated/source/buildConfig/debug/com/mr/flutter/plugin/filepicker/BuildConfig.java	/^package com.mr.flutter.plugin.filepicker;$/;"	p
@@ -1260,6 +1441,8 @@ family	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","font
 family	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:1
 family	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:0
 family	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:1
+family	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:0
+family	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	s	object:1
 filename	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "filename" : "Icon-App-1024x1024@1x.png",$/;"	s	object:images.18
 filename	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "filename" : "Icon-App-20x20@1x.png",$/;"	s	object:images.9
 filename	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "filename" : "Icon-App-20x20@2x.png",$/;"	s	object:images.0
@@ -1306,6 +1489,8 @@ fonts	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts
 fonts	build/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	a	object:1
 fonts	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	a	object:0
 fonts	build/linux/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	a	object:1
+fonts	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	a	object:0
+fonts	build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json	/^[{"family":"MaterialIcons","fonts":[{"asset":"fonts\/MaterialIcons-Regular.otf"}]},{"family":"pa/;"	a	object:1
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^                    "from": {$/;"	o	object:logs.0.map.0
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^                    "from": {$/;"	o	object:logs.1.map.0
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^                    "from": {$/;"	o	object:logs.10.map.0
@@ -1487,9 +1672,9 @@ from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-z
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^                    "from": {$/;"	o	object:logs.0.map.0
 from	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^                    "from": {$/;"	o	object:logs.0.map.1
 g_iface	linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	/^  GTypeInterface g_iface;$/;"	m	struct:_FlPluginRegistryInterface	typeref:typename:GTypeInterface
-generated	.dart_tool/package_config.json	/^  "generated": "2021-05-03T13:18:34.696861Z",$/;"	s
+generated	.dart_tool/package_config.json	/^  "generated": "2021-06-02T19:54:11.981794Z",$/;"	s
 generator	.dart_tool/package_config.json	/^  "generator": "pub",$/;"	s
-generatorVersion	.dart_tool/package_config.json	/^  "generatorVersion": "2.14.0-48.0.dev"$/;"	s
+generatorVersion	.dart_tool/package_config.json	/^  "generatorVersion": "2.13.0"$/;"	s
 get_registrar_for_plugin	linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	/^  FlPluginRegistrar* (*get_registrar_for_plugin)(FlPluginRegistry* registry,$/;"	m	struct:_FlPluginRegistryInterface	typeref:typename:FlPluginRegistrar * (*)(FlPluginRegistry * registry,const gchar * name)
 gradle.version	android/.gradle/buildOutputCleanup/cache.properties	/^gradle.version=6.7$/;"	k
 icons	web/manifest.json	/^    "icons": [$/;"	a
@@ -1520,14 +1705,23 @@ images	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^  "images
 info	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^  "info" : {$/;"	o
 info	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^  "info" : {$/;"	o
 info_arch	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
+info_arch	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v	typeref:typename:char const *
 info_compiler	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
+info_compiler	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v	typeref:typename:char const *
 info_cray	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
+info_cray	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	v	typeref:typename:char const *
 info_language_dialect_default	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v	typeref:typename:const char *
+info_language_dialect_default	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^const char* info_language_dialect_default = "INFO" ":" "dialect_default["$/;"	v	typeref:typename:const char *
 info_platform	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
+info_platform	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v	typeref:typename:char const *
 info_simulate	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
+info_simulate	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v	typeref:typename:char const *
 info_simulate_version	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
+info_simulate_version	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v	typeref:typename:char const[]
 info_version	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
+info_version	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v	typeref:typename:char const[]
 info_version_internal	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
+info_version_internal	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	v	typeref:typename:char const[]
 init	android/gradlew.bat	/^:init$/;"	l
 inventur_liste	README.md	/^# inventur_liste$/;"	c
 io.flutter.plugins	android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java	/^package io.flutter.plugins;$/;"	p
@@ -1571,6 +1765,10 @@ languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.33
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.34
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.35
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.36
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.37
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.38
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.39
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.4
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.5
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.6
@@ -1669,6 +1867,7 @@ logs	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-z
 logs	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values-zu.json	/^    "logs": [$/;"	a
 logs	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^    "logs": [$/;"	a
 main	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
+main	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
 main	linux/main.cc	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 mainEnd	android/gradlew.bat	/^:mainEnd$/;"	l
 map	build/app/intermediates/merged_res_blame_folder/debug/out/multi-v2/debug.json	/^            "map": [$/;"	a	object:logs.0
@@ -1863,40 +2062,44 @@ my_application_local_command_line	linux/my_application.cc	/^static gboolean my_a
 my_application_new	linux/my_application.cc	/^MyApplication* my_application_new() {$/;"	f	typeref:typename:MyApplication *
 name	.dart_tool/package_config.json	/^      "name": "archive",$/;"	s	object:packages.0
 name	.dart_tool/package_config.json	/^      "name": "async",$/;"	s	object:packages.1
-name	.dart_tool/package_config.json	/^      "name": "boolean_selector",$/;"	s	object:packages.2
-name	.dart_tool/package_config.json	/^      "name": "characters",$/;"	s	object:packages.3
-name	.dart_tool/package_config.json	/^      "name": "charcode",$/;"	s	object:packages.4
-name	.dart_tool/package_config.json	/^      "name": "clock",$/;"	s	object:packages.5
-name	.dart_tool/package_config.json	/^      "name": "collection",$/;"	s	object:packages.6
-name	.dart_tool/package_config.json	/^      "name": "crypto",$/;"	s	object:packages.7
-name	.dart_tool/package_config.json	/^      "name": "cupertino_icons",$/;"	s	object:packages.8
-name	.dart_tool/package_config.json	/^      "name": "equatable",$/;"	s	object:packages.9
-name	.dart_tool/package_config.json	/^      "name": "excel",$/;"	s	object:packages.10
-name	.dart_tool/package_config.json	/^      "name": "fake_async",$/;"	s	object:packages.11
-name	.dart_tool/package_config.json	/^      "name": "file_picker",$/;"	s	object:packages.12
-name	.dart_tool/package_config.json	/^      "name": "flutter",$/;"	s	object:packages.13
-name	.dart_tool/package_config.json	/^      "name": "flutter_plugin_android_lifecycle",$/;"	s	object:packages.14
-name	.dart_tool/package_config.json	/^      "name": "flutter_test",$/;"	s	object:packages.15
-name	.dart_tool/package_config.json	/^      "name": "flutter_web_plugins",$/;"	s	object:packages.16
-name	.dart_tool/package_config.json	/^      "name": "inventur_liste",$/;"	s	object:packages.35
-name	.dart_tool/package_config.json	/^      "name": "js",$/;"	s	object:packages.17
-name	.dart_tool/package_config.json	/^      "name": "matcher",$/;"	s	object:packages.18
-name	.dart_tool/package_config.json	/^      "name": "meta",$/;"	s	object:packages.19
-name	.dart_tool/package_config.json	/^      "name": "nested",$/;"	s	object:packages.20
-name	.dart_tool/package_config.json	/^      "name": "path",$/;"	s	object:packages.21
-name	.dart_tool/package_config.json	/^      "name": "petitparser",$/;"	s	object:packages.22
-name	.dart_tool/package_config.json	/^      "name": "plugin_platform_interface",$/;"	s	object:packages.23
-name	.dart_tool/package_config.json	/^      "name": "provider",$/;"	s	object:packages.24
-name	.dart_tool/package_config.json	/^      "name": "sky_engine",$/;"	s	object:packages.25
-name	.dart_tool/package_config.json	/^      "name": "source_span",$/;"	s	object:packages.26
-name	.dart_tool/package_config.json	/^      "name": "stack_trace",$/;"	s	object:packages.27
-name	.dart_tool/package_config.json	/^      "name": "stream_channel",$/;"	s	object:packages.28
-name	.dart_tool/package_config.json	/^      "name": "string_scanner",$/;"	s	object:packages.29
-name	.dart_tool/package_config.json	/^      "name": "term_glyph",$/;"	s	object:packages.30
-name	.dart_tool/package_config.json	/^      "name": "test_api",$/;"	s	object:packages.31
-name	.dart_tool/package_config.json	/^      "name": "typed_data",$/;"	s	object:packages.32
-name	.dart_tool/package_config.json	/^      "name": "vector_math",$/;"	s	object:packages.33
-name	.dart_tool/package_config.json	/^      "name": "xml",$/;"	s	object:packages.34
+name	.dart_tool/package_config.json	/^      "name": "bloc",$/;"	s	object:packages.2
+name	.dart_tool/package_config.json	/^      "name": "boolean_selector",$/;"	s	object:packages.3
+name	.dart_tool/package_config.json	/^      "name": "characters",$/;"	s	object:packages.4
+name	.dart_tool/package_config.json	/^      "name": "charcode",$/;"	s	object:packages.5
+name	.dart_tool/package_config.json	/^      "name": "clock",$/;"	s	object:packages.6
+name	.dart_tool/package_config.json	/^      "name": "collection",$/;"	s	object:packages.7
+name	.dart_tool/package_config.json	/^      "name": "crypto",$/;"	s	object:packages.8
+name	.dart_tool/package_config.json	/^      "name": "cupertino_icons",$/;"	s	object:packages.9
+name	.dart_tool/package_config.json	/^      "name": "equatable",$/;"	s	object:packages.10
+name	.dart_tool/package_config.json	/^      "name": "excel",$/;"	s	object:packages.11
+name	.dart_tool/package_config.json	/^      "name": "fake_async",$/;"	s	object:packages.12
+name	.dart_tool/package_config.json	/^      "name": "file_picker",$/;"	s	object:packages.13
+name	.dart_tool/package_config.json	/^      "name": "flutter",$/;"	s	object:packages.14
+name	.dart_tool/package_config.json	/^      "name": "flutter_bloc",$/;"	s	object:packages.15
+name	.dart_tool/package_config.json	/^      "name": "flutter_plugin_android_lifecycle",$/;"	s	object:packages.16
+name	.dart_tool/package_config.json	/^      "name": "flutter_test",$/;"	s	object:packages.17
+name	.dart_tool/package_config.json	/^      "name": "flutter_web_plugins",$/;"	s	object:packages.18
+name	.dart_tool/package_config.json	/^      "name": "infinite_listview",$/;"	s	object:packages.19
+name	.dart_tool/package_config.json	/^      "name": "inventur_liste",$/;"	s	object:packages.39
+name	.dart_tool/package_config.json	/^      "name": "js",$/;"	s	object:packages.20
+name	.dart_tool/package_config.json	/^      "name": "matcher",$/;"	s	object:packages.21
+name	.dart_tool/package_config.json	/^      "name": "meta",$/;"	s	object:packages.22
+name	.dart_tool/package_config.json	/^      "name": "nested",$/;"	s	object:packages.23
+name	.dart_tool/package_config.json	/^      "name": "numberpicker",$/;"	s	object:packages.24
+name	.dart_tool/package_config.json	/^      "name": "path",$/;"	s	object:packages.25
+name	.dart_tool/package_config.json	/^      "name": "petitparser",$/;"	s	object:packages.26
+name	.dart_tool/package_config.json	/^      "name": "plugin_platform_interface",$/;"	s	object:packages.27
+name	.dart_tool/package_config.json	/^      "name": "provider",$/;"	s	object:packages.28
+name	.dart_tool/package_config.json	/^      "name": "sky_engine",$/;"	s	object:packages.29
+name	.dart_tool/package_config.json	/^      "name": "source_span",$/;"	s	object:packages.30
+name	.dart_tool/package_config.json	/^      "name": "stack_trace",$/;"	s	object:packages.31
+name	.dart_tool/package_config.json	/^      "name": "stream_channel",$/;"	s	object:packages.32
+name	.dart_tool/package_config.json	/^      "name": "string_scanner",$/;"	s	object:packages.33
+name	.dart_tool/package_config.json	/^      "name": "term_glyph",$/;"	s	object:packages.34
+name	.dart_tool/package_config.json	/^      "name": "test_api",$/;"	s	object:packages.35
+name	.dart_tool/package_config.json	/^      "name": "typed_data",$/;"	s	object:packages.36
+name	.dart_tool/package_config.json	/^      "name": "vector_math",$/;"	s	object:packages.37
+name	.dart_tool/package_config.json	/^      "name": "xml",$/;"	s	object:packages.38
 name	web/manifest.json	/^    "name": "inventur_liste",$/;"	s
 omega	android/gradlew.bat	/^:omega$/;"	l
 org.gradle.jvmargs	android/gradle.properties	/^org.gradle.jvmargs=-Xmx1536M$/;"	k
@@ -2117,6 +2320,10 @@ packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	o
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.33
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.34
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.35
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.36
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.37
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.38
+packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.39
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.4
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.5
 packageUri	.dart_tool/package_config.json	/^      "packageUri": "lib\/",$/;"	s	object:packages.6
@@ -2128,51 +2335,57 @@ packages/cupertino_icons/assets/CupertinoIcons.ttf	build/app/intermediates/flutt
 packages/cupertino_icons/assets/CupertinoIcons.ttf	build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	a
 packages/cupertino_icons/assets/CupertinoIcons.ttf	build/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	a
 packages/cupertino_icons/assets/CupertinoIcons.ttf	build/linux/debug/bundle/data/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	a
+packages/cupertino_icons/assets/CupertinoIcons.ttf	build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json	/^{"packages\/cupertino_icons\/assets\/CupertinoIcons.ttf":["packages\/cupertino_icons\/assets\/Cu/;"	a
 parent_class	linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	/^  GObjectClass parent_class;$/;"	m	struct:_FlMessageCodecClass	typeref:typename:GObjectClass
 parent_class	linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	/^  GObjectClass parent_class;$/;"	m	struct:_FlMethodCodecClass	typeref:typename:GObjectClass
 parent_class	linux/flutter/ephemeral/flutter_linux/fl_method_response.h	/^  GObjectClass parent_class;$/;"	m	struct:_FlMethodResponseClass	typeref:typename:GObjectClass
 parent_instance	linux/my_application.cc	/^  GtkApplication parent_instance;$/;"	m	struct:_MyApplication	typeref:typename:GtkApplication	file:
 prefer_related_applications	web/manifest.json	/^    "prefer_related_applications": false,$/;"	b
 qnxnto	build/linux/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
+qnxnto	build/linux/x64/debug/CMakeFiles/3.20.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	v	typeref:typename:char const *
 registerWith	android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java	/^  public static void registerWith(@NonNull FlutterEngine flutterEngine) {$/;"	m	class:GeneratedPluginRegistrant
 registerWithRegistry:	ios/Runner/GeneratedPluginRegistrant.h	/^+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;$/;"	c	interface:GeneratedPluginRegistrant
 registerWithRegistry:	ios/Runner/GeneratedPluginRegistrant.m	/^+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {$/;"	c	implementation:GeneratedPluginRegistrant
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "..\/",$/;"	s	object:packages.35
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "..\/",$/;"	s	object:packages.39
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/archive-3.1.2"/;"	s	object:packages.0
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/async-2.6.0",$/;"	s	object:packages.1
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/boolean_select/;"	s	object:packages.2
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/characters-1.1/;"	s	object:packages.3
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/charcode-1.2.0/;"	s	object:packages.4
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/clock-1.1.0",$/;"	s	object:packages.5
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/collection-1.1/;"	s	object:packages.6
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/crypto-3.0.1",$/;"	s	object:packages.7
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/cupertino_icon/;"	s	object:packages.8
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/equatable-2.0./;"	s	object:packages.9
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/excel-2.0.0-nu/;"	s	object:packages.10
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/fake_async-1.2/;"	s	object:packages.11
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/file_picker-3./;"	s	object:packages.12
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/flutter_plugin/;"	s	object:packages.14
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/js-0.6.3",$/;"	s	object:packages.17
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/matcher-0.12.1/;"	s	object:packages.18
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/meta-1.3.0",$/;"	s	object:packages.19
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/nested-1.0.0",$/;"	s	object:packages.20
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/path-1.8.0",$/;"	s	object:packages.21
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/petitparser-4./;"	s	object:packages.22
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/plugin_platfor/;"	s	object:packages.23
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/provider-5.0.0/;"	s	object:packages.24
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/source_span-1./;"	s	object:packages.26
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stack_trace-1./;"	s	object:packages.27
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stream_channel/;"	s	object:packages.28
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/string_scanner/;"	s	object:packages.29
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/term_glyph-1.2/;"	s	object:packages.30
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/test_api-0.3.0/;"	s	object:packages.31
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/typed_data-1.3/;"	s	object:packages.32
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/vector_math-2./;"	s	object:packages.33
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/xml-5.1.0",$/;"	s	object:packages.34
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/bin\/cache\/pkg\/sky_engine",$/;"	s	object:packages.25
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter",$/;"	s	object:packages.13
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_test",$/;"	s	object:packages.15
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_web_plugins",$/;"	s	object:packages.16
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/async-2.6.1",$/;"	s	object:packages.1
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/bloc-7.0.0",$/;"	s	object:packages.2
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/boolean_select/;"	s	object:packages.3
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/characters-1.1/;"	s	object:packages.4
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/charcode-1.2.0/;"	s	object:packages.5
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/clock-1.1.0",$/;"	s	object:packages.6
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/collection-1.1/;"	s	object:packages.7
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/crypto-3.0.1",$/;"	s	object:packages.8
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/cupertino_icon/;"	s	object:packages.9
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/equatable-2.0./;"	s	object:packages.10
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/excel-2.0.0-nu/;"	s	object:packages.11
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/fake_async-1.2/;"	s	object:packages.12
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/file_picker-3./;"	s	object:packages.13
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/flutter_bloc-7/;"	s	object:packages.15
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/flutter_plugin/;"	s	object:packages.16
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/infinite_listv/;"	s	object:packages.19
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/js-0.6.3",$/;"	s	object:packages.20
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/matcher-0.12.1/;"	s	object:packages.21
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/meta-1.3.0",$/;"	s	object:packages.22
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/nested-1.0.0",$/;"	s	object:packages.23
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/numberpicker-2/;"	s	object:packages.24
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/path-1.8.0",$/;"	s	object:packages.25
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/petitparser-4./;"	s	object:packages.26
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/plugin_platfor/;"	s	object:packages.27
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/provider-5.0.0/;"	s	object:packages.28
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/source_span-1./;"	s	object:packages.30
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stack_trace-1./;"	s	object:packages.31
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/stream_channel/;"	s	object:packages.32
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/string_scanner/;"	s	object:packages.33
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/term_glyph-1.2/;"	s	object:packages.34
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/test_api-0.3.0/;"	s	object:packages.35
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/typed_data-1.3/;"	s	object:packages.36
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/vector_math-2./;"	s	object:packages.37
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/xml-5.1.1",$/;"	s	object:packages.38
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/bin\/cache\/pkg\/sky_engine",$/;"	s	object:packages.29
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter",$/;"	s	object:packages.14
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_test",$/;"	s	object:packages.17
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/opt\/flutter\/packages\/flutter_web_plugins",$/;"	s	object:packages.18
 runner	linux/CMakeLists.txt	/^project(runner LANGUAGES CXX)$/;"	p
 scale	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "scale" : "1x"$/;"	s	object:images.11
 scale	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^      "scale" : "1x"$/;"	s	object:images.13
@@ -3014,6 +3227,7 @@ version	build/flutter_assets/version.json	/^{"app_name":"inventur_liste","versio
 version	build/flutter_plugin_android_lifecycle/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^  "version": 2,$/;"	n
 version	build/flutter_plugin_android_lifecycle/intermediates/packaged_manifests/debug/output-metadata.json	/^  "version": 2,$/;"	n
 version	build/linux/debug/bundle/data/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
+version	build/linux/x64/debug/bundle/data/flutter_assets/version.json	/^{"app_name":"inventur_liste","version":"1.0.0","build_number":"1"}/;"	s
 version	ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json	/^    "version" : 1,$/;"	n	object:info
 version	ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json	/^    "version" : 1,$/;"	n	object:info
 versionCode	build/app/intermediates/merged_manifests/debug/output-metadata.json	/^      "versionCode": 1,$/;"	n	object:elements.0

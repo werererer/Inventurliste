@@ -1,19 +1,48 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
+import 'excelParser.dart';
+import 'import.dart';
 import 'product.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:excel/excel.dart';
 import 'package:provider/provider.dart';
+import 'package:numberpicker/numberpicker.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+final List<String> fieldHeaders = ["item", "unit", "count"];
+
+List<Product> defaultProducts = [
+  Product('Apfel', '5', 'Stück'),
+  Product('Birne', '2', 'Kg'),
+  Product('Blatt', '4', 'Blatt')
+];
 
 void main() {
-  runApp(
-      ChangeNotifierProvider(create: (context) => ItemModel(), child: MyApp()));
+  runApp(BlocProvider<ProductListBloc>(
+      create: (context) => ProductListBloc(defaultProducts), child: MyApp()));
+}
+
+class CounterCubit extends Cubit<int> {
+  CounterCubit() : super(0);
+
+  void increment() => emit(state + 1);
+  void decrease() => emit(state - 1);
+}
+
+class CounterEvent {
+  final int value;
+
+  const CounterEvent({required this.value});
+}
+
+class CounterBloc extends Bloc<CounterEvent, int> {
+  CounterBloc(int value) : super(value);
+
+  @override
+  Stream<int> mapEventToState(CounterEvent event) async* {
+    yield event.value;
+  }
 }
 
 class MyApp extends StatelessWidget {
-  final searchController = TextEditingController();
-  final List listString = ["h", "g"];
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -31,135 +60,160 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Inventurliste'),
-        ),
-        drawer: Drawer(
-            child: ListView(
-          padding: EdgeInsets.zero,
-          children: <Widget>[
-            DrawerHeader(
-                child: Text('Header'),
-                decoration: BoxDecoration(
-                  color: Colors.blue,
-                )),
-            ListTile(
-              title: Text('Import'),
-              onTap: () {
-                Future<FilePickerResult?> results =
-                    FilePicker.platform.pickFiles(
-                  type: FileType.custom,
-                  allowedExtensions: ['xlsx'],
-                );
-                results.then((FilePickerResult? result) {
-                  if (result == null) return;
-
-                  PlatformFile platformFile = result.files.first;
-                  File file = File(platformFile.path!);
-                  var bytes = file.readAsBytesSync();
-                  var excel = Excel.decodeBytes(bytes);
-
-                  List<Product> products = [];
-                  for (var tableKey in excel.tables.keys) {
-                    for (var row in excel.tables[tableKey]!.rows) {
-                      List<String> cells = List.filled(3, "");
-                      for (int i = 0; i < cells.length; i++) {
-                        var cell = row[i];
-                        if (cell == null) continue;
-                        cells[i] = cell.value;
-                      }
-                      products.add(Product(cells[0], cells[1], cells[2]));
-                    }
-                  }
-                  Provider.of<ItemModel>(context, listen: false)
-                      .setAll(products);
-                  print('set all done');
-
-                  // print('works2');
-                  // print(file.name);
-                  // print(file.bytes);
-                  // print(file.size);
-                  // print(file.extension);
-                  // print(file.path);
-
-                  print('done');
-                }).catchError((error) {
-                  print(error.toString());
-                });
-              },
-            ),
-            ListTile(
-              title: Text('Export Stuff'),
-              onTap: () {},
-            ),
-          ],
-        )),
-        body: Consumer<ItemModel>(builder: (context, products, child) {
-          return Scaffold(
-              body: Column(children: <Widget>[
-                Padding(
-                  padding: EdgeInsets.all(8.0),
-                  child: TextField(
-                    controller: searchController,
-                    decoration: InputDecoration(
-                        hintText: "Suche",
-                        prefixIcon: Icon(Icons.search),
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.all(Radius.circular(25.0)),
-                        )),
-                    onChanged: (value) {
-                      Provider.of<ItemModel>(context, listen: false)
-                          .filterSearchResults(value);
-                    },
-                  ),
-                ),
-                Expanded(
-                  child: _buildContentTable(context),
-                )
-              ]),
-              floatingActionButton: FloatingActionButton(
-                onPressed: () {
-                  showDialog(
-                      context: context,
-                      barrierDismissible: false,
-                      builder: (BuildContext context) =>
-                          _buildPopupDialog(context));
-                },
-                child: const Icon(Icons.add),
-                backgroundColor: Colors.blue,
-              ));
-        }),
-      ),
+      home: MyHome(),
       routes: <String, WidgetBuilder>{
-        '/about': (BuildContext context) {
-          return Scaffold(
-            appBar: AppBar(
-              title: const Text('About Route'),
-            ),
-          );
-        }
+        '/import': (context) => MyImportState(),
       },
       debugShowCheckedModeBanner: false,
     );
   }
+}
 
-  Widget _buildContentTable(BuildContext context) {
-    List<Product> list =
-        Provider.of<ItemModel>(context, listen: false).getAll();
-    return ListView.builder(
-        itemCount: list.length,
-        itemBuilder: (context, i) {
-          Product item = list[i];
-          return Text("${item.name} ${item.count}${item.unit}");
-        });
-  }
+class MyHome extends StatelessWidget {
+  final searchController = TextEditingController();
 
   final Map<String, TextEditingController> textControllers = {
     'name': TextEditingController(),
     'unit': TextEditingController(),
     'count': TextEditingController()
   };
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Inventurliste'),
+      ),
+      drawer: Drawer(
+          child: ListView(
+        padding: EdgeInsets.zero,
+        children: <Widget>[
+          DrawerHeader(
+              child: Text('Header'),
+              decoration: BoxDecoration(
+                color: Colors.blue,
+              )),
+          ListTile(
+            title: Text('Import'),
+            onTap: () {
+              Future<FilePickerResult?> results = FilePicker.platform.pickFiles(
+                type: FileType.custom,
+                allowedExtensions: ['xlsx'],
+              );
+              results.then((FilePickerResult? result) async {
+                if (result == null) return;
+
+                PlatformFile platformFile = result.files.first;
+
+                Product header = ExcelParser.getHeaders(platformFile.path!);
+                List<TableColumn> res =
+                    await Navigator.pushNamed(context, '/import',
+                        arguments: ImportArguments(fieldHeaders, [
+                          TableColumn(header.getProperty('name'), 'name'),
+                          TableColumn(header.getProperty('unit'), 'unit'),
+                          TableColumn(header.getProperty('count'), 'count'),
+                        ])) as List<TableColumn>;
+
+                List<Product> products =
+                    ExcelParser.getContent(platformFile.path!);
+
+                List<Product> newProducts = [
+                  for (var product in products)
+                    () {
+                      Product newProduct = Product(
+                          product.getProperty(res[0].property),
+                          product.getProperty(res[1].property),
+                          product.getProperty(res[2].property));
+                      return newProduct;
+                    }()
+                ];
+
+                context.read<ProductListBloc>().add(SetAllEvent(newProducts));
+              }).catchError((error) {
+                print('error');
+                print(error.toString());
+              });
+            },
+          ),
+          ListTile(
+            title: Text('Export Stuff'),
+            onTap: () {},
+          ),
+        ],
+      )),
+      body: BlocBuilder<ProductListBloc, List<Product>>(
+          builder: (context, products) {
+        return Scaffold(
+            body: (Column(children: <Widget>[
+              Padding(
+                padding: EdgeInsets.all(8.0),
+                child: TextField(
+                  controller: searchController,
+                  decoration: InputDecoration(
+                      hintText: "Suche",
+                      prefixIcon: Icon(Icons.search),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.all(Radius.circular(25.0)),
+                      )),
+                  onChanged: (value) {
+                    context
+                        .read<ProductListBloc>()
+                        .add(FilterSearchResultsEvent(value));
+                  },
+                ),
+              ),
+              Expanded(
+                child: _buildContentTable(context),
+              )
+            ])),
+            floatingActionButton: FloatingActionButton(
+              onPressed: () {
+                showDialog(
+                    context: context,
+                    barrierDismissible: false,
+                    builder: (BuildContext context) =>
+                        _buildPopupDialog(context));
+              },
+              child: const Icon(Icons.add),
+              backgroundColor: Colors.blue,
+            ));
+      }),
+    );
+  }
+
+  Widget _buildContentTable(BuildContext context) {
+    return BlocBuilder<ProductListBloc, List<Product>>(
+        builder: (context, list) {
+      return ListView.builder(
+          itemCount: list.length,
+          itemBuilder: (context, i) {
+            Product product = list[i];
+            return ListTile(
+                title: Center(
+                    child: Text("${product.getProperty('name')} " +
+                        "${product.getProperty('count')} ${product.getProperty('unit')}")),
+                onTap: () {
+                  showDialog(
+                      context: context,
+                      barrierDismissible: false,
+                      builder: (context2) {
+                        return AlertDialog(
+                          title: Center(child: Text('Anzahl')),
+                          content: MultiBlocProvider(providers: [
+                            BlocProvider<CounterBloc>(create: (_) {
+                              int? i =
+                                  int.tryParse(product.getProperty('count'));
+                              if (i == null) i = 0;
+                              return CounterBloc(i);
+                            }),
+                          ], child: MyNumberPicker(product, context)),
+                        );
+                      });
+                },
+                onLongPress: () {});
+          });
+    });
+  }
 
   Widget _buildPopupDialog(BuildContext context) {
     return new AlertDialog(
@@ -184,10 +238,10 @@ class MyApp extends StatelessWidget {
         TextButton(
             child: Text('Hinzufügen'),
             onPressed: () {
-              Provider.of<ItemModel>(context, listen: false).add(Product(
+              context.read<ProductListBloc>().add(AddProductEvent(Product(
                   textControllers['name']!.text,
                   textControllers['unit']!.text,
-                  textControllers['count']!.text));
+                  textControllers['count']!.text)));
               Navigator.of(context).pop();
               textControllers.forEach((key, controller) => controller.clear());
             }),
@@ -202,55 +256,40 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class ItemModel extends ChangeNotifier {
-  List<Product> products = [
-    Product('3', '5', '5'),
-    Product('f', 'd', 'f'),
-    Product('fd', 'd', 'g')
-  ];
+class MyNumberPicker extends StatelessWidget {
+  final TextEditingController editingController = TextEditingController();
+  final Product product;
+  final BuildContext previousContext;
 
-  List<Product> visibleProducts = [
-    Product('3', '5', '5'),
-    Product('f', 'd', 'f'),
-    Product('fd', 'd', 'g')
-  ];
+  MyNumberPicker(Product product, BuildContext previousContext)
+      : product = product,
+        previousContext = previousContext;
 
-  List<Product> getAll() {
-    return visibleProducts;
-  }
-
-  int getCount() {
-    return getAll().length;
-  }
-
-  void add(Product product) {
-    products.add(product);
-    visibleProducts.add(product);
-    notifyListeners();
-  }
-
-  void filterSearchResults(String query) {
-    print('$query');
-    if (query.isNotEmpty) {
-      print('${products.length}');
-      visibleProducts = visibleProducts
-          .where((product) => query.contains(product.name))
-          .toList();
-    } else {
-      visibleProducts = new List.from(products);
-    }
-    notifyListeners();
-  }
-
-  void setAll(List<Product> products) {
-    this.products = products;
-    this.visibleProducts = products;
-    notifyListeners();
-  }
-
-  void removeAll() {
-    products.clear();
-    visibleProducts.clear();
-    notifyListeners();
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<CounterBloc, int>(builder: (_, count) {
+      return Column(children: [
+        NumberPicker(
+          value: count,
+          minValue: 0,
+          maxValue: 10,
+          onChanged: (int value) {
+            editingController.text = value.toString();
+            context.read<CounterBloc>().add(CounterEvent(value: value));
+          },
+        ),
+        TextField(
+          controller: editingController,
+          keyboardType: TextInputType.number,
+          onChanged: (value) {},
+        ),
+        ElevatedButton(
+            onPressed: () {
+              previousContext.read<ProductListBloc>().add(ChangeProductEvent(product, count));
+              Navigator.of(context).pop();
+            },
+            child: const Icon(Icons.done))
+      ]);
+    });
   }
 }
