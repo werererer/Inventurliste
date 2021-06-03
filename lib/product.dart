@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:inventur_liste/storage.dart';
+import 'package:path_provider/path_provider.dart';
 
 import 'bloc.dart';
-
-enum ProductProperty {
-  Name, Unit, Count
-}
 
 class Product {
   String name;
@@ -26,17 +24,6 @@ class Product {
       Text(unit),
     ];
   }
-
-  String getProperty(ProductProperty property) {
-    switch(property) {
-      case ProductProperty.Name:
-        return name;
-      case ProductProperty.Count:
-        return count.toString();
-      case ProductProperty.Unit:
-        return unit;
-    }
-  }
 }
 
 class ProductLists {
@@ -56,8 +43,9 @@ class AddProductEvent extends ProductListBlocEvent {
   AddProductEvent(Product product) : product = product;
 
   @override
-  ProductLists changeState(ProductLists productLists) {
+  Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.state.add(product);
+
     return productLists;
   }
 }
@@ -68,16 +56,29 @@ class SetAllEvent extends ProductListBlocEvent {
   SetAllEvent(List<Product> products) : products = products;
 
   @override
-  ProductLists changeState(ProductLists productLists) {
+  Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.state = products;
     productLists.products = products;
     return productLists;
   }
 }
 
+class InitAllEvent extends ProductListBlocEvent {
+  @override
+  Future<ProductLists> changeState(ProductLists productLists) async {
+    print('init all');
+    List<Product> products = await loadProductList();
+    print('products.length: ${products.length}');
+    productLists.state = products;
+    productLists.products = products;
+    print('init all end');
+    return productLists;
+  }
+}
+
 class RemoveAllEvent extends ProductListBlocEvent {
   @override
-  ProductLists changeState(ProductLists productLists) {
+  Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.products.clear();
     productLists.state.clear();
     return productLists;
@@ -90,7 +91,7 @@ class FilterSearchResultsEvent extends ProductListBlocEvent {
   FilterSearchResultsEvent(String query) : query = query;
 
   @override
-  ProductLists changeState(ProductLists productLists) {
+  Future<ProductLists> changeState(ProductLists productLists) async {
     if (query.isEmpty) {
       productLists.state = productLists.products;
       return productLists;
@@ -116,7 +117,7 @@ class ChangeProductEvent extends ProductListBlocEvent {
         value = value;
 
   @override
-  ProductLists changeState(ProductLists productLists) {
+  Future<ProductLists> changeState(ProductLists productLists) async {
     product.count = value;
     return productLists;
   }
@@ -131,7 +132,7 @@ class SetProductEvent extends ProductListBlocEvent {
         newProduct = newProduct;
 
   @override
-  ProductLists changeState(ProductLists productLists) {
+  Future<ProductLists> changeState(ProductLists productLists) async {
     product.name = newProduct.name;
     product.count = newProduct.count;
     product.unit = newProduct.unit;
@@ -146,11 +147,16 @@ class ProductListBloc extends Bloc<ProductListBlocEvent, List<Product>> {
       : products = products,
         super(products);
 
+
   @override
   Stream<List<Product>> mapEventToState(BlocEvent event) async* {
     ProductLists productLists = new ProductLists(state, products);
-    productLists = event.changeState(productLists);
+    productLists = await event.changeState(productLists);
     products = productLists.products;
     yield productLists.state;
+
+    print('original products.length: ${products.length}');
+    print('original products.length: ${products.length}');
+    storeProductList(products);
   }
 }

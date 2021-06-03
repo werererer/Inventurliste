@@ -1,8 +1,6 @@
-import 'dart:io';
-
-import 'package:excel/excel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:inventur_liste/storage.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
 import 'excelParser.dart';
@@ -13,19 +11,14 @@ import 'package:file_picker/file_picker.dart';
 import 'package:provider/provider.dart';
 import 'package:numberpicker/numberpicker.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:permission_handler/permission_handler.dart';
 
 final List<String> fieldHeaders = ["item", "count", "unit"];
 
-List<Product> defaultProducts = [
-  Product('Apfel', 5, 'Stück'),
-  Product('Birne', 2, 'Kg'),
-  Product('Blatt', 4, 'Blatt')
-];
-
 void main() {
   runApp(BlocProvider<ProductListBloc>(
-      create: (context) => ProductListBloc(defaultProducts), child: MyApp()));
+          create: (context) {
+            return ProductListBloc([]);
+          }, child: MyApp()));
 }
 
 class CounterCubit extends Cubit<int> {
@@ -54,6 +47,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
+    context.read<ProductListBloc>().add(InitAllEvent());
     return MaterialApp(
       title: 'Inventur Liste',
       theme: ThemeData(
@@ -150,20 +144,6 @@ class MyHome extends StatelessWidget {
             return ListTile(
               title: Text('Export'),
               onTap: () async {
-                var status = await Permission.storage.status;
-                if (status.isDenied) {
-                  await Permission.storage.request();
-                }
-
-                Excel excel = Excel.createExcel();
-
-                var sheet = excel['Sheet1'];
-                for (Product product in list) {
-                  sheet.appendRow([product.name, product.count, product.unit]);
-                }
-                // Call function save() to download the file
-                var fileBytes = excel.save();
-
                 await showDialog(
                     context: context,
                     builder: (context) {
@@ -190,10 +170,7 @@ class MyHome extends StatelessWidget {
                                 var directory =
                                     await getApplicationSupportDirectory();
                                 String path = '${directory.path}/$file';
-                                File(path)
-                                  ..createSync(recursive: true)
-                                  ..writeAsBytesSync(fileBytes!);
-
+                                storeExcel(path, list);
                                 Navigator.of(context).pop();
                                 Share.shareFiles([path]);
                               },
