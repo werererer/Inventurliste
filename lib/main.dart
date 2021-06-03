@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'excelParser.dart';
+import 'package:inventur_liste/parseUtils.dart';
 import 'import.dart';
 import 'product.dart';
 import 'package:file_picker/file_picker.dart';
@@ -7,12 +8,12 @@ import 'package:provider/provider.dart';
 import 'package:numberpicker/numberpicker.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-final List<String> fieldHeaders = ["item", "unit", "count"];
+final List<String> fieldHeaders = ["item", "count", "unit"];
 
 List<Product> defaultProducts = [
-  Product('Apfel', '5', 'Stück'),
-  Product('Birne', '2', 'Kg'),
-  Product('Blatt', '4', 'Blatt')
+  Product('Apfel', 5, 'Stück'),
+  Product('Birne', 2, 'Kg'),
+  Product('Blatt', 4, 'Blatt')
 ];
 
 void main() {
@@ -62,7 +63,7 @@ class MyApp extends StatelessWidget {
       ),
       home: MyHome(),
       routes: <String, WidgetBuilder>{
-        '/import': (context) => MyImportState(),
+        '/import': (context) => ImportState(),
       },
       debugShowCheckedModeBanner: false,
     );
@@ -105,28 +106,33 @@ class MyHome extends StatelessWidget {
 
                 PlatformFile platformFile = result.files.first;
 
-                Product header = ExcelParser.getHeaders(platformFile.path!);
-                List<TableColumn> res =
+                List<String> header = ExcelParser.getHeaders(platformFile.path!);
+                List<NameTag> res =
                     await Navigator.pushNamed(context, '/import',
                         arguments: ImportArguments(fieldHeaders, [
-                          TableColumn(header.getProperty('name'), 'name'),
-                          TableColumn(header.getProperty('unit'), 'unit'),
-                          TableColumn(header.getProperty('count'), 'count'),
-                        ])) as List<TableColumn>;
+                          NameTag(header[0], 0),
+                          NameTag(header[1], 1),
+                          NameTag(header[2], 2),
+                        ])) as List<NameTag>;
 
-                List<Product> products =
+                List<List<String>> rows =
                     ExcelParser.getContent(platformFile.path!);
 
+                print('start');
                 List<Product> newProducts = [
-                  for (var product in products)
+                  for (var cells in rows)
                     () {
+                      print('cells.length: ${cells.length}');
+                      print('${cells[0]} ${cells[1]} ${cells[2]}');
                       Product newProduct = Product(
-                          product.getProperty(res[0].property),
-                          product.getProperty(res[1].property),
-                          product.getProperty(res[2].property));
+                          cells[res[0].id],
+                          parseInteger(cells[res[1].id]),
+                          cells[res[2].id]
+                      );
                       return newProduct;
                     }()
                 ];
+                print('end');
 
                 context.read<ProductListBloc>().add(SetAllEvent(newProducts));
               }).catchError((error) {
@@ -145,7 +151,7 @@ class MyHome extends StatelessWidget {
           builder: (context, products) {
         return Scaffold(
             body: (Column(children: <Widget>[
-              Padding(
+            Padding(
                 padding: EdgeInsets.all(8.0),
                 child: TextField(
                   controller: searchController,
@@ -190,8 +196,8 @@ class MyHome extends StatelessWidget {
             Product product = list[i];
             return ListTile(
                 title: Center(
-                    child: Text("${product.getProperty('name')} " +
-                        "${product.getProperty('count')} ${product.getProperty('unit')}")),
+                    child: Text("${product.name} " +
+                        "${product.count.toString()} ${product.unit}")),
                 onTap: () {
                   showDialog(
                       context: context,
@@ -202,7 +208,7 @@ class MyHome extends StatelessWidget {
                           content: MultiBlocProvider(providers: [
                             BlocProvider<CounterBloc>(create: (_) {
                               int? i =
-                                  int.tryParse(product.getProperty('count'));
+                                  int.tryParse(product.count.toString());
                               if (i == null) i = 0;
                               return CounterBloc(i);
                             }),
@@ -240,7 +246,7 @@ class MyHome extends StatelessWidget {
             onPressed: () {
               context.read<ProductListBloc>().add(AddProductEvent(Product(
                   textControllers['name']!.text,
-                  textControllers['unit']!.text,
+                  parseInteger(textControllers['unit']!.text),
                   textControllers['count']!.text)));
               Navigator.of(context).pop();
               textControllers.forEach((key, controller) => controller.clear());

@@ -1,29 +1,41 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class Product {
-  var _properties = Map<String, String>();
+import 'bloc.dart';
 
-  Product([String name = "", String count = "", String unit = ""]) {
-    _properties['name'] = name;
-    _properties['count'] = count;
-    _properties['unit'] = unit;
+enum ProductProperty {
+  Name, Unit, Count
+}
+
+class Product {
+  String name;
+  int count;
+  String unit;
+
+  Product(String name, int count, String unit) : name = name, count = count, unit
+      = unit;
+
+  static from(Product product) {
+    return Product(product.name, product.count, product.unit);
   }
 
   List<Widget> getWidget() {
     return <Widget>[
-      Text(_properties['name']!),
-      Text(_properties['unit']!),
-      Text(_properties['count']!),
+      Text(name),
+      Text(count.toString()),
+      Text(unit),
     ];
   }
 
-  String getProperty(String property) {
-    return _properties[property]!;
-  }
-
-  void setCount(int count) {
-    this._properties['count'] = count.toString();
+  String getProperty(ProductProperty property) {
+    switch(property) {
+      case ProductProperty.Name:
+        return name;
+      case ProductProperty.Count:
+        return count.toString();
+      case ProductProperty.Unit:
+        return unit;
+    }
   }
 }
 
@@ -36,11 +48,9 @@ class ProductLists {
         products = List.from(products);
 }
 
-abstract class BlocEvent {
-  ProductLists changeState(ProductLists productLists);
-}
+abstract class ProductListBlocEvent extends BlocEvent<ProductLists> {}
 
-class AddProductEvent extends BlocEvent {
+class AddProductEvent extends ProductListBlocEvent {
   Product product;
 
   AddProductEvent(Product product) : product = product;
@@ -52,7 +62,7 @@ class AddProductEvent extends BlocEvent {
   }
 }
 
-class SetAllEvent extends BlocEvent {
+class SetAllEvent extends ProductListBlocEvent {
   List<Product> products;
 
   SetAllEvent(List<Product> products) : products = products;
@@ -65,7 +75,7 @@ class SetAllEvent extends BlocEvent {
   }
 }
 
-class RemoveAllEvent extends BlocEvent {
+class RemoveAllEvent extends ProductListBlocEvent {
   @override
   ProductLists changeState(ProductLists productLists) {
     productLists.products.clear();
@@ -74,7 +84,7 @@ class RemoveAllEvent extends BlocEvent {
   }
 }
 
-class FilterSearchResultsEvent extends BlocEvent {
+class FilterSearchResultsEvent extends ProductListBlocEvent {
   String query;
 
   FilterSearchResultsEvent(String query) : query = query;
@@ -88,7 +98,7 @@ class FilterSearchResultsEvent extends BlocEvent {
 
     productLists.state = productLists.products.where((product) {
       String _query = query.toLowerCase();
-      String productName = product.getProperty('name').toLowerCase();
+      String productName = product.name.toLowerCase();
       return productName.contains(_query);
     }).toList();
     print('length: ${productLists.state.length}');
@@ -97,7 +107,7 @@ class FilterSearchResultsEvent extends BlocEvent {
   }
 }
 
-class ChangeProductEvent extends BlocEvent {
+class ChangeProductEvent extends ProductListBlocEvent {
   Product product;
   int value;
 
@@ -107,12 +117,12 @@ class ChangeProductEvent extends BlocEvent {
 
   @override
   ProductLists changeState(ProductLists productLists) {
-    product.setCount(value);
+    product.count = value;
     return productLists;
   }
 }
 
-class ProductListBloc extends Bloc<BlocEvent, List<Product>> {
+class ProductListBloc extends Bloc<ProductListBlocEvent, List<Product>> {
   List<Product> products;
 
   ProductListBloc(List<Product> products)
