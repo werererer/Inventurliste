@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:inventur_liste/storage.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:replay_bloc/replay_bloc.dart';
 
 import 'bloc.dart';
@@ -14,7 +12,7 @@ class Product {
   Product(String name, int count, String unit) : name = name, count = count, unit
       = unit;
 
-  static from(Product product) {
+  static of(Product product) {
     return Product(product.name, product.count, product.unit);
   }
 
