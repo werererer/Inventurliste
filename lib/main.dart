@@ -243,7 +243,7 @@ class MyHome extends StatelessWidget {
           itemBuilder: (context, i) {
             Product product = list[i];
             return Dismissible(
-                key: Key(product.toString()),
+                key: UniqueKey(),
                 onDismissed: (direction) {
                   context.read<ProductListBloc>().add(RemoveAtIndexEvent(i));
                   ScaffoldMessenger.of(context).showSnackBar(SnackBar(
