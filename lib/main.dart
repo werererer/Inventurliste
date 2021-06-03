@@ -88,7 +88,17 @@ class MyHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Inventurliste'),
+        title: const Text('InventurListe'),
+        actions: [
+        IconButton(
+            icon: Icon(Icons.undo),
+            onPressed: () { context.read<ProductListBloc>().undo(); },
+        ),
+        IconButton(
+            icon: Icon(Icons.redo),
+            onPressed: () { context.read<ProductListBloc>().redo(); },
+        ),
+        ],
       ),
       drawer: Drawer(
           child: ListView(
@@ -227,13 +237,13 @@ class MyHome extends StatelessWidget {
   Widget _buildContentTable(BuildContext context) {
     return BlocBuilder<ProductListBloc, ProductLists>(
         builder: (context, lists) {
-          List<Product> list = lists.state;
+      List<Product> list = lists.state;
       return ListView.builder(
           itemCount: list.length,
           itemBuilder: (context, i) {
             Product product = list[i];
             return Dismissible(
-                key: Key(product.name),
+                key: Key(product.toString()),
                 onDismissed: (direction) {
                   context.read<ProductListBloc>().add(RemoveAtIndexEvent(i));
                   ScaffoldMessenger.of(context).showSnackBar(SnackBar(
@@ -246,7 +256,7 @@ class MyHome extends StatelessWidget {
                             context.read<ProductListBloc>().undo();
                             ScaffoldMessenger.of(context).clearSnackBars();
                           },
-                          child: Text('b'))
+                          child: Text('undo'))
                     ],
                   ))));
                 },
