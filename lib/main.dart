@@ -1,4 +1,10 @@
+import 'dart:io';
+
+import 'package:excel/excel.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:share_plus/share_plus.dart';
 import 'excelParser.dart';
 import 'package:inventur_liste/parseUtils.dart';
 import 'import.dart';
@@ -7,6 +13,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:provider/provider.dart';
 import 'package:numberpicker/numberpicker.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:permission_handler/permission_handler.dart';
 
 final List<String> fieldHeaders = ["item", "count", "unit"];
 
@@ -79,6 +86,9 @@ class MyHome extends StatelessWidget {
     'count': TextEditingController()
   };
 
+  final TextEditingController exportController =
+      TextEditingController(text: "inventur_liste");
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -106,52 +116,100 @@ class MyHome extends StatelessWidget {
 
                 PlatformFile platformFile = result.files.first;
 
-                List<String> header = ExcelParser.getHeaders(platformFile.path!);
-                List<NameTag> res =
+                List<String> header =
+                    ExcelParser.getHeaders(platformFile.path!);
+                List<int> fieldPositions =
                     await Navigator.pushNamed(context, '/import',
                         arguments: ImportArguments(fieldHeaders, [
                           NameTag(header[0], 0),
                           NameTag(header[1], 1),
                           NameTag(header[2], 2),
-                        ])) as List<NameTag>;
+                        ])) as List<int>;
 
                 List<List<String>> rows =
                     ExcelParser.getContent(platformFile.path!);
 
-                print('start');
                 List<Product> newProducts = [
                   for (var cells in rows)
                     () {
-                      print('cells.length: ${cells.length}');
-                      print('${cells[0]} ${cells[1]} ${cells[2]}');
                       Product newProduct = Product(
-                          cells[res[0].id],
-                          parseInteger(cells[res[1].id]),
-                          cells[res[2].id]
-                      );
+                          cells[fieldPositions[0]],
+                          parseInteger(cells[fieldPositions[1]]),
+                          cells[fieldPositions[2]]);
                       return newProduct;
                     }()
                 ];
-                print('end');
 
                 context.read<ProductListBloc>().add(SetAllEvent(newProducts));
               }).catchError((error) {
-                print('error');
-                print(error.toString());
+                print('error ${error.toString()}');
               });
             },
           ),
-          ListTile(
-            title: Text('Export Stuff'),
-            onTap: () {},
-          ),
+          BlocBuilder<ProductListBloc, List<Product>>(builder: (context, list) {
+            return ListTile(
+              title: Text('Export'),
+              onTap: () async {
+                var status = await Permission.storage.status;
+                if (status.isDenied) {
+                  await Permission.storage.request();
+                }
+
+                Excel excel = Excel.createExcel();
+
+                var sheet = excel['Sheet1'];
+                for (Product product in list) {
+                  sheet.appendRow([product.name, product.count, product.unit]);
+                }
+                // Call function save() to download the file
+                var fileBytes = excel.save();
+
+                await showDialog(
+                    context: context,
+                    builder: (context) {
+                      return AlertDialog(
+                          title: Text('Name'),
+                          content: Container(
+                              child: Column(children: <Widget>[
+                            TextField(
+                              autofocus: true,
+                              controller: exportController,
+                              decoration: InputDecoration(
+                                border: OutlineInputBorder(),
+                                hintText: "inventur_liste",
+                              ),
+                            ),
+                            TextButton(
+                              child: Text('button'),
+                              onPressed: () async {
+                                String fileName = '${exportController.text}';
+                                if (fileName.isEmpty) {
+                                  fileName = 'inventur_liste';
+                                }
+                                String file = '$fileName.xlsx';
+                                var directory =
+                                    await getApplicationSupportDirectory();
+                                String path = '${directory.path}/$file';
+                                File(path)
+                                  ..createSync(recursive: true)
+                                  ..writeAsBytesSync(fileBytes!);
+
+                                Navigator.of(context).pop();
+                                Share.shareFiles([path]);
+                              },
+                            )
+                          ])));
+                    });
+              },
+            );
+          }),
         ],
       )),
       body: BlocBuilder<ProductListBloc, List<Product>>(
           builder: (context, products) {
         return Scaffold(
             body: (Column(children: <Widget>[
-            Padding(
+              Padding(
                 padding: EdgeInsets.all(8.0),
                 child: TextField(
                   controller: searchController,
@@ -207,8 +265,7 @@ class MyHome extends StatelessWidget {
                           title: Center(child: Text('Anzahl')),
                           content: MultiBlocProvider(providers: [
                             BlocProvider<CounterBloc>(create: (_) {
-                              int? i =
-                                  int.tryParse(product.count.toString());
+                              int? i = int.tryParse(product.count.toString());
                               if (i == null) i = 0;
                               return CounterBloc(i);
                             }),
@@ -216,7 +273,50 @@ class MyHome extends StatelessWidget {
                         );
                       });
                 },
-                onLongPress: () {});
+                onLongPress: () {
+                  showDialog(
+                      context: context,
+                      builder: (context2) {
+                        return AlertDialog(
+                          title: Text('option'),
+                          content: Container(child:
+                              BlocBuilder<ProductListBloc, List<Product>>(
+                                  builder: (context, list) {
+                            TextEditingController nameController =
+                                TextEditingController(text: product.name);
+                            TextEditingController countController =
+                                TextEditingController(
+                                    text: product.count.toString());
+                            TextEditingController unitController =
+                                TextEditingController(text: product.unit);
+                            return Column(children: [
+                              TextField(
+                                autofocus: true,
+                                controller: nameController,
+                              ),
+                              TextField(
+                                controller: countController,
+                              ),
+                              TextField(
+                                controller: unitController,
+                              ),
+                              TextButton(
+                                  child: Text('done'),
+                                  onPressed: () {
+                                    String name = nameController.text;
+                                    int count =
+                                        parseInteger(countController.text);
+                                    String unit = unitController.text;
+                                    context.read<ProductListBloc>().add(
+                                        SetProductEvent(product,
+                                            Product(name, count, unit)));
+                                    Navigator.of(context).pop();
+                                  })
+                            ]);
+                          })),
+                        );
+                      });
+                });
           });
     });
   }
@@ -291,7 +391,9 @@ class MyNumberPicker extends StatelessWidget {
         ),
         ElevatedButton(
             onPressed: () {
-              previousContext.read<ProductListBloc>().add(ChangeProductEvent(product, count));
+              previousContext
+                  .read<ProductListBloc>()
+                  .add(ChangeProductEvent(product, count));
               Navigator.of(context).pop();
             },
             child: const Icon(Icons.done))

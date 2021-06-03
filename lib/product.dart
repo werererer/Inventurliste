@@ -122,6 +122,23 @@ class ChangeProductEvent extends ProductListBlocEvent {
   }
 }
 
+class SetProductEvent extends ProductListBlocEvent {
+  Product product;
+  Product newProduct;
+
+  SetProductEvent(Product product, Product newProduct)
+      : product = product,
+        newProduct = newProduct;
+
+  @override
+  ProductLists changeState(ProductLists productLists) {
+    product.name = newProduct.name;
+    product.count = newProduct.count;
+    product.unit = newProduct.unit;
+    return productLists;
+  }
+}
+
 class ProductListBloc extends Bloc<ProductListBlocEvent, List<Product>> {
   List<Product> products;
 
