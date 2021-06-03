@@ -16,9 +16,10 @@ final List<String> fieldHeaders = ["item", "count", "unit"];
 
 void main() {
   runApp(BlocProvider<ProductListBloc>(
-          create: (context) {
-            return ProductListBloc([]);
-          }, child: MyApp()));
+      create: (context) {
+        return ProductListBloc([]);
+      },
+      child: MyApp()));
 }
 
 class CounterCubit extends Cubit<int> {
@@ -229,71 +230,90 @@ class MyHome extends StatelessWidget {
           itemCount: list.length,
           itemBuilder: (context, i) {
             Product product = list[i];
-            return ListTile(
-                title: Center(
-                    child: Text("${product.name} " +
-                        "${product.count.toString()} ${product.unit}")),
-                onTap: () {
-                  showDialog(
-                      context: context,
-                      barrierDismissible: false,
-                      builder: (context2) {
-                        return AlertDialog(
-                          title: Center(child: Text('Anzahl')),
-                          content: MultiBlocProvider(providers: [
-                            BlocProvider<CounterBloc>(create: (_) {
-                              int? i = int.tryParse(product.count.toString());
-                              if (i == null) i = 0;
-                              return CounterBloc(i);
-                            }),
-                          ], child: MyNumberPicker(product, context)),
-                        );
-                      });
+            return Dismissible(
+                key: Key(product.name),
+                onDismissed: (direction) {
+                  context.read<ProductListBloc>().add(RemoveAtIndexEvent(i));
+                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+                      content: Container(
+                          child: Row(
+                    children: [
+                      Text('hi'),
+                      TextButton(
+                          onPressed: () {
+                            context.read<ProductListBloc>().undo();
+                            ScaffoldMessenger.of(context).clearSnackBars();
+                          },
+                          child: Text('b'))
+                    ],
+                  ))));
                 },
-                onLongPress: () {
-                  showDialog(
-                      context: context,
-                      builder: (context2) {
-                        return AlertDialog(
-                          title: Text('option'),
-                          content: Container(child:
-                              BlocBuilder<ProductListBloc, List<Product>>(
-                                  builder: (context, list) {
-                            TextEditingController nameController =
-                                TextEditingController(text: product.name);
-                            TextEditingController countController =
-                                TextEditingController(
-                                    text: product.count.toString());
-                            TextEditingController unitController =
-                                TextEditingController(text: product.unit);
-                            return Column(children: [
-                              TextField(
-                                autofocus: true,
-                                controller: nameController,
-                              ),
-                              TextField(
-                                controller: countController,
-                              ),
-                              TextField(
-                                controller: unitController,
-                              ),
-                              TextButton(
-                                  child: Text('done'),
-                                  onPressed: () {
-                                    String name = nameController.text;
-                                    int count =
-                                        parseInteger(countController.text);
-                                    String unit = unitController.text;
-                                    context.read<ProductListBloc>().add(
-                                        SetProductEvent(product,
-                                            Product(name, count, unit)));
-                                    Navigator.of(context).pop();
-                                  })
-                            ]);
-                          })),
-                        );
-                      });
-                });
+                child: ListTile(
+                    title: Center(
+                        child: Text("${product.name} " +
+                            "${product.count.toString()} ${product.unit}")),
+                    onTap: () {
+                      showDialog(
+                          context: context,
+                          barrierDismissible: false,
+                          builder: (context2) {
+                            return AlertDialog(
+                              title: Center(child: Text('Anzahl')),
+                              content: MultiBlocProvider(providers: [
+                                BlocProvider<CounterBloc>(create: (_) {
+                                  int? i =
+                                      int.tryParse(product.count.toString());
+                                  if (i == null) i = 0;
+                                  return CounterBloc(i);
+                                }),
+                              ], child: MyNumberPicker(product, context)),
+                            );
+                          });
+                    },
+                    onLongPress: () {
+                      showDialog(
+                          context: context,
+                          builder: (context2) {
+                            return AlertDialog(
+                              title: Text('option'),
+                              content: Container(child:
+                                  BlocBuilder<ProductListBloc, List<Product>>(
+                                      builder: (context, list) {
+                                TextEditingController nameController =
+                                    TextEditingController(text: product.name);
+                                TextEditingController countController =
+                                    TextEditingController(
+                                        text: product.count.toString());
+                                TextEditingController unitController =
+                                    TextEditingController(text: product.unit);
+                                return Column(children: [
+                                  TextField(
+                                    autofocus: true,
+                                    controller: nameController,
+                                  ),
+                                  TextField(
+                                    controller: countController,
+                                  ),
+                                  TextField(
+                                    controller: unitController,
+                                  ),
+                                  TextButton(
+                                      child: Text('done'),
+                                      onPressed: () {
+                                        String name = nameController.text;
+                                        int count =
+                                            parseInteger(countController.text);
+                                        String unit = unitController.text;
+                                        context.read<ProductListBloc>().add(
+                                            SetProductEvent(product,
+                                                Product(name, count, unit)));
+                                        Navigator.of(context).pop();
+                                      })
+                                ]);
+                              })),
+                            );
+                          });
+                    }));
           });
     });
   }

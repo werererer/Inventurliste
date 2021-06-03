@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:inventur_liste/storage.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:replay_bloc/replay_bloc.dart';
 
 import 'bloc.dart';
 
@@ -44,8 +45,8 @@ class AddProductEvent extends ProductListBlocEvent {
 
   @override
   Future<ProductLists> changeState(ProductLists productLists) async {
+    productLists.products.add(product);
     productLists.state.add(product);
-
     return productLists;
   }
 }
@@ -81,6 +82,22 @@ class RemoveAllEvent extends ProductListBlocEvent {
   Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.products.clear();
     productLists.state.clear();
+    return productLists;
+  }
+}
+
+class RemoveAtIndexEvent extends ProductListBlocEvent {
+  int i;
+
+  RemoveAtIndexEvent(int i): i = i;
+
+  @override
+  Future<ProductLists> changeState(ProductLists productLists) async {
+    if (i >= productLists.products.length || i < 0)
+      return productLists;
+
+    productLists.products.removeAt(i);
+    productLists.state.removeAt(i);
     return productLists;
   }
 }
@@ -140,7 +157,7 @@ class SetProductEvent extends ProductListBlocEvent {
   }
 }
 
-class ProductListBloc extends Bloc<ProductListBlocEvent, List<Product>> {
+class ProductListBloc extends ReplayBloc<ProductListBlocEvent, List<Product>> {
   List<Product> products;
 
   ProductListBloc(List<Product> products)
