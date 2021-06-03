@@ -32,8 +32,11 @@ class ProductLists {
   List<Product> products;
 
   ProductLists(List<Product> state, List<Product> products)
-      : state = List.from(state),
-        products = List.from(products);
+      : state = List.of(state),
+        products = List.of(products);
+
+  ProductLists.copy(ProductLists productLists): state = List.of(productLists.state),
+  products = List.of(productLists.products);
 }
 
 abstract class ProductListBlocEvent extends BlocEvent<ProductLists> {}
@@ -157,23 +160,16 @@ class SetProductEvent extends ProductListBlocEvent {
   }
 }
 
-class ProductListBloc extends ReplayBloc<ProductListBlocEvent, List<Product>> {
-  List<Product> products;
-
-  ProductListBloc(List<Product> products)
-      : products = products,
-        super(products);
-
+class ProductListBloc extends ReplayBloc<ProductListBlocEvent, ProductLists> {
+  ProductListBloc(List<Product> products) : super(ProductLists(products, products));
 
   @override
-  Stream<List<Product>> mapEventToState(BlocEvent event) async* {
-    ProductLists productLists = new ProductLists(state, products);
+  Stream<ProductLists> mapEventToState(ProductListBlocEvent event) async* {
+    ProductLists productLists = ProductLists.copy(state);
     productLists = await event.changeState(productLists);
-    products = productLists.products;
-    yield productLists.state;
+    yield productLists;
 
-    print('original products.length: ${products.length}');
-    print('original products.length: ${products.length}');
-    storeProductList(products);
+    print('original products.length: ${productLists.products.length}');
+    storeProductList(productLists.products);
   }
 }

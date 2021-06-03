@@ -141,7 +141,8 @@ class MyHome extends StatelessWidget {
               });
             },
           ),
-          BlocBuilder<ProductListBloc, List<Product>>(builder: (context, list) {
+          BlocBuilder<ProductListBloc, ProductLists>(builder: (context, lists) {
+            List<Product> list = lists.state;
             return ListTile(
               title: Text('Export'),
               onTap: () async {
@@ -183,8 +184,8 @@ class MyHome extends StatelessWidget {
           }),
         ],
       )),
-      body: BlocBuilder<ProductListBloc, List<Product>>(
-          builder: (context, products) {
+      body: BlocBuilder<ProductListBloc, ProductLists>(
+          builder: (context, productLists) {
         return Scaffold(
             body: (Column(children: <Widget>[
               Padding(
@@ -224,8 +225,9 @@ class MyHome extends StatelessWidget {
   }
 
   Widget _buildContentTable(BuildContext context) {
-    return BlocBuilder<ProductListBloc, List<Product>>(
-        builder: (context, list) {
+    return BlocBuilder<ProductListBloc, ProductLists>(
+        builder: (context, lists) {
+          List<Product> list = lists.state;
       return ListView.builder(
           itemCount: list.length,
           itemBuilder: (context, i) {
@@ -277,8 +279,8 @@ class MyHome extends StatelessWidget {
                             return AlertDialog(
                               title: Text('option'),
                               content: Container(child:
-                                  BlocBuilder<ProductListBloc, List<Product>>(
-                                      builder: (context, list) {
+                                  BlocBuilder<ProductListBloc, ProductLists>(
+                                      builder: (context, lists) {
                                 TextEditingController nameController =
                                     TextEditingController(text: product.name);
                                 TextEditingController countController =
