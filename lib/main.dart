@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:inventur_liste/storage.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
@@ -13,7 +14,11 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 
 final List<String> fieldHeaders = ["Artikel", "Anzahl", "Einheit"];
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  HydratedBloc.storage = await HydratedStorage.build(storageDirectory: await
+      getTemporaryDirectory()
+  );
   runApp(MultiBlocProvider(providers: [
     BlocProvider<ProductListBloc>(create: (_) => ProductListBloc([])),
   ], child: MyApp()));
@@ -45,7 +50,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    context.read<ProductListBloc>().add(InitAllEvent());
     return MaterialApp(
       title: 'Inventur Liste',
       theme: ThemeData(
@@ -371,6 +375,7 @@ class MyHome extends StatelessWidget {
             ),
             TextField(
               controller: textControllers['unit'],
+              keyboardType: TextInputType.number,
               decoration: InputDecoration(hintText: 'Anzahl',),
             ),
             TextField(

@@ -31,14 +31,13 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   file_picker: ^3.0.1
-  numberpicker: ^2.1.1
   flutter_bloc: ^7.0.0
-  tuple: ^2.0.0
   share_plus: ^2.1.2
   path_provider: ^2.0.2
   permission_handler: ^8.0.0+2
   replay_bloc: ^0.0.2
   fuzzy: ^0.4.0-nullsafety.0
+  hydrated_bloc: ^7.0.1
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fuzzy/fuzzy.dart';
+import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:inventur_liste/storage.dart';
 import 'package:replay_bloc/replay_bloc.dart';
 
@@ -65,19 +66,6 @@ class SetAllEvent extends ProductListBlocEvent {
   Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.state = products;
     productLists.products = products;
-    return productLists;
-  }
-}
-
-class InitAllEvent extends ProductListBlocEvent {
-  @override
-  Future<ProductLists> changeState(ProductLists productLists) async {
-    print('init all');
-    List<Product> products = await loadProductList();
-    print('products.length: ${products.length}');
-    productLists.state = products;
-    productLists.products = products;
-    print('init all end');
     return productLists;
   }
 }
@@ -163,17 +151,43 @@ class SetProductEvent extends ProductListBlocEvent {
   }
 }
 
-class ProductListBloc extends ReplayBloc<ProductListBlocEvent, ProductLists> {
+class ProductListBloc extends HydratedBloc<ProductListBlocEvent, ProductLists>
+    with ReplayBlocMixin {
   ProductListBloc(List<Product> products)
-      : super(ProductLists(products, products), limit: 10);
+      : super(ProductLists(products, products));
 
   @override
   Stream<ProductLists> mapEventToState(ProductListBlocEvent event) async* {
     ProductLists productLists = ProductLists.copy(state);
     productLists = await event.changeState(productLists);
     yield productLists;
+  }
 
-    print('original products.length: ${productLists.products.length}');
-    storeProductList(productLists.products);
+  @override
+  ProductLists fromJson(Map<String, dynamic> json) {
+    var productsJson = json['products'];
+    var visibleProductsJson = json['visibleProducts'];
+
+    List<Product> products = [
+      for (var product in productsJson)
+        Product(product[0], product[1], product[2])
+    ];
+
+    List<Product> visibleProducts = [
+      for (var product in visibleProductsJson) 
+        Product(product[0], product[1], product[2])
+    ];
+
+    return ProductLists(visibleProducts, products);
+  }
+
+  @override
+  Map<String, dynamic> toJson(ProductLists state) {
+    List<Product> visibleProducts = state.state;
+    List<Product> products = state.products;
+    return {
+        'products': [for (var product in products) [product.name, product.count, product.unit]],
+        'visibleProducts': [for (var product in visibleProducts) [product.name, product.count, product.unit]],
+    };
   }
 }
