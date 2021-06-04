@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:fuzzy/fuzzy.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
-import 'package:inventur_liste/storage.dart';
 import 'package:replay_bloc/replay_bloc.dart';
 
 import 'bloc.dart';
