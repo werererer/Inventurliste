@@ -118,9 +118,14 @@ class FilterSearchResultsEvent extends ProductListBlocEvent {
       return productLists;
     }
 
-    productLists.state = productLists.products
-        .where((product) => Fuzzy([product.name]).search(query).isNotEmpty)
-        .toList();
+    productLists.state = productLists.products.where((product) {
+      return Fuzzy([product.name]).search(query).isNotEmpty;
+    }).toList();
+    productLists.state.sort((product1, product2) {
+      double score1 = Fuzzy([product1.name]).search(query).first.score;
+      double score2 = Fuzzy([product2.name]).search(query).first.score;
+      return (score1 < score2) ? -1 : 1;
+    });
 
     return productLists;
   }
