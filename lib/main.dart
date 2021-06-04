@@ -11,7 +11,7 @@ import 'package:file_picker/file_picker.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-final List<String> fieldHeaders = ["item", "count", "unit"];
+final List<String> fieldHeaders = ["Artikel", "Anzahl", "Einheit"];
 
 void main() {
   runApp(MultiBlocProvider(providers: [
@@ -225,7 +225,9 @@ class MyHome extends StatelessWidget {
           }),
         ],
       )),
-      body: BlocBuilder<ProductListBloc, ProductLists>(
+        body: GestureDetector(onTap: () {
+          FocusScope.of(context).unfocus();
+        }, child: BlocBuilder<ProductListBloc, ProductLists>(
           builder: (context, productLists) {
         return Scaffold(
             body: (Column(children: <Widget>[
@@ -261,7 +263,7 @@ class MyHome extends StatelessWidget {
               child: const Icon(Icons.add),
               backgroundColor: Colors.blue,
             ));
-      }),
+      })),
     );
   }
 

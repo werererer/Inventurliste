@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fuzzy/fuzzy.dart';
 import 'package:inventur_liste/storage.dart';
 import 'package:replay_bloc/replay_bloc.dart';
 
@@ -117,12 +118,9 @@ class FilterSearchResultsEvent extends ProductListBlocEvent {
       return productLists;
     }
 
-    productLists.state = productLists.products.where((product) {
-      String _query = query.toLowerCase();
-      String productName = product.name.toLowerCase();
-      return productName.contains(_query);
-    }).toList();
-    print('length: ${productLists.state.length}');
+    productLists.state = productLists.products
+        .where((product) => Fuzzy([product.name]).search(query).isNotEmpty)
+        .toList();
 
     return productLists;
   }
