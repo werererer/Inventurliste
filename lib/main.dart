@@ -92,18 +92,13 @@ class MyHome extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Inventurliste'),
         actions: [
-          BlocBuilder<ProductListBloc, ProductLists>(
-            builder: (context, lists) {
-              return IconButton(
+              IconButton(
                 icon: Icon(Icons.sort),
-                color: _getActiveStatusColor(
-                    context.read<ProductListBloc>().canUndo),
+                color: Colors.white,
                 onPressed: () {
                   context.read<ProductListBloc>().add(SortEvent());
                 },
-              );
-            },
-          ),
+              ),
           BlocBuilder<ProductListBloc, ProductLists>(
             builder: (context, lists) {
               return IconButton(
