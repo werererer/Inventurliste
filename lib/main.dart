@@ -95,6 +95,18 @@ class MyHome extends StatelessWidget {
           BlocBuilder<ProductListBloc, ProductLists>(
             builder: (context, lists) {
               return IconButton(
+                icon: Icon(Icons.sort),
+                color: _getActiveStatusColor(
+                    context.read<ProductListBloc>().canUndo),
+                onPressed: () {
+                  context.read<ProductListBloc>().add(SortEvent());
+                },
+              );
+            },
+          ),
+          BlocBuilder<ProductListBloc, ProductLists>(
+            builder: (context, lists) {
+              return IconButton(
                 icon: Icon(Icons.undo),
                 color: _getActiveStatusColor(
                     context.read<ProductListBloc>().canUndo),

@@ -51,10 +51,20 @@ class AddProductEvent extends ProductListBlocEvent {
   @override
   Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.products.add(product);
+    productLists.state.add(product);
+    return productLists;
+  }
+}
+
+class SortEvent extends ProductListBlocEvent {
+  @override
+  Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.products.sort((product1, product2) {
       return product1.name.compareTo(product2.name);
     });
-    productLists.state.add(product);
+    productLists.state.sort((product1, product2) {
+      return product1.name.compareTo(product2.name);
+    });
     return productLists;
   }
 }
