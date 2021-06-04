@@ -38,6 +38,12 @@ dependencies:
   replay_bloc: ^0.0.2
   fuzzy: ^0.4.0-nullsafety.0
   hydrated_bloc: ^7.0.1
+  flutter_launcher_icons: ^0.9.0
+
+flutter_icons:
+  android: "launcher_icon"
+  iso: true
+  image_path: "assets/icon/icon.png"
 
 dev_dependencies:
   flutter_test:

@@ -16,9 +16,8 @@ final List<String> fieldHeaders = ["Artikel", "Anzahl", "Einheit"];
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  HydratedBloc.storage = await HydratedStorage.build(storageDirectory: await
-      getTemporaryDirectory()
-  );
+  HydratedBloc.storage = await HydratedStorage.build(
+      storageDirectory: await getTemporaryDirectory());
   runApp(MultiBlocProvider(providers: [
     BlocProvider<ProductListBloc>(create: (_) => ProductListBloc([])),
   ], child: MyApp()));
@@ -158,9 +157,8 @@ class MyHome extends StatelessWidget {
                 List<int> fieldPositions =
                     await Navigator.pushNamed(context, '/import',
                         arguments: ImportArguments(fieldHeaders, [
-                          NameTag(header[0], 0),
-                          NameTag(header[1], 1),
-                          NameTag(header[2], 2),
+                          for (int i = 0; i < header.length; i++)
+                            NameTag(header[i], i),
                         ])) as List<int>;
 
                 List<List<String>> rows =
@@ -197,31 +195,32 @@ class MyHome extends StatelessWidget {
                           content: Column(
                               mainAxisSize: MainAxisSize.min,
                               children: <Widget>[
-                            TextField(
-                              autofocus: true,
-                              controller: exportController,
-                              decoration: InputDecoration(
-                                border: OutlineInputBorder(),
-                                hintText: "inventur_liste",
-                              ),
-                            ),
-                            IconButton(
-                              icon: Icon(Icons.done),
-                              onPressed: () async {
-                                String fileName = '${exportController.text}';
-                                if (fileName.isEmpty) {
-                                  fileName = 'inventur_liste';
-                                }
-                                String file = '$fileName.xlsx';
-                                var directory =
-                                    await getApplicationSupportDirectory();
-                                String path = '${directory.path}/$file';
-                                storeExcel(path, list);
-                                Navigator.of(context).pop();
-                                Share.shareFiles([path]);
-                              },
-                            )
-                          ]));
+                                TextField(
+                                  autofocus: true,
+                                  controller: exportController,
+                                  decoration: InputDecoration(
+                                    border: OutlineInputBorder(),
+                                    hintText: 'inventur_liste',
+                                  ),
+                                ),
+                                IconButton(
+                                  icon: Icon(Icons.done),
+                                  onPressed: () async {
+                                    String fileName =
+                                        '${exportController.text}';
+                                    if (fileName.isEmpty) {
+                                      fileName = 'inventur_liste';
+                                    }
+                                    String file = '$fileName.xlsx';
+                                    var directory =
+                                        await getApplicationSupportDirectory();
+                                    String path = '${directory.path}/$file';
+                                    storeExcel(path, list);
+                                    Navigator.of(context).pop();
+                                    Share.shareFiles([path]);
+                                  },
+                                )
+                              ]));
                     });
                 Navigator.of(context).pop();
               },
@@ -229,9 +228,9 @@ class MyHome extends StatelessWidget {
           }),
         ],
       )),
-        body: GestureDetector(onTap: () {
-          FocusScope.of(context).unfocus();
-        }, child: BlocBuilder<ProductListBloc, ProductLists>(
+      body: GestureDetector(onTap: () {
+        FocusScope.of(context).unfocus();
+      }, child: BlocBuilder<ProductListBloc, ProductLists>(
           builder: (context, productLists) {
         return Scaffold(
             body: (Column(children: <Widget>[
@@ -240,11 +239,9 @@ class MyHome extends StatelessWidget {
                 child: TextField(
                   controller: searchController,
                   decoration: InputDecoration(
-                      hintText: 'Suche',
-                      prefixIcon: Icon(Icons.search),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(25.0)),
-                      )),
+                    hintText: 'Suche',
+                    prefixIcon: Icon(Icons.search),
+                  ),
                   onChanged: (value) {
                     context
                         .read<ProductListBloc>()
@@ -260,7 +257,6 @@ class MyHome extends StatelessWidget {
               onPressed: () {
                 showDialog(
                     context: context,
-                    barrierDismissible: false,
                     builder: (BuildContext context) =>
                         _buildPopupDialog(context));
               },
@@ -327,33 +323,41 @@ class MyHome extends StatelessWidget {
                                 return Column(
                                     mainAxisSize: MainAxisSize.min,
                                     children: [
-                                  TextField(
-                                    autofocus: true,
-                                    controller: nameController,
-                                    decoration: InputDecoration(hintText: 'Artikel',),
-                                  ),
-                                  TextField(
-                                    controller: countController,
-                                    keyboardType: TextInputType.number,
-                                    decoration: InputDecoration(hintText: 'Anzahl',),
-                                  ),
-                                  TextField(
-                                    controller: unitController,
-                                    decoration: InputDecoration(hintText: 'Einheit',),
-                                  ),
-                                  IconButton(
-                                      icon: Icon(Icons.done),
-                                      onPressed: () {
-                                        String name = nameController.text;
-                                        num count =
-                                            parseNum(countController.text);
-                                        String unit = unitController.text;
-                                        context.read<ProductListBloc>().add(
-                                            SetProductEvent(product,
-                                                Product(name, count, unit)));
-                                        Navigator.of(context).pop();
-                                      })
-                                ]);
+                                      TextField(
+                                        autofocus: true,
+                                        controller: nameController,
+                                        decoration: InputDecoration(
+                                          hintText: 'Artikel',
+                                        ),
+                                      ),
+                                      TextField(
+                                        controller: countController,
+                                        keyboardType: TextInputType.number,
+                                        decoration: InputDecoration(
+                                          hintText: 'Anzahl',
+                                        ),
+                                      ),
+                                      TextField(
+                                        controller: unitController,
+                                        decoration: InputDecoration(
+                                          hintText: 'Einheit',
+                                        ),
+                                      ),
+                                      IconButton(
+                                          icon: Icon(Icons.done),
+                                          onPressed: () {
+                                            String name = nameController.text;
+                                            num count =
+                                                parseNum(countController.text);
+                                            String unit = unitController.text;
+                                            context.read<ProductListBloc>().add(
+                                                SetProductEvent(
+                                                    product,
+                                                    Product(
+                                                        name, count, unit)));
+                                            Navigator.of(context).pop();
+                                          })
+                                    ]);
                               })),
                             );
                           });
@@ -364,26 +368,32 @@ class MyHome extends StatelessWidget {
 
   Widget _buildPopupDialog(BuildContext context) {
     return new AlertDialog(
-      title: Text('Popup'),
-      content:Column(
-          mainAxisSize: MainAxisSize.min,
-          children: <Widget>[
-            TextField(
-              autofocus: true,
-              controller: textControllers['name'],
-              decoration: InputDecoration(hintText: 'Artikel',),
+      title: Text('Neues Produkt'),
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: <Widget>[
+          TextField(
+            autofocus: true,
+            controller: textControllers['name'],
+            decoration: InputDecoration(
+              hintText: 'Artikel',
             ),
-            TextField(
-              controller: textControllers['unit'],
-              keyboardType: TextInputType.number,
-              decoration: InputDecoration(hintText: 'Anzahl',),
+          ),
+          TextField(
+            controller: textControllers['unit'],
+            keyboardType: TextInputType.number,
+            decoration: InputDecoration(
+              hintText: 'Anzahl',
             ),
-            TextField(
-              controller: textControllers['count'],
-              decoration: InputDecoration(hintText: 'Einheit',),
+          ),
+          TextField(
+            controller: textControllers['count'],
+            decoration: InputDecoration(
+              hintText: 'Einheit',
             ),
-          ],
-        ),
+          ),
+        ],
+      ),
       actions: <Widget>[
         IconButton(
             icon: Icon(Icons.cancel),

@@ -14,7 +14,9 @@ class Product {
   Product(String name, num count, String unit)
       : name = name,
         count = count,
-        unit = unit;
+        unit = unit {
+          print('new Product: $name $count $unit');
+        }
 
   static of(Product product) {
     return Product(product.name, product.count, product.unit);
