@@ -2826,7 +2826,7 @@ from	build/url_launcher/intermediates/merged_res_blame_folder/debug/out/multi-v2
 from	build/url_launcher/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^                    "from": {$/;"	o	object:logs.0.map.0
 from	build/url_launcher/intermediates/merged_res_blame_folder/debug/out/multi-v2/values.json	/^                    "from": {$/;"	o	object:logs.1.map.0
 g_iface	linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	/^  GTypeInterface g_iface;$/;"	m	struct:_FlPluginRegistryInterface	typeref:typename:GTypeInterface
-generated	.dart_tool/package_config.json	/^  "generated": "2021-06-04T15:08:02.302876Z",$/;"	s
+generated	.dart_tool/package_config.json	/^  "generated": "2021-06-04T15:17:56.409367Z",$/;"	s
 generator	.dart_tool/package_config.json	/^  "generator": "pub",$/;"	s
 generatorVersion	.dart_tool/package_config.json	/^  "generatorVersion": "2.13.0"$/;"	s
 get_registrar_for_plugin	linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	/^  FlPluginRegistrar* (*get_registrar_for_plugin)(FlPluginRegistry* registry,$/;"	m	struct:_FlPluginRegistryInterface	typeref:typename:FlPluginRegistrar * (*)(FlPluginRegistry * registry,const gchar * name)
@@ -2905,7 +2905,6 @@ kind	build/share_plus/intermediates/aapt_friendly_merged_manifests/debug/aapt/ou
 kind	build/share_plus/intermediates/packaged_manifests/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
 kind	build/url_launcher/intermediates/aapt_friendly_merged_manifests/debug/aapt/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
 kind	build/url_launcher/intermediates/packaged_manifests/debug/output-metadata.json	/^    "kind": "Directory"$/;"	s	object:artifactType
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.0"$/;"	s	object:packages.24
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.0
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.1
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.10
@@ -2920,8 +2919,10 @@ languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.19
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.2
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.20
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.21
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.22
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.23
+languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.24
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.25
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.26
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.27
@@ -2975,7 +2976,6 @@ languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.8
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.12"$/;"	s	object:packages.9
 languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.13"$/;"	s	object:packages.67
-languageVersion	.dart_tool/package_config.json	/^      "languageVersion": "2.8"$/;"	s	object:packages.21
 launch	linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/linux/url_launcher_plugin.cc	/^static FlMethodResponse* launch(FlUrlLauncherPlugin* self, FlValue* args) {$/;"	f	typeref:typename:FlMethodResponse *	file:
 list_prepend	linux/flutter/CMakeLists.txt	/^function(list_prepend LIST_NAME PREFIX)$/;"	f
 list_prepend	linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/flutter/CMakeLists.txt	/^function(list_prepend LIST_NAME PREFIX)$/;"	f
@@ -4125,10 +4125,10 @@ rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jako
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/file_picker-3./;"	s	object:packages.15
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/flutter_bloc-7/;"	s	object:packages.17
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/flutter_plugin/;"	s	object:packages.18
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/fuzzy-0.3.0",$/;"	s	object:packages.21
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/fuzzy-0.4.0-nu/;"	s	object:packages.21
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/infinite_listv/;"	s	object:packages.22
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/js-0.6.3",$/;"	s	object:packages.23
-rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/latinize-0.0.2/;"	s	object:packages.24
+rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/latinize-0.1.0/;"	s	object:packages.24
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/matcher-0.12.1/;"	s	object:packages.25
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/meta-1.3.0",$/;"	s	object:packages.26
 rootUri	.dart_tool/package_config.json	/^      "rootUri": "file:\/\/\/home\/jakob\/\/.pub-cache\/hosted\/pub.dartlang.org\/mime-1.0.0",$/;"	s	object:packages.27

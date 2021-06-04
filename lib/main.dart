@@ -115,7 +115,7 @@ class MyHome extends StatelessWidget {
             itemBuilder: (context) {
               return [
                 PopupMenuItem(
-                    value: AppbarOptions.ClearList, child: Text('clear list'))
+                    value: AppbarOptions.ClearList, child: Text('lösche Liste'))
               ];
             },
             onSelected: (item) {
@@ -381,18 +381,18 @@ class MyHome extends StatelessWidget {
         ),
       actions: <Widget>[
         IconButton(
+            icon: Icon(Icons.cancel),
+            onPressed: () {
+              Navigator.of(context).pop();
+              textControllers.forEach((key, controller) => controller.clear());
+            }),
+        IconButton(
             icon: Icon(Icons.add),
             onPressed: () {
               context.read<ProductListBloc>().add(AddProductEvent(Product(
                   textControllers['name']!.text,
                   parseNum(textControllers['unit']!.text),
                   textControllers['count']!.text)));
-              Navigator.of(context).pop();
-              textControllers.forEach((key, controller) => controller.clear());
-            }),
-        IconButton(
-            icon: Icon(Icons.cancel),
-            onPressed: () {
               Navigator.of(context).pop();
               textControllers.forEach((key, controller) => controller.clear());
             }),
