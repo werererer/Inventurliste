@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Inventur Liste',
+      title: 'Inventurliste',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -90,7 +90,7 @@ class MyHome extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('InventurListe'),
+        title: const Text('Inventurliste'),
         actions: [
           BlocBuilder<ProductListBloc, ProductLists>(
             builder: (context, lists) {
@@ -291,8 +291,7 @@ class MyHome extends StatelessWidget {
                     onTap: () {
                       showDialog(
                           context: context,
-                          barrierDismissible: false,
-                          builder: (context2) {
+                          builder: (childContext) {
                             return AlertDialog(
                               title: Center(child: Text('Anzahl')),
                               content: MultiBlocProvider(providers: [
@@ -306,7 +305,7 @@ class MyHome extends StatelessWidget {
                     onLongPress: () {
                       showDialog(
                           context: context,
-                          builder: (context2) {
+                          builder: (childContext) {
                             return AlertDialog(
                               title: Text(
                                   '${product.name} ${product.count} ${product.unit}'),

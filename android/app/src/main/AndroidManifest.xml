@@ -4,7 +4,7 @@
    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
    <application
         android:requestLegacyExternalStorage="true"
-        android:label="inventur_liste"
+        android:label="Inventurliste"
         android:icon="@mipmap/launcher_icon">
         <activity
             android:name=".MainActivity"

@@ -51,6 +51,9 @@ class AddProductEvent extends ProductListBlocEvent {
   @override
   Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.products.add(product);
+    productLists.products.sort((product1, product2) {
+      return product1.name.compareTo(product2.name);
+    });
     productLists.state.add(product);
     return productLists;
   }
