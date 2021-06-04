@@ -9,17 +9,14 @@ import 'import.dart';
 import 'product.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:provider/provider.dart';
-import 'package:numberpicker/numberpicker.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 final List<String> fieldHeaders = ["item", "count", "unit"];
 
 void main() {
-  runApp(BlocProvider<ProductListBloc>(
-      create: (context) {
-        return ProductListBloc([]);
-      },
-      child: MyApp()));
+  runApp(MultiBlocProvider(providers: [
+    BlocProvider<ProductListBloc>(create: (_) => ProductListBloc([])),
+  ], child: MyApp()));
 }
 
 class CounterCubit extends Cubit<int> {
@@ -30,16 +27,16 @@ class CounterCubit extends Cubit<int> {
 }
 
 class CounterEvent {
-  final int value;
+  final num value;
 
   const CounterEvent({required this.value});
 }
 
-class CounterBloc extends Bloc<CounterEvent, int> {
-  CounterBloc(int value) : super(value);
+class CounterBloc extends Bloc<CounterEvent, num> {
+  CounterBloc(num value) : super(value);
 
   @override
-  Stream<int> mapEventToState(CounterEvent event) async* {
+  Stream<num> mapEventToState(CounterEvent event) async* {
     yield event.value;
   }
 }
@@ -72,6 +69,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
+enum AppbarOptions { ClearList }
+
 class MyHome extends StatelessWidget {
   final searchController = TextEditingController();
 
@@ -90,14 +89,43 @@ class MyHome extends StatelessWidget {
       appBar: AppBar(
         title: const Text('InventurListe'),
         actions: [
-        IconButton(
-            icon: Icon(Icons.undo),
-            onPressed: () { context.read<ProductListBloc>().undo(); },
-        ),
-        IconButton(
-            icon: Icon(Icons.redo),
-            onPressed: () { context.read<ProductListBloc>().redo(); },
-        ),
+          BlocBuilder<ProductListBloc, ProductLists>(
+            builder: (context, lists) {
+              return IconButton(
+                icon: Icon(Icons.undo),
+                color: _getActiveStatusColor(
+                    context.read<ProductListBloc>().canUndo),
+                onPressed: () {
+                  context.read<ProductListBloc>().undo();
+                },
+              );
+            },
+          ),
+          BlocBuilder<ProductListBloc, ProductLists>(builder: (context, lists) {
+            return IconButton(
+              icon: Icon(Icons.redo),
+              color: _getActiveStatusColor(
+                  context.read<ProductListBloc>().canRedo),
+              onPressed: () {
+                context.read<ProductListBloc>().redo();
+              },
+            );
+          }),
+          PopupMenuButton<AppbarOptions>(
+            itemBuilder: (context) {
+              return [
+                PopupMenuItem(
+                    value: AppbarOptions.ClearList, child: Text('clear list'))
+              ];
+            },
+            onSelected: (item) {
+              switch (item) {
+                case AppbarOptions.ClearList:
+                  context.read<ProductListBloc>().add(ClearListEvent());
+                  break;
+              }
+            },
+          )
         ],
       ),
       drawer: Drawer(
@@ -105,12 +133,12 @@ class MyHome extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: <Widget>[
           DrawerHeader(
-              child: Text('Header'),
+              child: Text(''),
               decoration: BoxDecoration(
                 color: Colors.blue,
               )),
           ListTile(
-            title: Text('Import'),
+            title: Text('Importieren'),
             onTap: () {
               Future<FilePickerResult?> results = FilePicker.platform.pickFiles(
                 type: FileType.custom,
@@ -139,13 +167,14 @@ class MyHome extends StatelessWidget {
                     () {
                       Product newProduct = Product(
                           cells[fieldPositions[0]],
-                          parseInteger(cells[fieldPositions[1]]),
+                          parseNum(cells[fieldPositions[1]]),
                           cells[fieldPositions[2]]);
                       return newProduct;
                     }()
                 ];
 
                 context.read<ProductListBloc>().add(SetAllEvent(newProducts));
+                Navigator.of(context).pop();
               }).catchError((error) {
                 print('error ${error.toString()}');
               });
@@ -154,15 +183,16 @@ class MyHome extends StatelessWidget {
           BlocBuilder<ProductListBloc, ProductLists>(builder: (context, lists) {
             List<Product> list = lists.state;
             return ListTile(
-              title: Text('Export'),
+              title: Text('Exportieren'),
               onTap: () async {
                 await showDialog(
                     context: context,
                     builder: (context) {
                       return AlertDialog(
                           title: Text('Name'),
-                          content: Container(
-                              child: Column(children: <Widget>[
+                          content: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: <Widget>[
                             TextField(
                               autofocus: true,
                               controller: exportController,
@@ -171,8 +201,8 @@ class MyHome extends StatelessWidget {
                                 hintText: "inventur_liste",
                               ),
                             ),
-                            TextButton(
-                              child: Text('button'),
+                            IconButton(
+                              icon: Icon(Icons.done),
                               onPressed: () async {
                                 String fileName = '${exportController.text}';
                                 if (fileName.isEmpty) {
@@ -187,8 +217,9 @@ class MyHome extends StatelessWidget {
                                 Share.shareFiles([path]);
                               },
                             )
-                          ])));
+                          ]));
                     });
+                Navigator.of(context).pop();
               },
             );
           }),
@@ -203,7 +234,7 @@ class MyHome extends StatelessWidget {
                 child: TextField(
                   controller: searchController,
                   decoration: InputDecoration(
-                      hintText: "Suche",
+                      hintText: 'Suche',
                       prefixIcon: Icon(Icons.search),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.all(Radius.circular(25.0)),
@@ -234,6 +265,10 @@ class MyHome extends StatelessWidget {
     );
   }
 
+  Color _getActiveStatusColor(bool active) {
+    return active ? Colors.white : Colors.white60;
+  }
+
   Widget _buildContentTable(BuildContext context) {
     return BlocBuilder<ProductListBloc, ProductLists>(
         builder: (context, lists) {
@@ -246,24 +281,11 @@ class MyHome extends StatelessWidget {
                 key: UniqueKey(),
                 onDismissed: (direction) {
                   context.read<ProductListBloc>().add(RemoveAtIndexEvent(i));
-                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-                      content: Container(
-                          child: Row(
-                    children: [
-                      Text('hi'),
-                      TextButton(
-                          onPressed: () {
-                            context.read<ProductListBloc>().undo();
-                            ScaffoldMessenger.of(context).clearSnackBars();
-                          },
-                          child: Text('undo'))
-                    ],
-                  ))));
                 },
                 child: ListTile(
                     title: Center(
-                        child: Text("${product.name} " +
-                            "${product.count.toString()} ${product.unit}")),
+                        child: Text('${product.name} ' +
+                            '${product.count.toString()} ${product.unit}')),
                     onTap: () {
                       showDialog(
                           context: context,
@@ -273,10 +295,7 @@ class MyHome extends StatelessWidget {
                               title: Center(child: Text('Anzahl')),
                               content: MultiBlocProvider(providers: [
                                 BlocProvider<CounterBloc>(create: (_) {
-                                  int? i =
-                                      int.tryParse(product.count.toString());
-                                  if (i == null) i = 0;
-                                  return CounterBloc(i);
+                                  return CounterBloc(product.count);
                                 }),
                               ], child: MyNumberPicker(product, context)),
                             );
@@ -287,7 +306,8 @@ class MyHome extends StatelessWidget {
                           context: context,
                           builder: (context2) {
                             return AlertDialog(
-                              title: Text('option'),
+                              title: Text(
+                                  '${product.name} ${product.count} ${product.unit}'),
                               content: Container(child:
                                   BlocBuilder<ProductListBloc, ProductLists>(
                                       builder: (context, lists) {
@@ -298,23 +318,29 @@ class MyHome extends StatelessWidget {
                                         text: product.count.toString());
                                 TextEditingController unitController =
                                     TextEditingController(text: product.unit);
-                                return Column(children: [
+                                return Column(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
                                   TextField(
                                     autofocus: true,
                                     controller: nameController,
+                                    decoration: InputDecoration(hintText: 'Artikel',),
                                   ),
                                   TextField(
                                     controller: countController,
+                                    keyboardType: TextInputType.number,
+                                    decoration: InputDecoration(hintText: 'Anzahl',),
                                   ),
                                   TextField(
                                     controller: unitController,
+                                    decoration: InputDecoration(hintText: 'Einheit',),
                                   ),
-                                  TextButton(
-                                      child: Text('done'),
+                                  IconButton(
+                                      icon: Icon(Icons.done),
                                       onPressed: () {
                                         String name = nameController.text;
-                                        int count =
-                                            parseInteger(countController.text);
+                                        num count =
+                                            parseNum(countController.text);
                                         String unit = unitController.text;
                                         context.read<ProductListBloc>().add(
                                             SetProductEvent(product,
@@ -333,35 +359,37 @@ class MyHome extends StatelessWidget {
   Widget _buildPopupDialog(BuildContext context) {
     return new AlertDialog(
       title: Text('Popup'),
-      content: Container(
-        child: Column(
+      content:Column(
+          mainAxisSize: MainAxisSize.min,
           children: <Widget>[
             TextField(
               autofocus: true,
               controller: textControllers['name'],
+              decoration: InputDecoration(hintText: 'Artikel',),
             ),
             TextField(
               controller: textControllers['unit'],
+              decoration: InputDecoration(hintText: 'Anzahl',),
             ),
             TextField(
               controller: textControllers['count'],
+              decoration: InputDecoration(hintText: 'Einheit',),
             ),
           ],
         ),
-      ),
       actions: <Widget>[
-        TextButton(
-            child: Text('Hinzufügen'),
+        IconButton(
+            icon: Icon(Icons.add),
             onPressed: () {
               context.read<ProductListBloc>().add(AddProductEvent(Product(
                   textControllers['name']!.text,
-                  parseInteger(textControllers['unit']!.text),
+                  parseNum(textControllers['unit']!.text),
                   textControllers['count']!.text)));
               Navigator.of(context).pop();
               textControllers.forEach((key, controller) => controller.clear());
             }),
-        TextButton(
-            child: Text('Abbrechen'),
+        IconButton(
+            icon: Icon(Icons.cancel),
             onPressed: () {
               Navigator.of(context).pop();
               textControllers.forEach((key, controller) => controller.clear());
@@ -372,7 +400,6 @@ class MyHome extends StatelessWidget {
 }
 
 class MyNumberPicker extends StatelessWidget {
-  final TextEditingController editingController = TextEditingController();
   final Product product;
   final BuildContext previousContext;
 
@@ -382,30 +409,99 @@ class MyNumberPicker extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocBuilder<CounterBloc, int>(builder: (_, count) {
-      return Column(children: [
-        NumberPicker(
-          value: count,
-          minValue: 0,
-          maxValue: 10,
-          onChanged: (int value) {
-            editingController.text = value.toString();
-            context.read<CounterBloc>().add(CounterEvent(value: value));
-          },
-        ),
-        TextField(
-          controller: editingController,
-          keyboardType: TextInputType.number,
-          onChanged: (value) {},
-        ),
-        ElevatedButton(
+    return BlocBuilder<CounterBloc, num>(builder: (_, count) {
+      final TextEditingController editingController =
+          TextEditingController(text: count.toString());
+      final double fontSize = 22;
+      return Column(mainAxisSize: MainAxisSize.min, children: [
+        Row(children: [
+          Flexible(
+              child: Column(children: [
+            TextButton(
+              child: Center(
+                  child: Text('-',
+                      style:
+                          TextStyle(fontSize: fontSize, color: Colors.black))),
+              onPressed: () {
+                num count = parseNum(editingController.text);
+                count -= 1;
+                editingController.text = count.toString();
+              },
+              onLongPress: () {
+                num count = parseNum(editingController.text);
+                count = count.floor();
+                editingController.text = count.toString();
+              },
+            ),
+            TextButton(
+              child: Center(
+                  child: Text('-5',
+                      style:
+                          TextStyle(fontSize: fontSize, color: Colors.black))),
+              onPressed: () {
+                num count = parseNum(editingController.text);
+                count -= 5;
+                editingController.text = count.toString();
+              },
+              onLongPress: () {
+                num count = parseNum(editingController.text);
+                count = count.floor();
+                editingController.text = count.toString();
+              },
+            ),
+          ])),
+          Flexible(
+              child: TextField(
+            textAlign: TextAlign.center,
+            controller: editingController,
+            keyboardType: TextInputType.number,
+            onChanged: (value) {},
+          )),
+          Flexible(
+              child: Column(children: [
+            TextButton(
+              child: Center(
+                  child: Text('+',
+                      style:
+                          TextStyle(fontSize: fontSize, color: Colors.black))),
+              onPressed: () {
+                num count = parseNum(editingController.text);
+                count += 1;
+                editingController.text = count.toString();
+              },
+              onLongPress: () {
+                num count = parseNum(editingController.text);
+                count = count.ceil();
+                editingController.text = count.toString();
+              },
+            ),
+            TextButton(
+              child: Center(
+                  child: Text('+5',
+                      style:
+                          TextStyle(fontSize: fontSize, color: Colors.black))),
+              onPressed: () {
+                num count = parseNum(editingController.text);
+                count += 5;
+                editingController.text = count.toString();
+              },
+              onLongPress: () {
+                num count = parseNum(editingController.text);
+                count = count.ceil();
+                editingController.text = count.toString();
+              },
+            )
+          ])),
+        ]),
+        IconButton(
+            icon: Icon(Icons.done),
             onPressed: () {
+              num newCount = parseNum(editingController.text);
               previousContext
                   .read<ProductListBloc>()
-                  .add(ChangeProductEvent(product, count));
+                  .add(ChangeProductEvent(product, newCount));
               Navigator.of(context).pop();
-            },
-            child: const Icon(Icons.done))
+            }),
       ]);
     });
   }

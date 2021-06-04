@@ -6,11 +6,13 @@ import 'bloc.dart';
 
 class Product {
   String name;
-  int count;
+  num count;
   String unit;
 
-  Product(String name, int count, String unit) : name = name, count = count, unit
-      = unit;
+  Product(String name, num count, String unit)
+      : name = name,
+        count = count,
+        unit = unit;
 
   static of(Product product) {
     return Product(product.name, product.count, product.unit);
@@ -33,8 +35,9 @@ class ProductLists {
       : state = List.of(state),
         products = List.of(products);
 
-  ProductLists.copy(ProductLists productLists): state = List.of(productLists.state),
-  products = List.of(productLists.products);
+  ProductLists.copy(ProductLists productLists)
+      : state = List.of(productLists.state),
+        products = List.of(productLists.products);
 }
 
 abstract class ProductListBlocEvent extends BlocEvent<ProductLists> {}
@@ -78,7 +81,7 @@ class InitAllEvent extends ProductListBlocEvent {
   }
 }
 
-class RemoveAllEvent extends ProductListBlocEvent {
+class ClearListEvent extends ProductListBlocEvent {
   @override
   Future<ProductLists> changeState(ProductLists productLists) async {
     productLists.products.clear();
@@ -90,12 +93,11 @@ class RemoveAllEvent extends ProductListBlocEvent {
 class RemoveAtIndexEvent extends ProductListBlocEvent {
   int i;
 
-  RemoveAtIndexEvent(int i): i = i;
+  RemoveAtIndexEvent(int i) : i = i;
 
   @override
   Future<ProductLists> changeState(ProductLists productLists) async {
-    if (i >= productLists.products.length || i < 0)
-      return productLists;
+    if (i >= productLists.products.length || i < 0) return productLists;
 
     productLists.products.removeAt(i);
     productLists.state.removeAt(i);
@@ -128,9 +130,9 @@ class FilterSearchResultsEvent extends ProductListBlocEvent {
 
 class ChangeProductEvent extends ProductListBlocEvent {
   Product product;
-  int value;
+  num value;
 
-  ChangeProductEvent(Product product, int value)
+  ChangeProductEvent(Product product, num value)
       : product = product,
         value = value;
 
@@ -159,7 +161,8 @@ class SetProductEvent extends ProductListBlocEvent {
 }
 
 class ProductListBloc extends ReplayBloc<ProductListBlocEvent, ProductLists> {
-  ProductListBloc(List<Product> products) : super(ProductLists(products, products));
+  ProductListBloc(List<Product> products)
+      : super(ProductLists(products, products), limit: 10);
 
   @override
   Stream<ProductLists> mapEventToState(ProductListBlocEvent event) async* {
