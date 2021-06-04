@@ -222,7 +222,8 @@ class MyHome extends StatelessWidget {
                                     var directory =
                                         await getApplicationSupportDirectory();
                                     String path = '${directory.path}/$file';
-                                    storeExcel(path, list);
+
+                                    await storeExcel(path, list);
                                     Navigator.of(context).pop();
                                     Share.shareFiles([path]);
                                   },

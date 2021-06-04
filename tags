@@ -7800,7 +7800,7 @@ fl_url_launcher_plugin_new	linux/flutter/ephemeral/.plugin_symlinks/url_launcher
 flutter	linux/flutter/CMakeLists.txt	/^add_library(flutter INTERFACE)$/;"	t
 flutter	linux/flutter/ephemeral/.plugin_symlinks/path_provider_linux/example/linux/flutter/CMakeLists.txt	/^add_library(flutter INTERFACE)$/;"	t
 flutter	linux/flutter/ephemeral/.plugin_symlinks/url_launcher_linux/example/linux/flutter/CMakeLists.txt	/^add_library(flutter INTERFACE)$/;"	t
-flutter.buildMode	android/local.properties	/^flutter.buildMode=debug$/;"	k
+flutter.buildMode	android/local.properties	/^flutter.buildMode=release$/;"	k
 flutter.sdk	android/local.properties	/^flutter.sdk=\/opt\/flutter$/;"	k
 flutter.versionCode	android/local.properties	/^flutter.versionCode=1/;"	k
 flutter.versionName	android/local.properties	/^flutter.versionName=1.0.0$/;"	k

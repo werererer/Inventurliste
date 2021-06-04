@@ -40,7 +40,7 @@ Future<List<Product>> loadProductList() async {
   return Future.sync(() => newProducts);
 }
 
-void storeExcel(String path, List<Product> products) async {
+Future<void> storeExcel(String path, List<Product> products) async {
   var status = await Permission.storage.status;
   if (status.isDenied) {
     await Permission.storage.request();
@@ -57,7 +57,5 @@ void storeExcel(String path, List<Product> products) async {
   // Call function save() to download the file
   var fileBytes = excel.save();
 
-  File(path)
-      ..createSync(recursive: true)
-      ..writeAsBytesSync(fileBytes!);
+  File(path).writeAsBytesSync(fileBytes!);
 }
