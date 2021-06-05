@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_typeahead/flutter_typeahead.dart';
+import 'package:holding_gesture/holding_gesture.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
+import 'package:inventur_liste/sort.dart';
 import 'package:inventur_liste/storage.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:share_plus/share_plus.dart';
@@ -92,13 +95,13 @@ class MyHome extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Inventurliste'),
         actions: [
-              IconButton(
-                icon: Icon(Icons.sort),
-                color: Colors.white,
-                onPressed: () {
-                  context.read<ProductListBloc>().add(SortEvent());
-                },
-              ),
+          IconButton(
+            icon: Icon(Icons.sort),
+            color: Colors.white,
+            onPressed: () {
+              context.read<ProductListBloc>().add(SortEvent());
+            },
+          ),
           BlocBuilder<ProductListBloc, ProductLists>(
             builder: (context, lists) {
               return IconButton(
@@ -344,11 +347,39 @@ class MyHome extends StatelessWidget {
                                           hintText: 'Anzahl',
                                         ),
                                       ),
-                                      TextField(
-                                        controller: unitController,
-                                        decoration: InputDecoration(
-                                          hintText: 'Einheit',
+                                      TypeAheadField(
+                                        textFieldConfiguration:
+                                            TextFieldConfiguration(
+                                          controller: unitController,
+                                          decoration: InputDecoration(
+                                            hintText: 'Einheit',
+                                          ),
                                         ),
+                                        itemBuilder:
+                                            (context, String suggestion) {
+                                          return ListTile(
+                                            title: Text(suggestion),
+                                          );
+                                        },
+                                        suggestionsCallback: (String query) {
+                                          List<String> units =
+                                              lists.products.map((e) {
+                                            return e.unit;
+                                          }).toList();
+                                          List<String> uniqueUnits =
+                                              units.toSet().toList();
+                                          print('pattern: $query');
+
+                                          uniqueUnits =
+                                              sortOutFuzzy(uniqueUnits, query);
+
+                                          return uniqueUnits;
+                                        },
+                                        onSuggestionSelected:
+                                            (String suggestion) {
+                                          unitController.text = suggestion;
+                                        },
+                                        hideOnEmpty: true,
                                       ),
                                       IconButton(
                                           icon: Icon(Icons.done),
@@ -387,18 +418,42 @@ class MyHome extends StatelessWidget {
             ),
           ),
           TextField(
-            controller: textControllers['unit'],
+            controller: textControllers['count'],
             keyboardType: TextInputType.number,
             decoration: InputDecoration(
               hintText: 'Anzahl',
             ),
           ),
-          TextField(
-            controller: textControllers['count'],
-            decoration: InputDecoration(
-              hintText: 'Einheit',
-            ),
-          ),
+          BlocBuilder<ProductListBloc, ProductLists>(builder: (context, lists) {
+            return TypeAheadField(
+              textFieldConfiguration: TextFieldConfiguration(
+                controller: textControllers['unit'],
+                decoration: InputDecoration(
+                  hintText: 'Einheit',
+                ),
+              ),
+              itemBuilder: (context, String suggestion) {
+                return ListTile(
+                  title: Text(suggestion),
+                );
+              },
+              suggestionsCallback: (String query) {
+                List<String> units = lists.products.map((e) {
+                  return e.unit;
+                }).toList();
+                List<String> uniqueUnits = units.toSet().toList();
+                print('pattern: $query');
+
+                uniqueUnits = sortOutFuzzy(uniqueUnits, query);
+
+                return uniqueUnits;
+              },
+              onSuggestionSelected: (String suggestion) {
+                textControllers['unit']!.text = suggestion;
+              },
+              hideOnEmpty: true,
+            );
+          }),
         ],
       ),
       actions: <Widget>[
@@ -413,8 +468,8 @@ class MyHome extends StatelessWidget {
             onPressed: () {
               context.read<ProductListBloc>().add(AddProductEvent(Product(
                   textControllers['name']!.text,
-                  parseNum(textControllers['unit']!.text),
-                  textControllers['count']!.text)));
+                  parseNum(textControllers['count']!.text),
+                  textControllers['unit']!.text)));
               Navigator.of(context).pop();
               textControllers.forEach((key, controller) => controller.clear());
             }),
@@ -441,6 +496,14 @@ class MyNumberPicker extends StatelessWidget {
         Row(children: [
           Flexible(
               child: Column(children: [
+              HoldDetector(
+                  holdTimeout: Duration(milliseconds: 50),
+                  onHold: () {
+                    num count = parseNum(editingController.text);
+                    count += -1;
+                    editingController.text = count.toString();
+                  },
+                  child: 
             TextButton(
               child: Center(
                   child: Text('-',
@@ -451,12 +514,15 @@ class MyNumberPicker extends StatelessWidget {
                 count -= 1;
                 editingController.text = count.toString();
               },
-              onLongPress: () {
-                num count = parseNum(editingController.text);
-                count = count.floor();
-                editingController.text = count.toString();
-              },
-            ),
+            )),
+            HoldDetector(
+                  holdTimeout: Duration(milliseconds: 50),
+                onHold: () {  
+                    num count = parseNum(editingController.text);
+                    count += -5;
+                    editingController.text = count.toString();
+            },
+            child: 
             TextButton(
               child: Center(
                   child: Text('-5',
@@ -467,12 +533,7 @@ class MyNumberPicker extends StatelessWidget {
                 count -= 5;
                 editingController.text = count.toString();
               },
-              onLongPress: () {
-                num count = parseNum(editingController.text);
-                count = count.floor();
-                editingController.text = count.toString();
-              },
-            ),
+            )),
           ])),
           Flexible(
               child: TextField(
@@ -483,7 +544,15 @@ class MyNumberPicker extends StatelessWidget {
           )),
           Flexible(
               child: Column(children: [
-            TextButton(
+              HoldDetector(
+                  holdTimeout: Duration(milliseconds: 50),
+                  onHold: () {
+                    num count = parseNum(editingController.text);
+                    count += 1;
+                    editingController.text = count.toString();
+
+                  },
+                  child: TextButton(
               child: Center(
                   child: Text('+',
                       style:
@@ -493,12 +562,16 @@ class MyNumberPicker extends StatelessWidget {
                 count += 1;
                 editingController.text = count.toString();
               },
-              onLongPress: () {
-                num count = parseNum(editingController.text);
-                count = count.ceil();
-                editingController.text = count.toString();
-              },
+            )
             ),
+            HoldDetector(
+                  holdTimeout: Duration(milliseconds: 50),
+                onHold: () {
+                    num count = parseNum(editingController.text);
+                    count += 5;
+                    editingController.text = count.toString();
+                },
+                child: 
             TextButton(
               child: Center(
                   child: Text('+5',
@@ -509,12 +582,7 @@ class MyNumberPicker extends StatelessWidget {
                 count += 5;
                 editingController.text = count.toString();
               },
-              onLongPress: () {
-                num count = parseNum(editingController.text);
-                count = count.ceil();
-                editingController.text = count.toString();
-              },
-            )
+            ))
           ])),
         ]),
         IconButton(
