@@ -496,44 +496,42 @@ class MyNumberPicker extends StatelessWidget {
         Row(children: [
           Flexible(
               child: Column(children: [
-              HoldDetector(
-                  holdTimeout: Duration(milliseconds: 50),
-                  onHold: () {
+            HoldDetector(
+                holdTimeout: Duration(milliseconds: 50),
+                onHold: () {
+                  num count = parseNum(editingController.text);
+                  count += -1;
+                  editingController.text = count.toString();
+                },
+                child: TextButton(
+                  child: Center(
+                      child: Text('-',
+                          style: TextStyle(
+                              fontSize: fontSize, color: Colors.black))),
+                  onPressed: () {
                     num count = parseNum(editingController.text);
-                    count += -1;
+                    count -= 1;
                     editingController.text = count.toString();
                   },
-                  child: 
-            TextButton(
-              child: Center(
-                  child: Text('-',
-                      style:
-                          TextStyle(fontSize: fontSize, color: Colors.black))),
-              onPressed: () {
-                num count = parseNum(editingController.text);
-                count -= 1;
-                editingController.text = count.toString();
-              },
-            )),
+                )),
             HoldDetector(
-                  holdTimeout: Duration(milliseconds: 50),
-                onHold: () {  
+                holdTimeout: Duration(milliseconds: 50),
+                onHold: () {
+                  num count = parseNum(editingController.text);
+                  count += -5;
+                  editingController.text = count.toString();
+                },
+                child: TextButton(
+                  child: Center(
+                      child: Text('-5',
+                          style: TextStyle(
+                              fontSize: fontSize, color: Colors.black))),
+                  onPressed: () {
                     num count = parseNum(editingController.text);
-                    count += -5;
+                    count -= 5;
                     editingController.text = count.toString();
-            },
-            child: 
-            TextButton(
-              child: Center(
-                  child: Text('-5',
-                      style:
-                          TextStyle(fontSize: fontSize, color: Colors.black))),
-              onPressed: () {
-                num count = parseNum(editingController.text);
-                count -= 5;
-                editingController.text = count.toString();
-              },
-            )),
+                  },
+                )),
           ])),
           Flexible(
               child: TextField(
@@ -544,45 +542,42 @@ class MyNumberPicker extends StatelessWidget {
           )),
           Flexible(
               child: Column(children: [
-              HoldDetector(
-                  holdTimeout: Duration(milliseconds: 50),
-                  onHold: () {
+            HoldDetector(
+                holdTimeout: Duration(milliseconds: 50),
+                onHold: () {
+                  num count = parseNum(editingController.text);
+                  count += 1;
+                  editingController.text = count.toString();
+                },
+                child: TextButton(
+                  child: Center(
+                      child: Text('+',
+                          style: TextStyle(
+                              fontSize: fontSize, color: Colors.black))),
+                  onPressed: () {
                     num count = parseNum(editingController.text);
                     count += 1;
                     editingController.text = count.toString();
-
                   },
-                  child: TextButton(
-              child: Center(
-                  child: Text('+',
-                      style:
-                          TextStyle(fontSize: fontSize, color: Colors.black))),
-              onPressed: () {
-                num count = parseNum(editingController.text);
-                count += 1;
-                editingController.text = count.toString();
-              },
-            )
-            ),
+                )),
             HoldDetector(
-                  holdTimeout: Duration(milliseconds: 50),
+                holdTimeout: Duration(milliseconds: 50),
                 onHold: () {
+                  num count = parseNum(editingController.text);
+                  count += 5;
+                  editingController.text = count.toString();
+                },
+                child: TextButton(
+                  child: Center(
+                      child: Text('+5',
+                          style: TextStyle(
+                              fontSize: fontSize, color: Colors.black))),
+                  onPressed: () {
                     num count = parseNum(editingController.text);
                     count += 5;
                     editingController.text = count.toString();
-                },
-                child: 
-            TextButton(
-              child: Center(
-                  child: Text('+5',
-                      style:
-                          TextStyle(fontSize: fontSize, color: Colors.black))),
-              onPressed: () {
-                num count = parseNum(editingController.text);
-                count += 5;
-                editingController.text = count.toString();
-              },
-            ))
+                  },
+                ))
           ])),
         ]),
         IconButton(
